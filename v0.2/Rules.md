@@ -501,6 +501,15 @@ Level Up:
     +1 Health
     +2 Movement
     +2 Damage
+
+Averages:
+    Base Movement: 4
+    Base Damage: 7
+    Base Total: 11
+
+    Level 4 Movement: 7
+    Level 4 Damage: 10
+    Level 4 Total: 17
 ```
 ### Mage
 ```
@@ -512,6 +521,15 @@ Level Up:
     +1 Health
     +1 Movement
     +3 Damage
+
+Averages:
+    Base Movement: 5
+    Base Damage: 6
+    Base Total: 11
+
+    Level 4 Movement: 7
+    Level 4 Damage: 10.5
+    Level 4 Total: 17.5
 ```
 ### Ranger
 ```
@@ -523,6 +541,15 @@ Level Up:
     +1 Health
     +1 Movement
     +2 Damage
+
+Averages:
+    Base Movement: 7.5
+    Base Damage: 5
+    Base Total: 12.5
+
+    Level 4 Movement: 9
+    Level 4 Damage: 7
+    Level 4 Total: 16
 ```
 ### Swordsman
 ```
@@ -534,6 +561,15 @@ Level Up:
     +1 Health
     +2 Movement
     +1 Damage
+
+Averages:
+    Base Movement: 6
+    Base Damage: 6
+    Base Total: 12
+
+    Level 4 Movement: 9
+    Level 4 Damage: 7.5
+    Level 4 Total: 16.5
 ```
 ---
 ## Breakdown - Mods
