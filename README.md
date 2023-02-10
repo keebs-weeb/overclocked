@@ -9,7 +9,6 @@
 - [x] Get feedback for v0.2
 
 ## v0.2 - IN PROGRESS
-### TODO
 - [x] Create new Mods
 - [x] Create new System Settings
 - [x] First round balance
