@@ -17,7 +17,7 @@
     - [Combat](#combat)
     - [Crashing](#crashing)
     - [Enemies](#enemies)
-      - [The Forums](#the-forums)
+    - [The Forums](#the-forums)
     - [Maintenance](#maintenance)
       - [Bandwidth](#bandwidth)
     - [Mods](#mods)
@@ -91,6 +91,7 @@
       - [Mod Changes - Gameplay](#mod-changes---gameplay)
       - [Mod Changes - Cheat](#mod-changes---cheat)
       - [Mod Changes - Virus](#mod-changes---virus)
+      - [System Settings Changes](#system-settings-changes)
       - [New Mods - Gameplay](#new-mods---gameplay)
       - [New Mods - Cheats](#new-mods---cheats)
       - [New Mods - Virus](#new-mods---virus)
@@ -274,7 +275,7 @@ Enemy Types:
         - Levels up with player (up to level 6), including it's active effects.  
             - For example, if a boss defeats the player at level 1 and the player eventually levels up to 2 then the boss's active effect will be at level 2.
 ```
-#### The Forums
+### The Forums
 ```
 Description:
     - During their maintenence phase, a player may sell a Mod or a System Settings card to 'The Forums' for 2 coins
@@ -1920,6 +1921,56 @@ Bug Check:
     Bug: +2 To Installed Value
 ```
 
+#### System Settings Changes
+Administrator Account
+```
+~ Cost: 4 Bandwidth (New)
+Use: Permanent
+Ability: +5 to Computer's System Resources
+```
+Antivirus
+```
+~ Cost: 1 Bandwidth (New)
+Use: Single Use
+Ability: Uninstall 1 'Virus' mod
+```
+CC Cleaner
+```
+~ Cost: 1 Bandwidth (New)
+Use: Single Use
+Ability: Move all uninstalled mods to your mods folder
+```
+Firewall
+```
+~ Cost: 1 Bandwidth (New)
+Use: Single Use
+Ability: Prevents any mods from being installed on your computer until your next turn
+```
+Kali Linux VM
+```
+~ Cost: 1 Bandwidth Per Turn (New)
+Use: Permanent
+Ability: Allows you to install mods on other player's computers
+```
+Offline
+```
+~ Cost: 1 Bandwidth (New)
+Use: Single Use
+Ability: Until your next turn you cannot: install mods on any other player's computers, have mods installed by other players, or draw system settings cards
+```
+Overclocking
+```
+~ Cost: 2 Bandwidth (New)
+~ Use: Permanent (From Single Use)
+Ability: When a system crash would occur, instead discard this setting and prevent it until the end of your NEXT maintenance phase
+```
+Scriptkiddie
+```
+~ Cost: 1 Bandwidth (New)
+Use: Single Use
+Ability: Install or uninstall 1 mod from another player's computer, or negate 1 system setting from another player's computer until your next turn
+```
+
 #### New Mods - Gameplay
 Big Head
 ```
@@ -2261,51 +2312,61 @@ Bug Check:
 #### New System Settings
 Burstable Internet Uplink
 ```
+Cost: 0 Bandwidth
 Use: Single Use
 Ability: +2 To Bandwidth this turn
 ```
 Forum Reputation
 ```
+Cost: 1 Bandwidth
 Use: Single Use
 Ability: +2 To Coins received when selling on 'The Forums' This Turn
 ```
 Multi-Factor Authentication
 ```
+Cost: 5 Bandwidth
 Use: Permanent
 Ability: Immediately discard all 'Cheat' Mods installed. Cannot install 'Cheat' Mods. +2 To Bandwidth
 ```
 BattleEye Anti-Cheat
 ```
+Cost: 3 Bandwidth
 Use: Single Use
 Ability: Can play on another player's computer that has a 'Cheat' mod installed. Skip player's next turn.
 ```
 Registry Editor
 ```
+Cost: 2 Bandwidth
 Use: Single Use
 Ability: The next card you draw is free (does not have to be on this turn)
 ```
 Honeypot
 ```
+Cost: 3 Bandwidth (Taken at the start of your next maintenance phase)
 Use: Permanent
 Ability: May be played in response to a 'Virus' Mod being installed on your system. Immediately discard the next 'Virus' Mod installed on your system, then discard this card.
 ```
 Loud, Clicky, Scratchy Keyboard
 ```
+Cost: 0 Bandwidth
 Use: Permanent
 Ability: Annoys your friends. Stop it. (Does Nothing)
 ```
 Messy Desk
 ```
+Cost: 0 Bandwidth
 Use: Permanent
 Ability: How can you live like this? (Does Nothing)
 ```
 Fresh Install
 ```
+Cost: 2 Bandwidth
 Use: Single Use
 Ability: Move all mods to your Mod Folder. Discard all 'Virus' Mods.
 ```
 Mod Loader
 ```
+Cost: 1 Bandwidth
 Use: Single Use
 Ability: Installing mods costs 1 less Bandwidth this turn (Minimum 0).  Does not stack with other 'Mod Loader' cards.
 ```
