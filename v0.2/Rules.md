@@ -7,17 +7,21 @@
   - [Gameplay Loop](#gameplay-loop)
   - [Gameplay Info](#gameplay-info)
     - [Battles](#battles)
+      - [Player's Hands](#players-hands)
     - [Coins](#coins)
+    - [Combat](#combat)
     - [Computers](#computers)
     - [Crashing](#crashing)
     - [Enemies](#enemies)
     - [Event Deck](#event-deck)
+      - [The Forums](#the-forums)
     - [Maintenance](#maintenance)
+      - [Bandwidth](#bandwidth)
     - [Mods](#mods)
     - [Mods Folder](#mods-folder)
+    - [Movement](#movement)
     - [Player Characters](#player-characters)
     - [Saving](#saving)
-    - [Soft Reset](#soft-reset)
     - [System Settings](#system-settings)
     - ["The Game"](#the-game)
     - [Winning](#winning)
@@ -42,7 +46,49 @@
     - [Misc](#misc)
   - [Breakdown - Bosses](#breakdown---bosses)
     - [Demon](#demon)
-    - [BOSS NAME](#boss-name)
+    - [Dragon](#dragon)
+    - [Rogue Warrior](#rogue-warrior)
+    - [Large Fish](#large-fish)
+    - [Enemy Name](#enemy-name)
+  - [Breakdown - Monsters](#breakdown---monsters)
+    - [Monster Titles](#monster-titles)
+      - [Lesser](#lesser)
+      - [Normal (Or Blank)](#normal-or-blank)
+      - [Greater](#greater)
+    - [Bird Man](#bird-man)
+    - [Ghost](#ghost)
+    - [Necromancer](#necromancer)
+    - [Royal Archer](#royal-archer)
+    - [Royal Knight](#royal-knight)
+    - [Ogre](#ogre)
+    - [Scorpion](#scorpion)
+    - [Zombie](#zombie)
+    - [MONSTER NAME](#monster-name)
+  - [Recent Changes:](#recent-changes)
+    - [v0.1](#v01)
+      - [Actions Available:](#actions-available)
+      - [Breakdown - Bosses](#breakdown---bosses-1)
+      - [Breakdown - Monsters](#breakdown---monsters-1)
+      - [Characters:](#characters)
+    - [v0.2](#v02)
+      - [Maintenance Phase Mechanics:](#maintenance-phase-mechanics)
+      - [Maintenance Phase Actions Available:](#maintenance-phase-actions-available)
+      - [Bandwidth](#bandwidth-1)
+      - [Saving](#saving-1)
+      - [Coins](#coins-1)
+      - [The Forums](#the-forums-1)
+      - [The Game](#the-game-1)
+      - [Player's Hands](#players-hands-1)
+      - [Breakdown - Bosses](#breakdown---bosses-2)
+      - [Breakdown - Monsters](#breakdown---monsters-2)
+      - [Characters:](#characters-1)
+      - [Mod Changes - Gameplay](#mod-changes---gameplay)
+      - [Mod Changes - Cheat](#mod-changes---cheat)
+      - [Mod Changes - Virus](#mod-changes---virus)
+      - [New Mods - Gameplay](#new-mods---gameplay)
+      - [New Mods - Cheats](#new-mods---cheats)
+      - [New Mods - Virus](#new-mods---virus)
+      - [New System Settings](#new-system-settings)
 
 
 ## Game Summary
@@ -55,7 +101,7 @@ Your goal is to beat "The Game" before anyone else in your LAN party does.  In o
 In "The Game", enemies and bosses appear that you must defeat to progress and will give you coins.  
 > See Section 'Gameplay Info > Coins' for more information
 
-Everyone's base character has the same health and damage to start with, but become more powerful with the ability to install Mods on your system.  
+Everyone's computers have the ability to install Mods on your system, making you more powerful.  You can also grief your "friends" by giving them viruses!
 > See Section 'Gameplay Info > Mods' for more information
 
 If your computer has too many Mods installed on it, it can crash, reverting your progress to the last saved location in "The Game".
@@ -67,10 +113,8 @@ If your computer has too many Mods installed on it, it can crash, reverting your
 2. Each player draws 3 Mods from the deck, can install one for free (or keep it in their 'Mods Folder'), and then the rest are shuffled back into the deck. If a Mod is installed this way, ignore the Bug Value roll.
     > See Section 'Gameplay Info > Mods Folder' for more information
 3. Each player draws 3 System Settings cards rom the deck into their hand.
-4. Each player draws a 'Save Space' card from the pile to determine how often they can save
-    > See Section 'Gameplay Info > Saving' for more information
-5. Each player gets 5 coins
-6. One (1) Boss monster is drawn and placed face down on the boss monster spaces on the player's board
+4. Each player gets 5 coins and puts them in their 'Reliable' coins space
+5. One (1) Boss monster is drawn and placed face down on the boss monster spaces on the player's board
 
 ---
 ## Gameplay Loop
@@ -106,25 +150,39 @@ Description:
 
 Winning and Losing:
     - If a player defeats an enemy, their movement for the turn is halted and they stay on the space where the battle took place.
-    - If a player is defeated by an enemy, their movement is halted and an additional number of system resources are taken up based on enemy stats.
+    - If a player is defeated by an enemy, their movement is halted and a debuff is placed on them by the enemy
+    - See Section 'Player Character' for full death penalties
+```
+
+#### Player's Hands
+```
+Description:
+    - Players hands can only hold up to 5 cards at a time
+    - In order to draw a new card, that player must discard a card before drawing the new card
+    - When discarding a card this way, that player does not get any coins for their card
 ```
 
 ### Coins
 ```
 Description:
-    - Coins are the only way to perform certain actions in "The Game" and to Mod a player's computer.
-    - Coins are gathered upon defeating enemies based on enemy stats, plus any Mods currently installed on a player's computer.
+    - Coins are the only way to draw cards in "The Game".
+    - Coins are gathered upon defeating enemies based on enemy stats, plus any Mods values currently installed on a player's computer.
     - There is no maximum limit to how many coins a player can carry.
-    - Upon a system crashing, half of a player's coins (rounded up) + starting amount are lost.
-    - Upon death, 5 coins are lost
+    - Coins are split in two categories: 'Reliable' and 'Unreliable' coins
+        - 'Reliable' coins cannot be lost upon player defeat, but are still lost on system crash
+        - 'Unreliable' coins are all lost upon player defeat, and upon system crash
+    - When collected by any means, all coins are 'unreliable'
+    - Coins become 'reliable' when the player passes a checkpoint
+    - Players may spend coins from either section when purchasing mods
+    - Upon a system crashing, half of a player's coins (rounded up) are lost
+    - Upon death, all 'unreliable' coins are lost
 ```
+
 ### Combat
 ```
 Description:
     - Combat is the action that happens when a player fights a monster or boss.  
-    - The minimum amount of damage that can be done during combat is 0.
-    - At the beginning of combat, if combat is with a boss, the player can request 'Jolly Cooperation' in order to have 1 other player help with the boss (see 'Jolly Cooperation' Section)
-    - If no 'Jolly Cooperation' is used, then the main flow of combat is followed (see 'Order' below)
+    - The minimum amount of damage that can be done during combat is 1.
 
 Order:
     - When fighting an enemy, the following combat rules are applied:
@@ -133,6 +191,7 @@ Order:
     - This continues until either the player or enemy is defeated
     - After combat (win or lose), the player is healed to full health
 ```
+
 ### Computers
 ```
 Description:
@@ -152,7 +211,7 @@ Description:
 
 Penalties:
     - Player loses half of their coins (rounded up), plus their starting coin value (usually 5)
-    - Player reverts to last saved location in "The Game"
+    - Player reverts to last checkpoint location in "The Game"
     - All 'Virus' Mods are removed
     - All 'Active Effects' are removed and discarded
     - Players must uninstall Mods (starting from the first installed) until their computer is at least half of the system resources are free
@@ -189,7 +248,17 @@ Description:
     - Contains bonus coins, save spaces, computer events, enemy spawns, or character effects
 ```
 
-### Jolly Cooperation
+#### The Forums
+```
+Description:
+    - During their maintenence phase, a player may sell a Mod or a System Settings card to 'The Forums' for 2 coins
+    - This uses up 1 Bandwidth
+    - When selling a card, that card is sent directly to the discard pile
+    - Cards can only be sold from your hand, or from your computer's Mods Folder
+```
+
+<!-- DEV NOTE:  NOT SURE ABOUT THIS MECHANIC -->
+<!-- ### Jolly Cooperation
 ```
 Description:
     - If a player cannot beat a boss alone and they do not wish to soft-reset to their last save, they can request 'Jolly Cooperation' in order to get assistance from another player
@@ -216,33 +285,51 @@ Ending Cooperation:
         - If the boss dies, both players split the loot evenly but the helping player gets to draw an event card (can choose to use or discard it immediately), and a Mod card (can choose to install on OWN computer or put into Mod Folder)
         - If the hosting player dies, the hosting player suffers the failures and all costs associated with it.  The helping player suffers no consequences.
         - If the helping player dies, they suffer no consequences and combat for the player whose turn it is continues as normal.
-
-```
+``` -->
 
 ### Maintenance
 ```
 Description:
     - The Maintenance phase is the phase after all in-game actions have been performed.
-    - Each player can take any 3 of these actions per maintenance phase
+    - Each player can take any of these actions, based on the amount of Bandwidth that player has
 
 Actions Available:
-    - Purchase Mods
+    - Purchase Mods (1 Bandwidth)
         - Purchase a Mod card for 3 coins from the Mod deck.  This can be installed immediately for no extra actions, or put it into your mods folder
-    - Install, or uninstall mods
+    - Install, or uninstall mods (X Bandwidth, where X is half the System Resource value (rounded up))
         - Install a Mod from the Mod folder
         - Uninstall a Mod from your computer
-    - Purchase System Settings
+        - Install a Mod on another player's computer, if able (Costs 2 + X Bandwidth)
+    - Purchase System Settings (1 Bandwidth)
         - Purchase a System Settings card for 3 coins from the System Settings Deck.  This can be installed immediately for no extra actions, or put it into your hand
-    - Configure system settings
+    - Configure system settings (X Bandwidth, where X is the value on the card)
         - Play system settings from your hand
         - Activate effects of played system settings
-    - Soft Reset
-        - Return character to their last saved location on the board
-        - Always available to be taken, does not cost an action
-        - Ends player's turn immediately
+    - Sell an item on The Forums (1 Bandwidth)
     - End turn
         - Always available to be taken, does not cost an action
         - Ends player's turn immediately
+```
+
+#### Bandwidth
+```
+Description: 
+    - During each maintenance phase and lasting until their next turn, players have a certain amount of 'Bandwidth' they can use to perform actions
+    - Bandwidth is refreshed at the start of a player's maintenance phase
+    - The amount of bandwidth is the same between all players, and starts at 5
+    - Different actions cost different amounts of bandwidth to perform, described below
+
+Action Cost:
+    - 1 Bandwidth:
+        - Drawing a Mod card
+        - Draing a System Settings card
+        - Installing a System Settings card on your computer
+        - Selling a card to 'The Forums'
+    - 2 Bandwidth:
+        - Installing a mod on another player's computer (this is in addition to the bandwidth cost of the card played)
+    - Varying Bandwidth:
+        - Installing a mod costs X bandwidth, where X is half the value (rounded up) of the Installed System Resources value
+        - System Settings each have their own bandwidth cost
 ```
 
 ### Mods
@@ -306,85 +393,76 @@ Description:
     - At the start of the game, players choose a character to play with
     - Characters level up after each boss fight
 
-Characters:
-    - Barbarian:
-        Base:
-            20 Health
-            1d8 Movement
-            1d12 Damage
-        Level Up:
-            +1 Health
-            +1 Movement
-            +3 Damage
-    - Mage:
-        Base:
-            8 Health
-            1d12 Movement
-            1d12 Damage
-        Level Up:
-            +1 Health
-            +2 Movement
-            +3 Damage
-    - Ranger:
-        Base:
-            12 Health
-            1d12 Movement
-            1d12 Damage
-        Level Up:
-            +1 Health
-            +2 Movement
-            +2 Damage
-    - Swordsman:
-        Base:
-            14 Health
-            1d8 Movement
-            1d12 Damage
-        Level Up:
-            +2 Health
-            +1 Movement
-            +2 Damage
-```
+Player Defeat:
+    - If a player is reduced to 0 life before they kill the enemy they are fighting, they are defeated
+    - On player defeat, that player reverts to last checkpoint on the board, and loses their 'unreliable' coins
+    - On player defeat, that player may choose which passed checkpoint to restore to (does not have to be the most recent one)
 
-            +1 Health
-            +1 Movement
-            +3 Damage
-+1 Health
-            +2 Movement
-            +2 Damage
+Characters:
+- Ranger:
+    Base:
+        12 Health
+        1d20 - 5 Movement
+        1d20 - 10 Damage
+    Level Up:
+        +1 Health
+        +1 Movement
+        +2 Damage
+- Mage:
+    Base:
+        8 Health
+        1d20 - 10 Movement
+        1d20 - 8 Damage
+    Level Up:
+        +1 Health
+        +1 Movement
+        +3 Damage
+- Barbarian:
+    Base:
+        18 Health
+        1d20 - 12 Movement
+        1d20 - 6 Damage
+    Level Up:
+        +1 Health
+        +1 Movement
+        +3 Damage
+- Swordsman:
+    Base:
+        14 Health
+        1d20 - 8 Movement
+        1d20 - 8 Damage 
+    Level Up:
+        +1 Health
+        +2 Movement
+        +1 Damage
+```
 
 ### Saving
 ```
 Description:
     - Save points are locations in the game that a player reverts back to if certain events happen
+    - These spaces occur every 10 spaces in the game
+    - You only reach a checkpoint on a boss space after you defeat the boss
 
 Examples:
     - System Crash (Revert to Last Save)
-    - Soft Reset (Revert to Last Save)
-```
-
-### Soft Reset
-```
-Description:
-    - During the maintenance phase, a player may soft reset to be returned to their last save spot with no penalty besides their last saved location
-    
-Penalties:
-    - Player reverts to last saved game location
-
+    - Player Death (Revert to Last Save)
 ```
 
 ### System Settings
 ```
 Description:
     - System Settings are additional cards that can be played that modify a player's computer
+    - There can only be 2 'Permanent' system settings active on a player's computer at any given time
+        - Players can discard an old System Setting and play a new one for one action
     - System Settings can be purchased from the System Settings deck for coins, and are drawn into the player's hand
-    - In the maintenance phase, playing a system setting and activating a system setting each count for 1 action
-    - Once enabled, System Settings last for a set number of turns/uses (dependant on card stats)
-    - If a card lasts for a number of uses, the owning player may choose when those occur (with exception of 'Overclocking')
-    - If a card lasts for a number of turns, the number of turns counts down at the START of that player's maintenance phase. 
+    - In the maintenance phase, playing a system setting and activating a system setting each take up 1 Bandwidth
+    - If a card lasts for a number of turns, the number of turns decreases by 1 at the START of that player's maintenance phase. 
+        - For example 'Offline' lasts from when you play it until the start of your next maintenance phase
 
 Permanent vs Single Use:
     - 'Permanent' Cards must be played during your maintenance phase, and active when triggered
-    - 'Single Use' Cards may be played at any time during the game (even when it is not your turn) and are discarded after use
+    - 'Single Use' Cards are played are discarded after use.  If there is an effect that lasts until your next turn, keep it in the 'Active Effects' zone on the board
 ```
 
 ### "The Game"
@@ -395,8 +473,8 @@ Description:
     - The amount of monsters and save frequency will be varied depending on each player
 
 The Game:
-    - The board is 102 spaces long, with the start being 0 and the end being 101
-    - Boss spaces are on spaces 25, 50, 75, and 101
+    - The board is 101 spaces long, with the start being 0 and the end being 100
+    - Boss spaces are on spaces 20, 50, 80, and 100
         - In order to beat "The Game" a player must defeat the boss on the final space
     - 
 ```
@@ -404,7 +482,7 @@ The Game:
 ### Winning
 ```
 Description:
-    - A Player wins "The Game" when they defeat the boss on the final space without crashing in the process
+    - A Player wins "The Game" when they defeat the boss on the final space without crashing or dying in the process
 ```
 
 ---
@@ -461,12 +539,26 @@ Gameplay: Mods that affect the game in a way that is not strictly advantageous
 Cheat: Mods that affect the game in a way that is strictly advantageous
     Examples: //TODO
 
-Virus: Mods that affec the game in a way that is strictly negative
+Virus: Mods that affect the game in a way that is strictly negative
     Examples: //TODO
 ```
 
 ---
 ### Gameplay Mods
+Armor Overhaul
+```
+Type: Gameplay
+Installed Value: 2
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        +3 To Health
+    Cons:
+        -1 To Movement
+Bug Check:
+    Value: 5
+    Bug: +1 To Installed Value
+```
 Better AI
 ```
 Type: Gameplay
@@ -474,11 +566,13 @@ Installed Value: 2
 Uninstalled Value: 1
 Mod Effect: 
     Pros:
-        +3 Coins Collected from Enemies
+        +1 Coins Collected from Enemies
+        +2 To Movement
     Cons:
         +2 Enemy Health
+        +1 Enemy Damage
 Bug Check:
-    Value: 2
+    Value: 4
     Bug: +2 Enemy Health
 ```
 Better UI
@@ -488,12 +582,68 @@ Installed Value: 2
 Uninstalled Value: 1
 Mod Effect: 
     Pros: 
-        +1 To Damage
+        +2 To Movement
     Cons:
-        -2 To Movement
+        +2 To Enemy Damage
 Bug Check:
     Value: 5
-    Bug: +2 To Installed Value
+    Bug: +1 To Installed Value
+```
+Better Vendors
+```
+Type: Gameplay
+Installed Value: 2
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        -1 To Card Cost
+    Cons:
+        +1 To Enemy Health
+Bug Check:
+    Value: 5
+    Bug: -1 To Movement
+```
+Big Head
+```
+Type: Gameplay
+Installed Value: 2
+Uninstalled Value: 1
+Mod Effect: 
+    Pros: 
+        +3 To Movement
+    Cons:
+        +2 To Enemy Damage
+Bug Check:
+    Value: 5
+    Bug: -1 To Damage
+```
+Bigger Weapons
+```
+Type: Gameplay
+Installed Value: 2
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        +3 To Damage
+    Cons:
+        -1 To Movement
+Bug Check:
+    Value: 5
+    Bug: +3 To Enemy Damage
+```
+Consumable Items Overhaul
+```
+Type: Gameplay
+Installed Value: 3
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        Active Effects from Event cards do not expire
+    Cons:
+        You may only have 1 Active Effect from Event cards at a time (Discard the oldest one if a new one would go into effect)
+Bug Check:
+    Value: 5
+    Bug: +1 To Card Cost
 ```
 Controller Remapping
 ```
@@ -502,10 +652,12 @@ Installed Value: 2
 Uninstalled Value: 1
 Mod Effect: 
     Pros: 
-        +2 To Movement
+        +3 To Movement
+    Cons:
+       -1 To Damage
 Bug Check:
     Value: 5
-    Bug: +2 To Installed Value
+    Bug: +1 To Installed Value
 ```
 Corporate Branding
 ```
@@ -519,6 +671,37 @@ Bug Check:
     Value: 2
     Bug: +2 To Installed Value
 ```
+Custom Terrain
+```
+Type: Gameplay
+Installed Value: 2
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        +2 Movement
+    Cons:
+        +1 Enemy Health
+        +1 Enemy Damage
+Bug Check:
+    Value: 5
+    Bug: +1 Enemy Health, +1 Enemy Damage
+```
+Date NPCs
+```
+Type: Gameplay
+Installed Value: 4
+Uninstalled Value: 2
+Mod Effect: 
+    Pros:
+        +1 To Health
+        +1 To Movement
+        +2 To Damage
+    Cons:
+        +1 To Card Cost
+Bug Check:
+    Value: 5
+    Bug: +2 To Card Cost
+```
 Difficulty Patch
 ```
 Type: Gameplay
@@ -526,13 +709,42 @@ Installed Value: 2
 Uninstalled Value: 1
 Mod Effect: 
     Pros:
-        +2 To Movement
+        +3 To Movement
         +5 Coins Collected from Enemies
     Cons:
         +5 To Enemy Health
+        +1 To Enemy Damage
 Bug Check:
-    Value: 6
-    Bug: Upon failing to Kill an enemy, revert to last save.
+    Value: 5
+    Bug: Upon failing to Kill an enemy, revert 2 checkpoints
+```
+First Person Mode
+```
+Type: Gameplay
+Installed Value: 1
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        +1 To Damage
+    Cons:
+Bug Check:
+    Value: 5
+    Bug: +2 To Enemy Damage
+```
+Furry Mod
+```
+Type: Gameplay
+Installed Value: 4
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        +3 To Health
+        +2 To Movement
+    Cons:
+        +2 To Card Cost
+Bug Check:
+    Value: 5
+    Bug: Discard half of your unreliable coins at the end of your turn (Rounded Down)
 ```
 HD Music Pack
 ```
@@ -558,19 +770,61 @@ Bug Check:
     Value: 5
     Bug: +1 To Installed AND Uninstalled Value
 ```
+Lore Update
+```
+Type: Gameplay
+Installed Value: 2
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        +1 Damage
+    Cons:
+        -1 Movement
+Bug Check:
+    Value: 5
+    Bug: +2 To Enemy Health
+```
+Lower Resolution Support
+```
+Type: Gameplay
+Installed Value: 1
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        +1 To Movement
+    Cons:
+Bug Check:
+    Value: 5
+    Bug: +1 To Enemy Health
+```
 Modern Weapons
+```
+Type: Gameplay
+Installed Value: 2
+Uninstalled Value: 2
+Mod Effect: 
+    Pros:
+        +3 To Damage
+    Cons:
+        -1 To Movement
+        +1 To Enemy Damage
+Bug Check:
+    Value: 5
+    Bug: +2 To Installed Value
+```
+Multiclass
 ```
 Type: Gameplay
 Installed Value: 4
 Uninstalled Value: 2
 Mod Effect: 
     Pros:
-        +5 To Damage
+        Increase Your Lowest Stat By +1 Per Level (Changes if that stat without this increase is no longer your lowest)
     Cons:
-        -3 To Movement
+        Decrease Your Higest Stat By -2 (Changes if that stat without this increase is no longer your Highest)
 Bug Check:
     Value: 5
-    Bug: +2 To Installed Value
+    Bug: +1 To Installed Value
 ```
 No UI
 ```
@@ -586,6 +840,20 @@ Bug Check:
     Value: 4
     Bug: +2 To Installed Value
 ```
+No Weapons
+```
+Type: Gameplay
+Installed Value: 1
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        +3 To Movement
+    Cons:
+        -1 To Damage
+Bug Check:
+    Value: 5
+    Bug: +2 To Enemy Health
+```
 Nude Mod
 ```
 Type: Gameplay
@@ -594,10 +862,11 @@ Uninstalled Value: 1
 Mod Effect: 
     Pros:
         +2 Coins Collected from Enemies
+        +1 To Movement
     Cons:
-        -1 To Movement
+        +2 To Enemy Damage
 Bug Check:
-    Value: 8
+    Value: 5
     Bug: -1 To Movement
 ```
 Player Skins
@@ -627,6 +896,33 @@ Mod Effect:
 Bug Check:
     Value: 10
     Bug: At the end of your maintenance phase, randomly swap an installed and uninstalled mod.  If there are no uninstalled mods, randomly uninstall a mod instead.
+```
+Revamped Sidequests
+```
+Type: Gameplay
+Installed Value: 1
+Uninstalled Value: 1
+Mod Effect: 
+    Pros: 
+        +2 To Coins Collected From Enemies
+    Cons:
+        -1 To Movement
+Bug Check:
+    Value: 5
+    Bug: -1 To Movement
+```
+Third Person Mode
+```
+Type: Gameplay
+Installed Value: 1
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        +1 To Movement
+    Cons:
+Bug Check:
+    Value: 5 
+    Bug: +1 To Enemy Damage
 ```
 MOD NAME
 ```
@@ -658,26 +954,26 @@ Bug Check:
 Infinite Money
 ```
 Type: Cheat
-Installed Value: 2
-Uninstalled Value: 5
+Installed Value: 4
+Uninstalled Value: 2
 Mod Effect: 
     Pros:
         Can draw Mods and System Settings for free
 Bug Check:
-    Value: 15
-    Bug: Can no longer save game (Ignore any events that save the game, and always revert to last saved point before this mod was installed)
+    Value: 10
+    Bug: Can't Install 'Firewall' System Settings
 ```
 Quicksaves
 ```
 Type: Cheat
 Installed Value: 2
-Uninstalled Value: 5
+Uninstalled Value: 2
 Mod Effect: 
     Pros:
-        At the start of the play phase, you may save the game if you did not save last turn.
+        Always checkpoint in front of bosses
 Bug Check:
-    Value: 15
-    Bug: When reverting saves, revert 2 instead
+    Value: 5
+    Bug: Upon player defeat, lose half your 'reliable' coins (Rounded Down)
 ```
 Speedhack
 ```
@@ -718,16 +1014,80 @@ Bug Check:
     Value: 1
     Bug: At the start of each turn, you must either sing, tell a joke, or shill a fake computer product to all other playes
 ```
+Ch3at3rsN3v3rW1n.exe
+```
+Type: Virus
+Installed Value: 2
+Uninstalled Value: NONE
+Mod Effect: 
+    Cons: 
+        -3 To Health per Cheat Installed
+        -3 To Damage per Cheat Installed
+        -3 To Movement per Cheat Installed
+Bug Check:
+    Value: 5
+    Bug: -2 To Health, Damage, and Movement per Cheat Installed
+```
+CryptoLocker
+```
+Type: Virus
+Installed Value: 1
+Uninstalled Value: NONE
+Mod Effect: 
+    Cons: 
+        Cannot install or uninstall Mods unless a card effect makes you.
+Bug Check:
+    Value: 5
+    Bug: +1 To Installed Value
+```
 Cryptominer
 ```
 Type: Virus
 Installed Value: 4
 Uninstalled Value: NONE
-Mod Effect: 
+Mod Effect:     
     Cons:
+        Gives the owner of this card +1 coin at the beginning of your maintenance phase
         Can only be uninstalled by 'Antivirus' System Setting
+
 Bug Check:
     Value: 10
+    Bug: +2 To Installed Value
+```
+DDoS
+```
+Type: Virus
+Installed Value: 0
+Uninstalled Value: NONE
+Mod Effect: 
+    Cons: 
+        On each of your turns, you have -1 to Bandwith. This card can be played along side other 'DDoS' cards
+Bug Check:
+    Value: 2
+    Bug: On each of your turns, you have and additional -1 to Bandwith
+```
+ILOVEYOU
+```
+Type: Virus
+Installed Value: 1
+Uninstalled Value: NONE
+Mod Effect: 
+    Cons: 
+        At the end of your maintenance phase, randomly uninstall one Mod.
+Bug Check:
+    Value: 5
+    Bug: +1 To Installed Value
+```
+Meltdown
+```
+Type: Virus
+Installed Value: 2
+Uninstalled Value: NONE
+Mod Effect: 
+    Cons: 
+        Can be installed on computers with 'Firewall' active
+Bug Check:
+    Value: 2
     Bug: +2 To Installed Value
 ```
 Memory Leak
@@ -755,6 +1115,18 @@ Bug Check:
     Value: 5
     Bug: 'Firewall' System Setting has no effect
 ```
+Spectre
+```
+Type: Virus
+Installed Value: 2
+Uninstalled Value: NONE
+Mod Effect: 
+    Cons: 
+        Can be installed on computers with 'Firewall' active
+Bug Check:
+    Value: 2
+    Bug: +2 To Installed Value
+```
 Spyware
 ```
 Type: Virus
@@ -762,10 +1134,23 @@ Installed Value: 0
 Uninstalled Value: NONE
 Mod Effect: 
     Cons:
-        The original owner of this card can play cards from your hand
+        The original owner of this card can play 1 card during their turn from your hand
+        Can only be uninstalled by 'Antivirus' System Setting
 Bug Check:
-    Value: 1
-    Bug: All mods drawn are drawn by the original card owner instead
+    Value: 5
+    Bug: The original owner of this card can install 1 mod from your mods folder during their turn
+```
+Stuxnet
+```
+Type: Virus
+Installed Value: 3
+Uninstalled Value: NONE
+Mod Effect: 
+    Cons: 
+        At the end of your maintenance phase, flip a coin. On heads, install this Mod on the previous player's computer. This action happens without need for any other effects. This action cannot happen if the previous player is 'Offline' or has a 'Firewall' active.
+Bug Check:
+    Value: 5
+    Bug: Flip a coin twice instead of once. Both flips must land on heads for this Mod to move.
 ```
 MOD NAME
 ```
@@ -773,10 +1158,10 @@ Type: Virus
 Installed Value: 
 Uninstalled Value: NONE
 Mod Effect: 
-    Cons:
+    Cons: 
 Bug Check:
-    Value:
-    Bug:
+    Value: 
+    Bug: 
 ```
 
 ---
@@ -791,6 +1176,16 @@ Antivirus
 Use: Single Use
 Ability: Uninstall 1 'Virus' mod
 ```
+BattleEye Anti-Cheat
+```
+Use: Single Use
+Ability: Can play on another player's computer that has a 'Cheat' mod installed. Skip player's next turn.
+```
+Burstable Internet Uplink
+```
+Use: Single Use
+Ability: +2 To Bandwidth this turn
+```
 CC Cleaner
 ```
 Use: Single Use
@@ -801,10 +1196,45 @@ Firewall
 Use: Single Use
 Ability: Prevents any mods from being installed on your computer until your next turn
 ```
+Forum Reputation
+```
+Use: Single Use
+Ability: +2 To Coins received when selling on 'The Forums' This Turn
+```
+Fresh Install
+```
+Use: Single Use
+Ability: Move all mods to your Mod Folder. Discard all 'Virus' Mods.
+```
+Honeypot
+```
+Use: Permanent
+Ability: May be played in response to a 'Virus' Mod being installed on your system. Immediately discard the next 'Virus' Mod installed on your system, then discard this card.
+```
 Kali Linux VM
 ```
 Use: Permanent
 Ability: Allows you to install mods on other player's computers
+```
+Loud, Clicky, Scratchy Keyboard
+```
+Use: Permanent
+Ability: Annoys your friends. Stop it. (Does Nothing)
+```
+Messy Desk
+```
+Use: Permanent
+Ability: How can you live like this? (Does Nothing)
+```
+Mod Loader
+```
+Use: Single Use
+Ability: Installing mods costs 1 less Bandwidth this turn (Minimum 0).
+```
+Multi-Factor Authentication
+```
+Use: Permanent
+Ability: Immediately discard all 'Cheat' Mods installed. Cannot install 'Cheat' Mods. +2 To Bandwidth
 ```
 Offline
 ```
@@ -815,6 +1245,11 @@ Overclocking
 ```
 Use: Single Use
 Ability: When a system crash would occur, instead discard this setting and prevent it until the end of your NEXT maintenance phase
+```
+Registry Editor
+```
+Use: Single Use
+Ability: The next card you draw is free (does not have to be on this turn)
 ```
 Scriptkiddie
 ```
@@ -920,7 +1355,7 @@ During your next maintenance phase, you can't configure system settings
 ```
 Level 1:
     Health: 15
-    5 Damage
+    6 Damage
     Rewards: 10 Coins
     Defeat Penalty: Takes Up 1 System Resources
 Level Up:
@@ -933,7 +1368,7 @@ Level Up:
 ```
 Level 1:
     Health: 20
-    9 Damage
+    10 Damage
     Rewards: 20 Coins
     Defeat Penalty: Uninstall 1 'Gameplay' Mod
 Level Up:
@@ -946,7 +1381,7 @@ Level Up:
 ```
 Level 1:
     Health: 14
-    6 Damage
+    7 Damage
     Rewards: 8 Coins
     Defeat Penalty: Takes Up 1 System Resources
 Level Up:
@@ -959,7 +1394,7 @@ Level Up:
 ```
 Level 1:
     Health: 18
-    4 Damage
+    5 Damage
     Rewards: Draw an Event Card, You may choose to activate it's effects or discard it
     Defeat Penalty: Skip your next play phase
 Level Up:
@@ -1013,9 +1448,9 @@ Baseline Defeat Penalty
 ---
 ### Bird Man
 ```
-Level 1:m
+Level 1:
     10 Health
-    5 Damage
+    6 Damage
     Rewards: +3 Coins
     Defeat Penalty: Discard 1 'System Settings' Card From Your Hand
 Level Up:
@@ -1028,7 +1463,7 @@ Level Up:
 ```
 Level 1:
     8 Health
-    6 Damage
+    7 Damage
     Rewards: +3 Coins
     Defeat Penalty: Takes Up 1 System Resources
 Level Up:
@@ -1041,7 +1476,7 @@ Level Up:
 ```
 Level 1:
     8 Health
-    4 Damage
+    5 Damage
     Rewards: +2 Coins
     Defeat Penalty: Cards Cost +1 More for the rest of the game
 Level Up:
@@ -1054,7 +1489,7 @@ Level Up:
 ```
 Level 1:
     8 Health
-    6 Damage
+    7 Damage
     Rewards: +5 Coins
     Defeat Penalty: Cards Cost +1 More for the rest of the game
 Level Up:
@@ -1067,7 +1502,7 @@ Level Up:
 ```
 Level 1:
     12 Health
-    6 Damage
+    7 Damage
     Rewards: +5 Coins
     Defeat Penalty: Cards Cost +1 More for the rest of the game
 Level Up:
@@ -1080,7 +1515,7 @@ Level Up:
 ```
 Level 1:
     14 Health
-    5 Damage
+    6 Damage
     Rewards: +2 Coins
     Defeat Penalty: Takes Up 1 System Resources
 Level Up:
@@ -1093,7 +1528,7 @@ Level Up:
 ```
 Level 1:
     2 Health
-    9 Damage
+    10 Damage
     Rewards: +1 Coins
     Defeat Penalty: Uninstall 1 'Gameplay' Mod
 Level Up:
@@ -1106,7 +1541,7 @@ Level Up:
 ```
 Level 1:
     8 Health
-    3 Damage
+    4 Damage
     Rewards: +2 Coins
     Defeat Penalty: Cards Cost +1 More for the rest of the game
 Level Up:
@@ -1426,7 +1861,7 @@ Bug Check:
 Quicksaves
 ```
 Type: Cheat
-~Installed Value: 4 (Up From 2)
+~Installed Value: 2
 ~Uninstalled Value: 2 (Down From 5)
 Mod Effect: 
     Pros:
@@ -1714,7 +2149,6 @@ Bug Check:
     Bug:
 ```
 
-
 #### New Mods - Virus
 Spectre
 ```
@@ -1788,7 +2222,7 @@ Bug Check:
     Value: 2
     Bug: On each of your turns, you have and additional -1 to Bandwith
 ```
-Easy Anti-Cheat
+Ch3at3rsN3v3rW1n.exe
 ```
 Type: Virus
 Installed Value: 2
@@ -1800,8 +2234,9 @@ Mod Effect:
         -3 To Movement per Cheat Installed
 Bug Check:
     Value: 5
-    Bug: -2 To Health per Cheat Installed, -2 To Damage per Cheat Installed, -2 To Movement per Cheat Installed
+    Bug: -2 To Health, Damage, and Movement per Cheat Installed
 ```
+
 MOD NAME
 ```
 Type: Virus
@@ -1813,14 +2248,60 @@ Bug Check:
     Value: 
     Bug: 
 ```
-MOD NAME
+
+#### New System Settings
+Burstable Internet Uplink
 ```
-Type: Virus
-Installed Value: 
-Uninstalled Value: NONE
-Mod Effect: 
-    Cons: 
-Bug Check:
-    Value: 
-    Bug: 
+Use: Single Use
+Ability: +2 To Bandwidth this turn
+```
+Forum Reputation
+```
+Use: Single Use
+Ability: +2 To Coins received when selling on 'The Forums' This Turn
+```
+Multi-Factor Authentication
+```
+Use: Permanent
+Ability: Immediately discard all 'Cheat' Mods installed. Cannot install 'Cheat' Mods. +2 To Bandwidth
+```
+BattleEye Anti-Cheat
+```
+Use: Single Use
+Ability: Can play on another player's computer that has a 'Cheat' mod installed. Skip player's next turn.
+```
+Registry Editor
+```
+Use: Single Use
+Ability: The next card you draw is free (does not have to be on this turn)
+```
+Honeypot
+```
+Use: Permanent
+Ability: May be played in response to a 'Virus' Mod being installed on your system. Immediately discard the next 'Virus' Mod installed on your system, then discard this card.
+```
+Loud, Clicky, Scratchy Keyboard
+```
+Use: Permanent
+Ability: Annoys your friends. Stop it. (Does Nothing)
+```
+Messy Desk
+```
+Use: Permanent
+Ability: How can you live like this? (Does Nothing)
+```
+Fresh Install
+```
+Use: Single Use
+Ability: Move all mods to your Mod Folder. Discard all 'Virus' Mods.
+```
+Mod Loader
+```
+Use: Single Use
+Ability: Installing mods costs 1 less Bandwidth this turn (Minimum 0).
+```
+SETTING NAME
+```
+Use: 
+Ability: 
 ```
