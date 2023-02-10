@@ -5,26 +5,27 @@
   - [Game Objectives](#game-objectives)
   - [Starting Gameplay](#starting-gameplay)
   - [Gameplay Loop](#gameplay-loop)
+  - [Game Overview](#game-overview)
+    - ["The Game"](#the-game)
+    - [Winning](#winning)
+    - [Player Characters](#player-characters)
+    - [Player's Hands](#players-hands)
+    - [Computers](#computers)
   - [Gameplay Info](#gameplay-info)
     - [Battles](#battles)
-      - [Player's Hands](#players-hands)
     - [Coins](#coins)
     - [Combat](#combat)
-    - [Computers](#computers)
     - [Crashing](#crashing)
     - [Enemies](#enemies)
-    - [Event Deck](#event-deck)
       - [The Forums](#the-forums)
     - [Maintenance](#maintenance)
       - [Bandwidth](#bandwidth)
     - [Mods](#mods)
     - [Mods Folder](#mods-folder)
+    - [Event Deck](#event-deck)
     - [Movement](#movement)
-    - [Player Characters](#player-characters)
     - [Saving](#saving)
     - [System Settings](#system-settings)
-    - ["The Game"](#the-game)
-    - [Winning](#winning)
   - [Breakdown - Computers](#breakdown---computers)
     - [Scamdeck](#scamdeck)
     - [Hand-Me-Down](#hand-me-down)
@@ -33,6 +34,11 @@
     - [Gaming Laptop](#gaming-laptop)
     - [Pre-Built](#pre-built)
     - [Enthusiass Desktop](#enthusiass-desktop)
+  - [Breakdown - Player Characters](#breakdown---player-characters)
+    - [Barbarian](#barbarian)
+    - [Mage](#mage)
+    - [Ranger](#ranger)
+    - [Swordsman](#swordsman)
   - [Breakdown - Mods](#breakdown---mods)
     - [Mod Types](#mod-types)
     - [Gameplay Mods](#gameplay-mods)
@@ -142,6 +148,53 @@ After performing space actions, the player is then able to purchase Mods, instal
 Temporary effects are removed from the player's board, and discarded.  The turn passes to the player to the left (clockwise).
 
 ---
+## Game Overview
+### "The Game"
+```
+Description:
+    - "The Game" is the game that is being played by each player
+    - "The Game" is the same length for each player, with the same number of bosses
+    - The amount of monsters and save frequency will be varied depending on each player
+
+The Game:
+    - The board is 101 spaces long, with the start being 0 and the end being 100
+    - Boss spaces are on spaces 20, 40, 60, 80, and 100
+        - In order to beat "The Game" a player must defeat the boss on the final space
+```
+### Winning
+```
+Description:
+    - A Player wins "The Game" when they defeat the boss on the final space without crashing or dying in the process
+```
+### Player Characters
+```
+Description:
+    - At the start of the game, players choose a character to play with
+    - Characters level up after each boss fight
+
+Player Defeat:
+    - If a player is reduced to 0 life before they kill the enemy they are fighting, they are defeated
+    - On player defeat, that player reverts to last checkpoint on the board, and loses their 'unreliable' coins
+    - On player defeat, that player may choose which passed checkpoint to restore to (does not have to be the most recent one)
+```
+### Player's Hands
+```
+Description:
+    - Players hands can only hold up to 5 cards at a time
+    - In order to draw a new card, that player must discard a card before drawing the new card
+    - When discarding a card this way, that player does not get any coins for their card
+```
+### Computers
+```
+Description:
+    - The main tools that players work on, as they run "The Game".
+    - Chosen at the beginning of gameplay and cannot be Modified during game
+    - Have a limited number of system resources that they can install Mods with, determined by computer stats
+
+System Settings:
+    - Computers can be Modified with 'System Settings' to do things like free more resources, prevent getting hacked, and become overclocked
+```
+
 ## Gameplay Info
 ### Battles
 ```
@@ -152,14 +205,6 @@ Winning and Losing:
     - If a player defeats an enemy, their movement for the turn is halted and they stay on the space where the battle took place.
     - If a player is defeated by an enemy, their movement is halted and a debuff is placed on them by the enemy
     - See Section 'Player Character' for full death penalties
-```
-
-#### Player's Hands
-```
-Description:
-    - Players hands can only hold up to 5 cards at a time
-    - In order to draw a new card, that player must discard a card before drawing the new card
-    - When discarding a card this way, that player does not get any coins for their card
 ```
 
 ### Coins
@@ -190,17 +235,6 @@ Order:
     - Next, the enemy deals a static damage value to othe player
     - This continues until either the player or enemy is defeated
     - After combat (win or lose), the player is healed to full health
-```
-
-### Computers
-```
-Description:
-    - The main tools that players work on, as they run "The Game".
-    - Chosen at the beginning of gameplay and cannot be Modified during game
-    - Have a limited number of system resources that they can install Mods with, determined by computer stats
-
-System Settings:
-    - Computers can be Modified with 'System Settings' to do things like free more resources, prevent getting hacked, and become overclocked
 ```
 
 ### Crashing
@@ -234,20 +268,12 @@ Enemy Types:
             - For example, if a monster defeats the player at level 1 and the player eventually levels up to 2 then the monster's active effect will be at level 2.
     - Bosses
         - Bosses are enemies with static locations on the game board, and are harder than regular monsters
-        - Occur every 20 spaces with the exception being the final boss on space 101
+        - Occur every 20 spaces with the final boss on space 100
         - On Kill: Will either award gold, Mods, or special actions (dependant on the boss stats)
         - On Player Defeat: Will either take up system resources, or have special actions (dependant on the boss stats).  Place current boss card into 'Active Effects' board space, and draw another boss.
         - Levels up with player (up to level 6), including it's active effects.  
             - For example, if a boss defeats the player at level 1 and the player eventually levels up to 2 then the boss's active effect will be at level 2.
 ```
-
-### Event Deck
-```
-Description:
-    - A central deck of cards that players draw from immediately after the play phase
-    - Contains bonus coins, save spaces, computer events, enemy spawns, or character effects
-```
-
 #### The Forums
 ```
 Description:
@@ -286,7 +312,6 @@ Ending Cooperation:
         - If the hosting player dies, the hosting player suffers the failures and all costs associated with it.  The helping player suffers no consequences.
         - If the helping player dies, they suffer no consequences and combat for the player whose turn it is continues as normal.
 ``` -->
-
 ### Maintenance
 ```
 Description:
@@ -375,7 +400,12 @@ Installing from Mods Folder:
     - Installing a Mod from this folder takes up your normal Installing Mods action
     - Normal timing rules for installing Mods still applies
 ```
-
+### Event Deck
+```
+Description:
+    - A central deck of cards that players draw from immediately after the play phase
+    - Contains bonus coins, save spaces, computer events, enemy spawns, or character effects
+```
 ### Movement
 ```
 Description:
@@ -386,57 +416,6 @@ Description:
         - Add in additional level and mod values
     - The Minimum amount of movement is 1, if mods make your roll negative or 0 then move only 1 space forward.
 ```
-
-### Player Characters
-```
-Description:
-    - At the start of the game, players choose a character to play with
-    - Characters level up after each boss fight
-
-Player Defeat:
-    - If a player is reduced to 0 life before they kill the enemy they are fighting, they are defeated
-    - On player defeat, that player reverts to last checkpoint on the board, and loses their 'unreliable' coins
-    - On player defeat, that player may choose which passed checkpoint to restore to (does not have to be the most recent one)
-
-Characters:
-- Barbarian:
-    Base:
-        18 Health
-        1d20 - 12 Movement
-        1d20 - 6 Damage
-    Level Up:
-        +1 Health
-        +2 Movement
-        +2 Damage
-- Mage:
-    Base:
-        8 Health
-        1d20 - 10 Movement
-        1d20 - 8 Damage
-    Level Up:
-        +1 Health
-        +1 Movement
-        +3 Damage
-- Ranger:
-    Base:
-        12 Health
-        1d20 - 5 Movement
-        1d20 - 10 Damage
-    Level Up:
-        +1 Health
-        +1 Movement
-        +2 Damage
-- Swordsman:
-    Base:
-        14 Health
-        1d20 - 8 Movement
-        1d20 - 8 Damage 
-    Level Up:
-        +1 Health
-        +2 Movement
-        +1 Damage
-```
-
 ### Saving
 ```
 Description:
@@ -463,26 +442,6 @@ Description:
 Permanent vs Single Use:
     - 'Permanent' Cards must be played during your maintenance phase, and active when triggered
     - 'Single Use' Cards are played are discarded after use.  If there is an effect that lasts until your next turn, keep it in the 'Active Effects' zone on the board
-```
-
-### "The Game"
-```
-Description:
-    - "The Game" is the game that is being played by each player
-    - "The Game" is the same length for each player, with the same number of bosses
-    - The amount of monsters and save frequency will be varied depending on each player
-
-The Game:
-    - The board is 101 spaces long, with the start being 0 and the end being 100
-    - Boss spaces are on spaces 20, 50, 80, and 100
-        - In order to beat "The Game" a player must defeat the boss on the final space
-    - 
-```
-
-### Winning
-```
-Description:
-    - A Player wins "The Game" when they defeat the boss on the final space without crashing or dying in the process
 ```
 
 ---
@@ -529,6 +488,52 @@ System Resources: 20
 Trait: Each turn, skip either your play phase OR your maintenance phase each turn
 ```
 
+---
+## Breakdown - Player Characters
+### Barbarian
+```
+Base:
+    18 Health
+    1d20 - 12 Movement
+    1d20 - 6 Damage
+Level Up:
+    +1 Health
+    +2 Movement
+    +2 Damage
+```
+### Mage
+```
+Base:
+    8 Health
+    1d20 - 10 Movement
+    1d20 - 8 Damage
+Level Up:
+    +1 Health
+    +1 Movement
+    +3 Damage
+```
+### Ranger
+```
+Base:
+    12 Health
+    1d20 - 5 Movement
+    1d20 - 10 Damage
+Level Up:
+    +1 Health
+    +1 Movement
+    +2 Damage
+```
+### Swordsman
+```
+Base:
+    14 Health
+    1d20 - 8 Movement
+    1d20 - 8 Damage 
+Level Up:
+    +1 Health
+    +2 Movement
+    +1 Damage
+```
 ---
 ## Breakdown - Mods
 ### Mod Types
@@ -1422,7 +1427,7 @@ Level Up:
 ### Monster Titles
 #### Lesser
 ```
-Max Level: 3
+Max Level: 2
 Baseline Stats -1
 Baseline Rewards -1
 Baseline Level Up Health, Damage, and Rewards / 2 (Rounded Up)
@@ -1430,7 +1435,7 @@ Baseline Defeat Penalty
 ```
 #### Normal (Or Blank)
 ```
-Max Level: 4
+Max Level: 3
 Baseline Stats
 Baseline Rewards
 Baseline Level Up Health, Damage, and Rewards
@@ -1438,7 +1443,7 @@ Baseline Defeat Penalty
 ```
 #### Greater
 ```
-Max Level: 5
+Max Level: 4
 Baseline Stats +1
 Baseline Rewards +1
 Baseline Level Up Health, Damage, and Rewards +2
@@ -1656,6 +1661,7 @@ Dev Notes:
 - Players now save at each 'checkpoint' that are located at static positions throughout the game board
 - Checkpoints are now every 10 spaces on the board
 - Players can choose which checkpoint to revert to
+- Players can only save on a boss space after that boss has been defeated
 ```
 
 #### Coins
@@ -1684,6 +1690,7 @@ Description:
 - Changes to player defeat
     - On player defeat, that player reverts to last checkpoint on the board, and loses their 'unreliable' coins
     - On player defeat, that player may choose which passed checkpoint to restore to (does not have to be the most recent one)
+    - Bosses now appear every 20 spaces
 ```
 
 #### Player's Hands
@@ -1696,10 +1703,12 @@ Description:
 #### Breakdown - Bosses
 ```
 - All Bosses Base Damage Increased by 1
+- All Bosses have -2 To Max Level (Because Player Will Only Ever Be Level 4)
 ```
 #### Breakdown - Monsters
 ```
 - All Monsters Base Damage Increased by 1
+- All Monsters have -2 To Max Level (Because Player Will Only Ever Be Level 4)
 ```
 
 #### Characters:
