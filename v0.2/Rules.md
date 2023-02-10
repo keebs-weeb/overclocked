@@ -989,6 +989,7 @@ Uninstalled Value: 2
 Mod Effect: 
     Pros:
         Can select which mod to uninstall
+        Can uninstall mods directly to the Mods Folder
 Bug Check:
     Value: 10
     Bug: All Mods have +1 Installed AND Uninstalled Values
@@ -996,7 +997,7 @@ Bug Check:
 Infinite Money
 ```
 Type: Cheat
-Installed Value: 4
+Installed Value: 5
 Uninstalled Value: 2
 Mod Effect: 
     Pros:
@@ -1020,13 +1021,13 @@ Bug Check:
 Speedhack
 ```
 Type: Cheat
-Installed Value: 2
-Uninstalled Value: 5
+Installed Value: 5
+Uninstalled Value: 2
 Mod Effect: 
     Pros:
         +10 To Movement
 Bug Check:
-    Value: 12
+    Value: 15
     Bug: -10 To Damage
 ```
 MOD NAME
@@ -1895,7 +1896,7 @@ Bug Check:
 Infinite Money
 ```
 Type: Cheat
-~Installed Value: 4 (Up From 2)
+~Installed Value: 5 (Up From 2)
 ~Uninstalled Value: 2 (Down From 5)
 Mod Effect: 
     Pros:
@@ -1913,13 +1914,13 @@ Mod Effect:
     Pros:
 ~        Always checkpoint in front of bosses (From 'Save if you did not save last turn')
 Bug Check:
-~    Value: 5 (Down From 15)
+~    Value: 10 (Down From 15)
 ~    Bug: Upon player defeat, lose half your 'reliable' coins (Rounded Down) (From 'When reverting saves, revert 2 instead')
 ```
 Speedhack
 ```
 Type: Cheat
-~Installed Value: 4 (Up From 2)
+~Installed Value: 5 (Up From 2)
 ~Uninstalled Value: 2 (Down From 5)
 Mod Effect: 
     Pros:
