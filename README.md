@@ -9,6 +9,7 @@
 - [x] Get feedback for v0.2
 
 ## v0.2 - IN PROGRESS
+- [x] Rework characters and gameplay to only use 1 die
 - [x] Create new Mods
 - [x] Create new System Settings
 - [x] First round balance
