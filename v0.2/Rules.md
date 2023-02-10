@@ -399,24 +399,6 @@ Player Defeat:
     - On player defeat, that player may choose which passed checkpoint to restore to (does not have to be the most recent one)
 
 Characters:
-- Ranger:
-    Base:
-        12 Health
-        1d20 - 5 Movement
-        1d20 - 10 Damage
-    Level Up:
-        +1 Health
-        +1 Movement
-        +2 Damage
-- Mage:
-    Base:
-        8 Health
-        1d20 - 10 Movement
-        1d20 - 8 Damage
-    Level Up:
-        +1 Health
-        +1 Movement
-        +3 Damage
 - Barbarian:
     Base:
         18 Health
@@ -426,6 +408,24 @@ Characters:
         +1 Health
         +1 Movement
         +3 Damage
+- Mage:
+    Base:
+        8 Health
+        1d20 - 10 Movement
+        1d20 - 8 Damage
+    Level Up:
+        +1 Health
+        +1 Movement
+        +3 Damage
+- Ranger:
+    Base:
+        12 Health
+        1d20 - 5 Movement
+        1d20 - 10 Damage
+    Level Up:
+        +1 Health
+        +1 Movement
+        +2 Damage
 - Swordsman:
     Base:
         14 Health
@@ -2298,7 +2298,7 @@ Ability: Move all mods to your Mod Folder. Discard all 'Virus' Mods.
 Mod Loader
 ```
 Use: Single Use
-Ability: Installing mods costs 1 less Bandwidth this turn (Minimum 0).
+Ability: Installing mods costs 1 less Bandwidth this turn (Minimum 0).  Does not stack with other 'Mod Loader' cards.
 ```
 SETTING NAME
 ```
