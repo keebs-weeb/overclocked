@@ -406,8 +406,8 @@ Characters:
         1d20 - 6 Damage
     Level Up:
         +1 Health
-        +1 Movement
-        +3 Damage
+        +2 Movement
+        +2 Damage
 - Mage:
     Base:
         8 Health
@@ -1735,8 +1735,8 @@ Description:
             AVG 7
     Level Up:
         +1 Health (Unchanged)
-        +1 Movement (Unchanged)
-        +3 Damage (Unchanged)
+        +2 Movement (Up From +1)
+        +2 Damage (Down From +3)
 - Swordsman:
     Base:
         14 Health
