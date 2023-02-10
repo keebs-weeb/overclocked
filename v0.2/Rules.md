@@ -776,17 +776,17 @@ Bug Check:
 Furry Mod
 ```
 Type: Gameplay
-Installed Value: 4
+Installed Value: 3
 Uninstalled Value: 1
 Mod Effect: 
     Pros:
-        +3 To Health
+        +2 To Health
         +2 To Movement
     Cons:
         +2 To Card Cost
 Bug Check:
     Value: 5
-    Bug: Discard half of your unreliable coins at the end of your turn (Rounded Down)
+    Bug: Discard 2 of your unreliable coins at the end of your turn
 ```
 HD Music Pack
 ```
@@ -819,9 +819,9 @@ Installed Value: 2
 Uninstalled Value: 1
 Mod Effect: 
     Pros:
-        +1 Damage
+        +1 To Damage
     Cons:
-        -1 Movement
+        -1 To Movement
 Bug Check:
     Value: 5
     Bug: +2 To Enemy Health
@@ -857,7 +857,7 @@ Bug Check:
 Multiclass
 ```
 Type: Gameplay
-Installed Value: 4
+Installed Value: 3
 Uninstalled Value: 2
 Mod Effect: 
     Pros:
@@ -891,7 +891,7 @@ Mod Effect:
     Pros:
         +3 To Movement
     Cons:
-        -1 To Damage
+        -2 To Damage
 Bug Check:
     Value: 5
     Bug: +2 To Enemy Health
@@ -942,11 +942,11 @@ Bug Check:
 Revamped Sidequests
 ```
 Type: Gameplay
-Installed Value: 1
-Uninstalled Value: 1
+Installed Value: 4
+Uninstalled Value: 2
 Mod Effect: 
     Pros: 
-        +2 To Coins Collected From Enemies
+        When you would draw an Event card, draw an additional one
     Cons:
         -1 To Movement
 Bug Check:
@@ -2029,9 +2029,9 @@ Installed Value: 2
 Uninstalled Value: 1
 Mod Effect: 
     Pros:
-        +1 Damage
+        +1 To Damage
     Cons:
-        -1 Movement
+        -1 To Movement
 Bug Check:
     Value: 5
     Bug: +2 To Enemy Health
@@ -2074,7 +2074,7 @@ Mod Effect:
     Pros:
         +3 To Movement
     Cons:
-        -1 To Damage
+        -2 To Damage
 Bug Check:
     Value: 5
     Bug: +2 To Enemy Health
@@ -2096,11 +2096,11 @@ Bug Check:
 Revamped Sidequests
 ```
 Type: Gameplay
-Installed Value: 1
-Uninstalled Value: 1
+Installed Value: 4
+Uninstalled Value: 2
 Mod Effect: 
     Pros: 
-        +2 To Coins Collected From Enemies
+        When you would draw an Event card, draw an additional one
     Cons:
         -1 To Movement
 Bug Check:
@@ -2110,17 +2110,17 @@ Bug Check:
 Furry Mod
 ```
 Type: Gameplay
-Installed Value: 4
+Installed Value: 3
 Uninstalled Value: 1
 Mod Effect: 
     Pros:
-        +3 To Health
+        +2 To Health
         +2 To Movement
     Cons:
         +2 To Card Cost
 Bug Check:
     Value: 5
-    Bug: Discard half of your unreliable coins at the end of your turn (Rounded Down)
+    Bug: Discard 2 of your unreliable coins at the end of your turn
 ```
 Date NPCs
 ```
@@ -2141,7 +2141,7 @@ Bug Check:
 Multiclass
 ```
 Type: Gameplay
-Installed Value: 4
+Installed Value: 3
 Uninstalled Value: 2
 Mod Effect: 
     Pros:
