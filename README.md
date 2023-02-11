@@ -13,6 +13,7 @@
 - [x] Create new Mods
 - [x] Create new System Settings
 - [x] First round balance
+- [ ] Review all mod cards, assign resource values based on positive effects they have (quanitze + vs -)
 - [x] Add Bandwidth Mechanic
 - [x] Add 'The Forums' Mechanic
 - [x] Update Rules

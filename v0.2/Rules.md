@@ -1211,91 +1211,109 @@ Bug Check:
 ## Breakdown - System Settings
 Administrator Account
 ```
+Cost: 5 Bandwidth
 Use: Permanent
 Ability: +5 to Computer's System Resources
 ```
 Antivirus
 ```
+Cost: 1 Bandwidth
 Use: Single Use
 Ability: Uninstall 1 'Virus' mod
 ```
 BattleEye Anti-Cheat
 ```
+Cost: 3 Bandwidth
 Use: Single Use
 Ability: Can play on another player's computer that has a 'Cheat' mod installed. Skip player's next turn.
 ```
 Burstable Internet Uplink
 ```
+Cost: 0 Bandwidth
 Use: Single Use
 Ability: +2 To Bandwidth this turn
 ```
 CC Cleaner
 ```
+Cost: 1 Bandwidth
 Use: Single Use
 Ability: Move all uninstalled mods to your mods folder
 ```
 Firewall
 ```
+Cost: 1 Bandwidth
 Use: Single Use
 Ability: Prevents any mods from being installed on your computer until your next turn
 ```
 Forum Reputation
 ```
+Cost: 1 Bandwidth
 Use: Single Use
 Ability: +2 To Coins received when selling on 'The Forums' This Turn
 ```
 Fresh Install
 ```
+Cost: 2 Bandwidth
 Use: Single Use
 Ability: Move all mods to your Mod Folder. Discard all 'Virus' Mods.
 ```
 Honeypot
 ```
+Cost: 3 Bandwidth
 Use: Permanent
-Ability: May be played in response to a 'Virus' Mod being installed on your system. Immediately discard the next 'Virus' Mod installed on your system, then discard this card.
+Ability: May be played in response to a 'Virus' Mod being installed on your system. Immediately discard the next Mod installed on your system, then discard this card. If played out of turn, the cost is taken away from your Bandwidth at the start of the next maintenance phase.
 ```
 Kali Linux VM
 ```
+Cost: 1 Bandwidth Per Turn
 Use: Permanent
 Ability: Allows you to install mods on other player's computers
 ```
 Loud, Clicky, Scratchy Keyboard
 ```
+Cost: 0 Bandwidth
 Use: Permanent
 Ability: Annoys your friends. Stop it. (Does Nothing)
 ```
 Messy Desk
 ```
+Cost: 0 Bandwidth
 Use: Permanent
 Ability: How can you live like this? (Does Nothing)
 ```
 Mod Loader
 ```
+Cost: 1 Bandwidth
 Use: Single Use
 Ability: Installing mods costs 1 less Bandwidth this turn (Minimum 0).
 ```
 Multi-Factor Authentication
 ```
+Cost: 5 Bandwidth
 Use: Permanent
 Ability: Immediately discard all 'Cheat' Mods installed. Cannot install 'Cheat' Mods. +2 To Bandwidth
 ```
 Offline
 ```
+Cost: 1 Bandwidth
 Use: Single Use
 Ability: Until your next turn you cannot: install mods on any other player's computers, have mods installed by other players, or draw system settings cards
 ```
 Overclocking
 ```
+Cost: 2 Bandwidth
 Use: Single Use
 Ability: When a system crash would occur, instead discard this setting and prevent it until the end of your NEXT maintenance phase
 ```
 Registry Editor
 ```
+Cost: 2 Bandwidth
 Use: Single Use
 Ability: The next card you draw is free (does not have to be on this turn)
 ```
 Scriptkiddie
 ```
+Cost: 1 Bandwidth
 Use: Single Use
 Ability: Install or uninstall 1 mod from another player's computer, or negate 1 system setting from another player's computer until your next turn
 ```
@@ -1961,7 +1979,7 @@ Bug Check:
 #### System Settings Changes
 Administrator Account
 ```
-~ Cost: 4 Bandwidth (New)
+~ Cost: 5 Bandwidth (New)
 Use: Permanent
 Ability: +5 to Computer's System Resources
 ```
