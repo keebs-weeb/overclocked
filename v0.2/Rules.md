@@ -1074,7 +1074,7 @@ Bug Check:
 CryptoLocker
 ```
 Type: Virus
-Installed Value: 1
+Installed Value: 2
 Uninstalled Value: NONE
 Mod Effect: 
     Cons: 
@@ -1104,10 +1104,10 @@ Installed Value: 0
 Uninstalled Value: NONE
 Mod Effect: 
     Cons: 
-        On each of your turns, you have -1 to Bandwith. This card can be played along side other 'DDoS' cards
+        On each of your turns, you have -1 to Bandwith.
 Bug Check:
-    Value: 2
-    Bug: On each of your turns, you have and additional -1 to Bandwith
+    Value: 10
+    Bug: This computer can have other 'DDoS' cards installed.
 ```
 ILOVEYOU
 ```
@@ -1177,7 +1177,7 @@ Installed Value: 0
 Uninstalled Value: NONE
 Mod Effect: 
     Cons:
-        The original owner of this card can play 1 card during their turn from your hand
+        The original owner of this can play 1 System Settings card from your hand during their turn
         Can only be uninstalled by 'Antivirus' System Setting
 Bug Check:
     Value: 5
@@ -1938,7 +1938,7 @@ Installed Value: 0
 Uninstalled Value: NONE
 Mod Effect: 
     Cons:
-~        The original owner of this card can play 1 card during their turn from your hand (From 'Can play cards from your hand')
+~        The original owner of this can play 1 System Settings card from your hand during their turn (From 'Can play cards from your hand')
 Bug Check:
 ~    Value: 5 (Up from 1)
 ~    Bug: The original owner of this card can install 1 mod from your mods folder during their turn (From 'All mods drawn are drawn by the original card owner instead')
@@ -2286,7 +2286,7 @@ Bug Check:
 CryptoLocker
 ```
 Type: Virus
-Installed Value: 1
+Installed Value: 2
 Uninstalled Value: NONE
 Mod Effect: 
     Cons: 
