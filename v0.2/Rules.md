@@ -604,14 +604,13 @@ Bug Check:
 Better AI
 ```
 Type: Gameplay
-Installed Value: 2
+Installed Value: 3
 Uninstalled Value: 1
 Mod Effect: 
     Pros:
-        +1 Coins Collected from Enemies
+        +2 Coins Collected from Enemies
         +2 To Movement
     Cons:
-        +2 Enemy Health
         +1 Enemy Damage
 Bug Check:
     Value: 4
@@ -624,12 +623,11 @@ Installed Value: 2
 Uninstalled Value: 1
 Mod Effect: 
     Pros: 
-        +2 To Movement
-    Cons:
-        +2 To Enemy Damage
+        +1 To Movement
+        +1 To Damage
 Bug Check:
     Value: 5
-    Bug: +1 To Installed Value
+    Bug: +2 To Installed Value
 ```
 Better Vendors
 ```
@@ -639,13 +637,11 @@ Uninstalled Value: 1
 Mod Effect: 
     Pros:
         -1 To Card Cost
-    Cons:
-        +1 To Enemy Health
 Bug Check:
     Value: 5
     Bug: -1 To Movement
 ```
-Big Head
+Big Heads
 ```
 Type: Gameplay
 Installed Value: 2
@@ -704,7 +700,7 @@ Bug Check:
 Corporate Branding
 ```
 Type: Gameplay
-Installed Value: 1
+Installed Value: 2
 Uninstalled Value: 1
 Mod Effect: 
     Pros: 
@@ -722,11 +718,10 @@ Mod Effect:
     Pros:
         +2 Movement
     Cons:
-        +1 Enemy Health
         +1 Enemy Damage
 Bug Check:
     Value: 5
-    Bug: +1 Enemy Health, +1 Enemy Damage
+    Bug: +1 Enemy Damage
 ```
 Date NPCs
 ```
@@ -754,11 +749,11 @@ Mod Effect:
         +3 To Movement
         +5 Coins Collected from Enemies
     Cons:
-        +5 To Enemy Health
+        +4 To Enemy Health
         +1 To Enemy Damage
 Bug Check:
     Value: 5
-    Bug: Upon failing to Kill an enemy, revert 2 checkpoints
+    Bug: Upon player defeat, revert at least 2 checkpoints
 ```
 First Person Mode
 ```
@@ -798,7 +793,7 @@ Mod Effect:
         -1 To Mod Cost
 Bug Check:
     Value: 5
-    Bug: +1 To Installed AND Uninstalled Value
+    Bug: +1 To Installed Value
 ```
 HD Texture Pack
 ```
@@ -810,7 +805,7 @@ Mod Effect:
         -1 To Mod Price
 Bug Check:
     Value: 5
-    Bug: +1 To Installed AND Uninstalled Value
+    Bug: +1 To Installed Value
 ```
 Lore Update
 ```
@@ -819,12 +814,12 @@ Installed Value: 2
 Uninstalled Value: 1
 Mod Effect: 
     Pros:
-        +1 To Damage
+        +2 To Damage
     Cons:
         -1 To Movement
 Bug Check:
     Value: 5
-    Bug: +2 To Enemy Health
+    Bug: +1 To Card Cost
 ```
 Lower Resolution Support
 ```
@@ -842,14 +837,13 @@ Bug Check:
 Modern Weapons
 ```
 Type: Gameplay
-Installed Value: 2
+Installed Value: 4
 Uninstalled Value: 2
 Mod Effect: 
     Pros:
-        +3 To Damage
+        +5 To Damage
     Cons:
-        -1 To Movement
-        +1 To Enemy Damage
+        -2 To Movement
 Bug Check:
     Value: 5
     Bug: +2 To Installed Value
@@ -861,12 +855,12 @@ Installed Value: 3
 Uninstalled Value: 2
 Mod Effect: 
     Pros:
-        Increase Your Lowest Stat By +1 Per Level (Changes if that stat without this increase is no longer your lowest)
+        Increase Your Lowest Stat By +2 Per Level (Changes if that stat without this increase is no longer your lowest)
     Cons:
         Decrease Your Higest Stat By -2 (Changes if that stat without this increase is no longer your Highest)
 Bug Check:
     Value: 5
-    Bug: +1 To Installed Value
+    Bug: +1 To Installed Value Per Level
 ```
 No UI
 ```
@@ -879,8 +873,8 @@ Mod Effect:
     Cons:
         -1 To Damage
 Bug Check:
-    Value: 4
-    Bug: +2 To Installed Value
+    Value: 5
+    Bug: -1 To Damage
 ```
 No Weapons
 ```
@@ -918,12 +912,12 @@ Installed Value: 1
 Uninstalled Value: 1
 Mod Effect: 
     Pros:
-        +1 To Damage
+        +2 To Damage
     Cons:
         +1 To Card Cost
 Bug Check:
     Value: 5
-    Bug: +1 To Installed AND Uninstalled Value
+    Bug: +1 To Installed Value
 ```
 Randomizer
 ```
@@ -942,16 +936,15 @@ Bug Check:
 Revamped Sidequests
 ```
 Type: Gameplay
-Installed Value: 4
+Installed Value: 3
 Uninstalled Value: 2
 Mod Effect: 
     Pros: 
         When you would draw an Event card, draw an additional one
-    Cons:
-        -1 To Movement
+        +2 To Movement
 Bug Check:
     Value: 5
-    Bug: -1 To Movement
+    Bug: +1 To Card Cost
 ```
 Third Person Mode
 ```
@@ -1821,14 +1814,14 @@ Description:
 Better AI
 ```
 Type: Gameplay
-Installed Value: 2
+Installed Value: 3 (Up From 2)
 Uninstalled Value: 1
 Mod Effect: 
     Pros:
-~        +1 Coins Collected from Enemies (Down From +2)
+        +2 Coins Collected from Enemies
 ~        +2 To Movement (New)
     Cons:
-        +2 Enemy Health
+~        (Removed +2 Enemy Health)
 ~        +1 Enemy Damage (New)
 Bug Check:
 ~    Value: 4 (Up From 2)
@@ -1841,12 +1834,13 @@ Installed Value: 2
 Uninstalled Value: 1
 Mod Effect: 
     Pros: 
-~        +2 To Movement (From '+1 To Damage')
+~        +1 To Movement (New)
+        +1 To Damage
     Cons:
 ~        +2 To Enemy Damage (From '-2 To Movement')
 Bug Check:
     Value: 5
-~    Bug: +1 To Installed Value (Down From +2)
+    Bug: +2 To Installed Value
 ```
 Controller Remapping
 ```
@@ -1862,6 +1856,18 @@ Bug Check:
     Value: 5
     Bug: +1 To Installed Value (Down From +2)
 ```
+Corporate Branding
+```
+Type: Gameplay
+Installed Value: 2 (Up From 1)
+Uninstalled Value: 1
+Mod Effect: 
+    Pros: 
+        +2 Coins at the start of each maintenance phase
+Bug Check:
+    Value: 2
+    Bug: +2 To Installed Value
+```
 Difficulty Patch
 ```
 Type: Gameplay
@@ -1872,26 +1878,63 @@ Mod Effect:
 ~        +3 To Movement (Up From +2)
         +5 Coins Collected from Enemies
     Cons:
-        +5 To Enemy Health
+        +4 To Enemy Health (Down From +5)
 ~        +1 To Enemy Damage (New)
 Bug Check:
 ~    Value: 5 (Down From 6)
-~    Bug: Upon failing to Kill an enemy, revert 2 checkpoints (From 'Revert to Last Save')
+~    Bug: Upon player defeat, revert at least 2 checkpoints (From 'Revert to Last Save')
+```
+HD Music Pack
+```
+Type: Gameplay
+Installed Value: 2
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        -1 To Mod Cost
+Bug Check:
+    Value: 5
+    Bug: +1 To Installed Value (From +1 To Installed AND Uninstalled Value)
+```
+HD Texture Pack
+```
+Type: Gameplay
+Installed Value: 2
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        -1 To Mod Price
+Bug Check:
+    Value: 5
+    Bug: +1 To Installed Value (From '+1 To Installed AND Uninstalled Value')
 ```
 Modern Weapons
 ```
 Type: Gameplay
-~Installed Value: 2 (Down From 4)
+~Installed Value: 4
 Uninstalled Value: 2
 Mod Effect: 
     Pros:
-~        +3 To Damage (Down From +5)
+~        +5 To Damage
     Cons:
-~        -1 To Movement (Up From -3)
-~        +1 To Enemy Damage (New)
+~        -2 To Movement (Up From -3)
 Bug Check:
     Value: 5
     Bug: +2 To Installed Value
+```
+No UI
+```
+Type: Gameplay
+Installed Value: 2
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        +2 To Movement
+    Cons:
+        -1 To Damage
+Bug Check:
+    Value: 5 (Up From 4)
+    Bug: -1 To Damage (From '+2 To Installed Value')
 ```
 Nude Mod
 ```
@@ -1908,9 +1951,22 @@ Bug Check:
     Value: 5
     Bug: -1 To Movement
 ```
+Player Skins
+```
+Type: Gameplay
+Installed Value: 1
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        +2 To Damage (Up From +1)
+    Cons:
+        +1 To Card Cost
+Bug Check:
+    Value: 5
+    Bug: +1 To Installed Value (From '+1 To Installed AND Uninstalled Value')
+```
 
 #### Mod Changes - Cheat
-
 Infinite Money
 ```
 Type: Cheat
@@ -2027,6 +2083,32 @@ Ability: Install or uninstall 1 mod from another player's computer, or negate 1 
 ```
 
 #### New Mods - Gameplay
+Armor Overhaul
+```
+Type: Gameplay
+Installed Value: 2
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        +3 To Health
+    Cons:
+        -1 To Movement
+Bug Check:
+    Value: 5
+    Bug: +1 To Installed Value
+```
+Better Vendors
+```
+Type: Gameplay
+Installed Value: 2
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        -1 To Card Cost
+Bug Check:
+    Value: 5
+    Bug: -1 To Movement
+```
 Big Head
 ```
 Type: Gameplay
@@ -2040,63 +2122,6 @@ Mod Effect:
 Bug Check:
     Value: 5
     Bug: -1 To Damage
-```
-Lore Update
-```
-Type: Gameplay
-Installed Value: 2
-Uninstalled Value: 1
-Mod Effect: 
-    Pros:
-        +1 To Damage
-    Cons:
-        -1 To Movement
-Bug Check:
-    Value: 5
-    Bug: +2 To Enemy Health
-```
-Custom Terrain
-```
-Type: Gameplay
-Installed Value: 2
-Uninstalled Value: 1
-Mod Effect: 
-    Pros:
-        +2 Movement
-    Cons:
-        +1 Enemy Health
-        +1 Enemy Damage
-Bug Check:
-    Value: 5
-    Bug: +1 Enemy Health, +1 Enemy Damage
-```
-Better Vendors
-```
-Type: Gameplay
-Installed Value: 2
-Uninstalled Value: 1
-Mod Effect: 
-    Pros:
-        -1 To Card Cost
-    Cons:
-        +1 To Enemy Health
-Bug Check:
-    Value: 5
-    Bug: -1 To Movement
-```
-No Weapons
-```
-Type: Gameplay
-Installed Value: 1
-Uninstalled Value: 1
-Mod Effect: 
-    Pros:
-        +3 To Movement
-    Cons:
-        -2 To Damage
-Bug Check:
-    Value: 5
-    Bug: +2 To Enemy Health
 ```
 Bigger Weapons
 ```
@@ -2112,34 +2137,33 @@ Bug Check:
     Value: 5
     Bug: +3 To Enemy Damage
 ```
-Revamped Sidequests
-```
-Type: Gameplay
-Installed Value: 4
-Uninstalled Value: 2
-Mod Effect: 
-    Pros: 
-        When you would draw an Event card, draw an additional one
-    Cons:
-        -1 To Movement
-Bug Check:
-    Value: 5
-    Bug: -1 To Movement
-```
-Furry Mod
+Consumable Items Overhaul
 ```
 Type: Gameplay
 Installed Value: 3
 Uninstalled Value: 1
 Mod Effect: 
     Pros:
-        +2 To Health
-        +2 To Movement
+        Active Effects from Event cards do not expire
     Cons:
-        +2 To Card Cost
+        You may only have 1 Active Effect from Event cards at a time (Discard the oldest one if a new one would go into effect)
 Bug Check:
     Value: 5
-    Bug: Discard 2 of your unreliable coins at the end of your turn
+    Bug: +1 To Card Cost
+```
+Custom Terrain
+```
+Type: Gameplay
+Installed Value: 2
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        +2 Movement
+    Cons:
+        +1 Enemy Damage
+Bug Check:
+    Value: 5
+    Bug: +1 Enemy Damage
 ```
 Date NPCs
 ```
@@ -2157,44 +2181,44 @@ Bug Check:
     Value: 5
     Bug: +2 To Card Cost
 ```
-Multiclass
+First Person Mode
+```
+Type: Gameplay
+Installed Value: 1
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        +1 To Damage
+    Cons:
+Bug Check:
+    Value: 5
+    Bug: +2 To Enemy Damage
+```
+Furry Mod
 ```
 Type: Gameplay
 Installed Value: 3
-Uninstalled Value: 2
+Uninstalled Value: 1
 Mod Effect: 
     Pros:
-        Increase Your Lowest Stat By +1 Per Level (Changes if that stat without this increase is no longer your lowest)
+        +2 To Health
+        +2 To Movement
     Cons:
-        Decrease Your Higest Stat By -2 (Changes if that stat without this increase is no longer your Highest)
+        +2 To Card Cost
 Bug Check:
     Value: 5
-    Bug: +1 To Installed Value
+    Bug: Discard 2 of your unreliable coins at the end of your turn
 ```
-Armor Overhaul
+Lore Update
 ```
 Type: Gameplay
 Installed Value: 2
 Uninstalled Value: 1
 Mod Effect: 
     Pros:
-        +3 To Health
+        +2 To Damage
     Cons:
         -1 To Movement
-Bug Check:
-    Value: 5
-    Bug: +1 To Installed Value
-```
-Consumable Items Overhaul
-```
-Type: Gameplay
-Installed Value: 3
-Uninstalled Value: 1
-Mod Effect: 
-    Pros:
-        Active Effects from Event cards do not expire
-    Cons:
-        You may only have 1 Active Effect from Event cards at a time (Discard the oldest one if a new one would go into effect)
 Bug Check:
     Value: 5
     Bug: +1 To Card Cost
@@ -2212,6 +2236,47 @@ Bug Check:
     Value: 5
     Bug: +1 To Enemy Health
 ```
+Multiclass
+```
+Type: Gameplay
+Installed Value: 3
+Uninstalled Value: 2
+Mod Effect: 
+    Pros:
+        Increase Your Lowest Stat By +2 Per Level (Changes if that stat without this increase is no longer your lowest)
+    Cons:
+        Decrease Your Higest Stat By -2 (Changes if that stat without this increase is no longer your Highest)
+Bug Check:
+    Value: 5
+    Bug: +1 To Installed Value Per Level
+```
+No Weapons
+```
+Type: Gameplay
+Installed Value: 1
+Uninstalled Value: 1
+Mod Effect: 
+    Pros:
+        +3 To Movement
+    Cons:
+        -2 To Damage
+Bug Check:
+    Value: 5
+    Bug: +2 To Enemy Health
+```
+Revamped Sidequests
+```
+Type: Gameplay
+Installed Value: 3
+Uninstalled Value: 2
+Mod Effect: 
+    Pros: 
+        When you would draw an Event card, draw an additional one
+        +2 To Movement
+Bug Check:
+    Value: 5
+    Bug: +1 To Card Cost
+```
 Third Person Mode
 ```
 Type: Gameplay
@@ -2224,19 +2289,6 @@ Mod Effect:
 Bug Check:
     Value: 5 
     Bug: +1 To Enemy Damage
-```
-First Person Mode
-```
-Type: Gameplay
-Installed Value: 1
-Uninstalled Value: 1
-Mod Effect: 
-    Pros:
-        +1 To Damage
-    Cons:
-Bug Check:
-    Value: 5
-    Bug: +2 To Enemy Damage
 ```
 MOD NAME
 ```
