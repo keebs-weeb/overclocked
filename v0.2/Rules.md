@@ -88,7 +88,7 @@
       - [Breakdown - Bosses](#breakdown---bosses-2)
         - [Demon](#demon-1)
         - [Dragon](#dragon-1)
-    - [Very Large Fish (Renamed from 'Large Fish')](#very-large-fish-renamed-from-large-fish)
+        - [Very Large Fish (Renamed from 'Large Fish')](#very-large-fish-renamed-from-large-fish)
       - [Breakdown - Monsters](#breakdown---monsters-2)
       - [Characters:](#characters-1)
       - [Mod Changes - Gameplay](#mod-changes---gameplay)
@@ -1784,7 +1784,7 @@ Level Up:
     Rewards: +5 Coins Per Level
 ~    Defeat Penalty: Takes Up .5 More System Resources (Rounded Down) (From "Uninstall .5 More 'Gameplay' Mods Per Level (Rounded Down)")
 ```
-### Very Large Fish (Renamed from 'Large Fish')
+##### Very Large Fish (Renamed from 'Large Fish')
 ```
 Level 1:
     Health: 18
