@@ -54,7 +54,7 @@
     - [Demon](#demon)
     - [Dragon](#dragon)
     - [Rogue Warrior](#rogue-warrior)
-    - [Large Fish](#large-fish)
+    - [Very Large Fish](#very-large-fish)
     - [Enemy Name](#enemy-name)
   - [Breakdown - Monsters](#breakdown---monsters)
     - [Monster Titles](#monster-titles)
@@ -86,6 +86,9 @@
       - [The Game](#the-game-1)
       - [Player's Hands](#players-hands-1)
       - [Breakdown - Bosses](#breakdown---bosses-2)
+        - [Demon](#demon-1)
+        - [Dragon](#dragon-1)
+    - [Very Large Fish (Renamed from 'Large Fish')](#very-large-fish-renamed-from-large-fish)
       - [Breakdown - Monsters](#breakdown---monsters-2)
       - [Characters:](#characters-1)
       - [Mod Changes - Gameplay](#mod-changes---gameplay)
@@ -1405,18 +1408,19 @@ During your next maintenance phase, you can't configure system settings
 
 ---
 ## Breakdown - Bosses
+Boss Max Level: 5
 ### Demon
 ```
 Level 1:
     Health: 15
     6 Damage
     Rewards: 10 Coins
-    Defeat Penalty: Takes Up 1 System Resources
+    Defeat Penalty: Uninstall 1 'Gameplay' Mod
 Level Up:
     +3 Health
     +1 Damage
     Rewards: +3 Coins Per Level
-    Defeat Penalty: Takes Up .5 More System Resources (Rounded Down - i.e. Level 2 = 1, Level 3 = 2, Level 4 = 2, etc)
+    Defeat Penalty: Uninstall .5 More 'Gameplay' Mods Per Level (Rounded Down)
 ```
 ### Dragon
 ```
@@ -1424,12 +1428,12 @@ Level 1:
     Health: 20
     10 Damage
     Rewards: 20 Coins
-    Defeat Penalty: Uninstall 1 'Gameplay' Mod
+    Defeat Penalty: Takes Up 1 System Resources
 Level Up:
     +3 Health
     +2 Damage
     Rewards: +5 Coins Per Level
-    Defeat Penalty: Uninstall .5 More 'Gameplay' Mods Per Level (Rounded Down)
+    Defeat Penalty: Takes Up .5 More System Resources Per Level (Rounded Down - i.e. Level 2 = 1, Level 3 = 2, Level 4 = 2, etc)
 ```
 ### Rogue Warrior
 ```
@@ -1444,13 +1448,13 @@ Level Up:
     Rewards: +2 Coins Per Level
     Defeat Penalty: Takes Up .5 More System Resources Per Level (Rounded Down)
 ```
-### Large Fish
+### Very Large Fish
 ```
 Level 1:
     Health: 18
     5 Damage
     Rewards: Draw an Event Card, You may choose to activate it's effects or discard it
-    Defeat Penalty: Skip your next play phase
+    Defeat Penalty: Skip your next Maintenance phase
 Level Up:
     +3 Health
     +1 Damage
@@ -1476,7 +1480,7 @@ Level Up:
 ### Monster Titles
 #### Lesser
 ```
-Max Level: 2
+Max Level: 3
 Baseline Stats -1
 Baseline Rewards -1
 Baseline Level Up Health, Damage, and Rewards / 2 (Rounded Up)
@@ -1484,7 +1488,7 @@ Baseline Defeat Penalty
 ```
 #### Normal (Or Blank)
 ```
-Max Level: 3
+Max Level: 4
 Baseline Stats
 Baseline Rewards
 Baseline Level Up Health, Damage, and Rewards
@@ -1492,7 +1496,7 @@ Baseline Defeat Penalty
 ```
 #### Greater
 ```
-Max Level: 4
+Max Level: 5
 Baseline Stats +1
 Baseline Rewards +1
 Baseline Level Up Health, Damage, and Rewards +2
@@ -1506,7 +1510,7 @@ Level 1:
     10 Health
     6 Damage
     Rewards: +3 Coins
-    Defeat Penalty: Discard 1 'System Settings' Card From Your Hand
+    Defeat Penalty: Uninstall 1 'Gameplay' Mod
 Level Up:
     +2 Health
     +2 Damage
@@ -1752,12 +1756,50 @@ Description:
 #### Breakdown - Bosses
 ```
 - All Bosses Base Damage Increased by 1
-- All Bosses have -2 To Max Level (Because Player Will Only Ever Be Level 4)
+- All Bosses have -1 To Max Level (Because Player Will Only Ever Be Level 5)
+```
+##### Demon
+```
+Level 1:
+    Health: 15
+    6 Damage
+    Rewards: 10 Coins
+~    Defeat Penalty: Uninstall 1 'Gameplay' Mod (From "Takes Up 1 System Resources")
+Level Up:
+    +3 Health
+    +1 Damage
+    Rewards: +3 Coins Per Level
+~    Defeat Penalty: Uninstall .5 More 'Gameplay' Mods Per Level (Rounded Down) (From "Takes Up .5 More System Resources (Rounded Down)")
+```
+##### Dragon
+```
+Level 1:
+    Health: 20
+    10 Damage
+    Rewards: 20 Coins
+~    Defeat Penalty: Takes Up 1 System Resources (From "Uninstall 1 'Gameplay' Mod")
+Level Up:
+    +3 Health
+    +2 Damage
+    Rewards: +5 Coins Per Level
+~    Defeat Penalty: Takes Up .5 More System Resources (Rounded Down) (From "Uninstall .5 More 'Gameplay' Mods Per Level (Rounded Down)")
+```
+### Very Large Fish (Renamed from 'Large Fish')
+```
+Level 1:
+    Health: 18
+    5 Damage
+    Rewards: Draw an Event Card, You may choose to activate it's effects or discard it
+~    Defeat Penalty: Skip your next Maintenance phase (From "Skip your next Play phase")
+Level Up:
+    +3 Health
+    +1 Damage
+    Rewards: Draw another .5 Event Cards Per Level (Rounded Down), You may choose to activate it's effects or discard it
+    Defeat Penalty: No Additional Penalties
 ```
 #### Breakdown - Monsters
 ```
 - All Monsters Base Damage Increased by 1
-- All Monsters have -2 To Max Level (Because Player Will Only Ever Be Level 4)
 ```
 
 #### Characters:
