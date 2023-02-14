@@ -81,16 +81,25 @@
       - [Maintenance Phase Actions Available:](#maintenance-phase-actions-available)
       - [Bandwidth](#bandwidth-1)
       - [Saving](#saving-1)
+      - [Crashing](#crashing-1)
       - [Coins](#coins-1)
       - [The Forums](#the-forums-1)
       - [The Game](#the-game-1)
       - [Player's Hands](#players-hands-1)
+      - [Characters](#characters-1)
+      - [Computers Changes](#computers-changes)
+        - [Scamdeck](#scamdeck-1)
+        - [Hand-Me-Down](#hand-me-down-1)
+        - [Ol' Reliable](#ol-reliable-1)
+        - [Crackbook](#crackbook-1)
+        - [Gaming Laptop](#gaming-laptop-1)
+        - [Pre-Built](#pre-built-1)
+        - [Enthusiass Desktop](#enthusiass-desktop-1)
       - [Breakdown - Bosses](#breakdown---bosses-2)
         - [Demon](#demon-1)
         - [Dragon](#dragon-1)
         - [Very Large Fish (Renamed from 'Large Fish')](#very-large-fish-renamed-from-large-fish)
       - [Breakdown - Monsters](#breakdown---monsters-2)
-      - [Characters:](#characters-1)
       - [Mod Changes - Gameplay](#mod-changes---gameplay)
       - [Mod Changes - Cheat](#mod-changes---cheat)
       - [Mod Changes - Virus](#mod-changes---virus)
@@ -194,6 +203,7 @@ Description:
     - The main tools that players work on, as they run "The Game".
     - Chosen at the beginning of gameplay and cannot be Modified during game
     - Have a limited number of system resources that they can install Mods with, determined by computer stats
+    - Have a limited number of Bandwidth that the player can take actions with during the maintenance phase
 
 System Settings:
     - Computers can be Modified with 'System Settings' to do things like free more resources, prevent getting hacked, and become overclocked
@@ -323,18 +333,18 @@ Description:
     - Each player can take any of these actions, based on the amount of Bandwidth that player has
 
 Actions Available:
-    - Purchase Mods (1 Bandwidth)
+    - Purchase Mods
         - Purchase a Mod card for coins from the Mod deck.  This can be installed immediately for no extra actions, or put it into your mods folder
-    - Install, or uninstall mods (X Bandwidth, where X is half the System Resource value (rounded up))
+    - Install, or uninstall mods
         - Install a Mod from the Mod folder
         - Uninstall a Mod from your computer
-        - Install a Mod on another player's computer, if able (Costs 1 + X Bandwidth)
-    - Purchase System Settings (1 Bandwidth)
+        - Install a Mod on another player's computer, if able
+    - Purchase System Settings
         - Purchase a System Settings card for coins from the System Settings Deck.  This can be installed immediately for no extra actions, or put it into your hand
-    - Configure system settings (X Bandwidth, where X is the value on the card)
+    - Configure system settings
         - Play system settings from your hand
         - Activate effects of played system settings
-    - Sell an item on The Forums (1 Bandwidth)
+    - Sell an item on The Forums
     - End turn
         - Always available to be taken, does not cost an action
         - Ends player's turn immediately
@@ -345,7 +355,7 @@ Actions Available:
 Description: 
     - During each maintenance phase and lasting until their next turn, players have a certain amount of 'Bandwidth' they can use to perform actions
     - Bandwidth is refreshed at the start of a player's maintenance phase
-    - The amount of bandwidth is the same between all players, and starts at 5
+    - The amount of bandwidth differs based on computer
     - Different actions cost different amounts of bandwidth to perform, described below
 
 Action Cost:
@@ -354,8 +364,8 @@ Action Cost:
         - Draing a System Settings card
         - Installing a System Settings card on your computer
         - Selling a card to 'The Forums'
-    - 2 Bandwidth:
-        - Installing a mod on another player's computer (this is in addition to the bandwidth cost of the card played)
+    - 3 Bandwidth:
+        - Installing a mod or System Setting on another player's computer
     - Varying Bandwidth:
         - Installing a mod costs X bandwidth, where X is half the value (rounded up) of the Installed System Resources value
         - System Settings each have their own bandwidth cost
@@ -453,42 +463,49 @@ Permanent vs Single Use:
 ### Scamdeck
 ```
 System Resources: 10
+Bandwidth: 5
 Trait: Can't get a virus
 ```
 
 ### Hand-Me-Down
 ```
 System Resources: 10
-Trait: At the start of your turn, flip a coin.  If heads, go offline until your next turn
+Bandwidth: 5
+Trait: At the start of your maintenance, you may flip a coin. If heads, go offline until your next turn
 ```
 
 ### Ol' Reliable
 ```
 System Resources: 12
-Trait: On system crash, flip a coin.  If heads, remove all mods and treat the crash like a player death
+Bandwidth: 5
+Trait: On system crash, flip a coin. If heads, uninstall all virus mods, then uninstall mods until you have at least 1 free System Resource
 ```
 
 ### Crackbook
 ```
 System Resources: 14
+Bandwidth: 6
 Trait: Your own System Settings cost 5 coins to play on this computer
 ```
 
 ### Gaming Laptop
 ```
 System Resources: 16
-Trait: 'Virus' mods have double the effect on this computer
+Bandwidth: 6
+Trait: 'Bug Check' roll values on mods are doubled
 ```
 
 ### Pre-Built
 ```
 System Resources: 18
-Trait: 'Bug Check' roll values on mods are doubled
+Bandwidth: 6
+Trait: 'Virus' mods have double the effect on this computer
 ```
 
 ### Enthusiass Desktop
 ```
 System Resources: 20
+Bandwidth: 8
 Trait: Each turn, skip either your play phase OR your maintenance phase each turn
 ```
 
@@ -1258,6 +1275,8 @@ Honeypot
 Cost: 3 Bandwidth
 Use: Permanent
 Ability: May be played in response to a 'Virus' Mod being installed on your system. Immediately discard the next Mod installed on your system, then discard this card. If played out of turn, the cost is taken away from your Bandwidth at the start of the next maintenance phase.
+
+Additional Ruling: You cannot play this card if you will not have at least 3 Bandwidth during your next turn.  If your next maintenance phase would be skipped, this defecit will take effect during your next maintenance phase.
 ```
 Kali Linux VM
 ```
@@ -1688,7 +1707,7 @@ NEW MECHANIC
 Description: 
     - During each maintenance phase and lasting until their next turn, players have a certain amount of 'Bandwidth' they can use to perform actions
     - Bandwidth is refreshed at the start of a player's maintenance phase
-    - The amount of bandwidth is the same between all players, and starts at 5
+    - The amount of bandwidth differs based on computer
     - Different actions cost different amounts of bandwidth to perform, described below
 
 Action Cost:
@@ -1698,8 +1717,8 @@ Action Cost:
         - Installing a System Settings card on your computer
         - Selling a card to 'The Forums'
         - Installing a mod on another player's computer (this is in addition to the bandwidth cost of the card played)
-    - 2 Bandwidth:
-        - Installing a System Setting card on another player's computer
+    - 3 Bandwidth:
+        - Installing a System Setting or Mod card on another player's computer
     - Varying Bandwidth:
         - Installing a mod costs X bandwidth, where X is half the value (rounded up) of the Installed System Resources value
         - System Settings each have their own bandwidth cost
@@ -1716,6 +1735,12 @@ Dev Notes:
 - Players can choose which checkpoint to revert to
 - Players can only save on a boss space after that boss has been defeated
 ```
+
+#### Crashing
+```
+Penalties:
+~    - Player loses all of their unreliable coins (From Half their coins + Starting Value)
+``` 
 
 #### Coins
 ```
@@ -1752,6 +1777,105 @@ Description:
 - In order to draw a new card, that player must discard a card before drawing the new card
 - When discarding a card this way, that player does not get any coins for their card
 ```
+
+#### Characters
+```
+- Ranger:
+    Base:
+        12 Health (Unchanged)
+        1d20 - 5 Movement (From 1d12)
+            AVG 7.5
+        1d20 - 10 Damage (From 1d12)
+            AVG 5
+    Level Up:
+        +1 Health (Unchanged)
+        +1 Movement (Down From +2)
+        +2 Damage (Unchanged)
+- Mage:
+    Base:
+        8 Health (Down From 10)
+        1d20 - 10 Movement (From 1d12)
+            AVG 5
+        1d20 - 8 Damage (From 1d12)
+            AVG 6
+    Level Up:
+        +1 Health (Up From +1)
+        +1 Movement (Down From +2)
+        +3 Damage (Down From +3)
+- Barbarian:
+    Base:
+        18 Health
+        1d20 - 12 Movement (From 1d8)
+            AVG 4
+        1d20 - 6 Damage (From)
+            AVG 7
+    Level Up:
+        +1 Health (Unchanged)
+        +2 Movement (Up From +1)
+        +2 Damage (Down From +3)
+- Swordsman:
+    Base:
+        14 Health
+        1d20 - 8 Movement (From 1d8)
+            AVG 6
+        1d20 - 8 Damage (From 1d12)
+            AVG 6
+    Level Up:
+        +1 Health (Down From +2)
+        +2 Movement (Up From +1)
+        +1 Damage (Down From +2)
+```
+
+#### Computers Changes
+##### Scamdeck
+```
+System Resources: 10
+~ Bandwidth: 5 (New)
+Trait: Can't get a virus
+```
+
+##### Hand-Me-Down
+```
+System Resources: 10
+~ Bandwidth: 5 (New)
+~ Trait: At the start of your Maintenance, you may flip a coin. If heads, go offline until your next turn (From "At the start of your turn, flip a coin. If heads, go offline until your next turn")
+```
+
+##### Ol' Reliable
+```
+System Resources: 12
+~ Bandwidth: 5 (New)
+~ Trait: On system crash, flip a coin. If heads, uninstall all virus mods, then uninstall mods until you have at least 1 free System Resource (From "On system crash, flip a coin.  If heads, remove all mods and treat the crash like a player death"
+```
+
+##### Crackbook
+```
+System Resources: 14
+~ Bandwidth: 6 (New)
+Trait: Your own System Settings cost 5 coins to play on this computer
+```
+
+##### Gaming Laptop
+```
+System Resources: 16
+~ Bandwidth: 6 (New)
+~ Trait: 'Bug Check' roll values on mods are doubled(From "'Virus' mods have double the effect on this computer")
+```
+
+##### Pre-Built
+```
+System Resources: 18
+~ Bandwidth: 6 (New)
+~ Trait: 'Virus' mods have double the effect on this computer (From "'Bug Check' roll values on mods are doubled")
+```
+
+##### Enthusiass Desktop
+```
+System Resources: 20
+~ Bandwidth: 8 (New)
+Trait: Each turn, skip either your play phase OR your maintenance phase each turn
+```
+
 
 #### Breakdown - Bosses
 ```
@@ -1801,55 +1925,6 @@ Level Up:
 ```
 - All Monsters Base Damage Increased by 1
 ```
-
-#### Characters:
-```
-- Ranger:
-    Base:
-        12 Health (Unchanged)
-        1d20 - 5 Movement (From 1d12)
-            AVG 7.5
-        1d20 - 10 Damage (From 1d12)
-            AVG 5
-    Level Up:
-        +1 Health (Unchanged)
-        +1 Movement (Down From +2)
-        +2 Damage (Unchanged)
-- Mage:
-    Base:
-        8 Health (Down From 10)
-        1d20 - 10 Movement (From 1d12)
-            AVG 5
-        1d20 - 8 Damage (From 1d12)
-            AVG 6
-    Level Up:
-        +1 Health (Up From +1)
-        +1 Movement (Down From +2)
-        +3 Damage (Down From +3)
-- Barbarian:
-    Base:
-        18 Health
-        1d20 - 12 Movement (From 1d8)
-            AVG 4
-        1d20 - 6 Damage (From)
-            AVG 7
-    Level Up:
-        +1 Health (Unchanged)
-        +2 Movement (Up From +1)
-        +2 Damage (Down From +3)
-- Swordsman:
-    Base:
-        14 Health
-        1d20 - 8 Movement (From 1d8)
-            AVG 6
-        1d20 - 8 Damage (From 1d12)
-            AVG 6
-    Level Up:
-        +1 Health (Down From +2)
-        +2 Movement (Up From +1)
-        +1 Damage (Down From +2)
-```
-
 ---
 
 #### Mod Changes - Gameplay
