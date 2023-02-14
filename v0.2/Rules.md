@@ -324,13 +324,13 @@ Description:
 
 Actions Available:
     - Purchase Mods (1 Bandwidth)
-        - Purchase a Mod card for 3 coins from the Mod deck.  This can be installed immediately for no extra actions, or put it into your mods folder
+        - Purchase a Mod card for coins from the Mod deck.  This can be installed immediately for no extra actions, or put it into your mods folder
     - Install, or uninstall mods (X Bandwidth, where X is half the System Resource value (rounded up))
         - Install a Mod from the Mod folder
         - Uninstall a Mod from your computer
-        - Install a Mod on another player's computer, if able (Costs 2 + X Bandwidth)
+        - Install a Mod on another player's computer, if able (Costs 1 + X Bandwidth)
     - Purchase System Settings (1 Bandwidth)
-        - Purchase a System Settings card for 3 coins from the System Settings Deck.  This can be installed immediately for no extra actions, or put it into your hand
+        - Purchase a System Settings card for coins from the System Settings Deck.  This can be installed immediately for no extra actions, or put it into your hand
     - Configure system settings (X Bandwidth, where X is the value on the card)
         - Play system settings from your hand
         - Activate effects of played system settings
