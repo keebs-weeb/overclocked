@@ -1697,8 +1697,8 @@ Action Cost:
         - Draing a System Settings card
         - Installing a System Settings card on your computer
         - Selling a card to 'The Forums'
-    - 2 Bandwidth:
         - Installing a mod on another player's computer (this is in addition to the bandwidth cost of the card played)
+    - 2 Bandwidth:
         - Installing a System Setting card on another player's computer
     - Varying Bandwidth:
         - Installing a mod costs X bandwidth, where X is half the value (rounded up) of the Installed System Resources value
