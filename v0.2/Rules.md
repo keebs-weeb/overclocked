@@ -1302,6 +1302,12 @@ Cost: 1 Bandwidth
 Use: Single Use
 Ability: Installing mods costs 1 less Bandwidth this turn (Minimum 0).
 ```
+Mod Manager
+```
+Cost: 4 Bandwidth
+Use: Single Use
+Ability: Uninstall all installed mods. Install all previously uninstalled mods.
+```
 Multi-Factor Authentication
 ```
 Cost: 5 Bandwidth
@@ -2593,6 +2599,12 @@ Mod Loader
 Cost: 1 Bandwidth
 Use: Single Use
 Ability: Installing mods costs 1 less Bandwidth this turn (Minimum 0).  Does not stack with other 'Mod Loader' cards.
+```
+Mod Manager
+```
+Cost: 4 Bandwidth
+Use: Single Use
+Ability: Uninstall all installed mods. Install all previously uninstalled mods.
 ```
 SETTING NAME
 ```

@@ -1,0 +1,74 @@
+Reduce player board space
+Limit mods in some way to aim for 4/5 total mods per computer
+	- reduce computer resources?
+	- set up certain # of mod spaces?
+	- change mods to fall into more categories (from just gameplay/cheat/virus)
+		- Utility
+		- Items/Collectables
+		- Gameplay
+		- Audio/Textures
+		- World
+		- NPC
+		- Weapons/Armor
+		- Economy/Vendors
+	- change rules to only be able to install 1 mod of each type at a time (have to use different mods)
+	
+If dying before first checkpoint, return to space 1
+Kali Linux -1 Per Turn
+Difficulty Patch Bug Check Nerf
+	Idk what
+
+Crackbook needs more Bandwidth or Resources
+Have more ways to get money
+	Need to change events to have more sidequests
+	Voluntary 'mining' on mods spaces with a token that can be drawn at any time
+		Install: 3 Bandwidth
+		Takes up 4 resources
+		Uninstall: 4 Bandwidth (At Start of Maintenance Phase)
+		Gives: 3 Coins At Start at Maintenance Phase
+Bedtime:
+	Change to 'end your current turn' 
+	
+Draw a System Setting card at the start of your maintenance phase for free
+	
+Resources:
+	All computers will change their scaling
+	10 - Hand-Me-Down, Scamdeck
+	11 - Ol REliable, Crackbook
+	12 - Gaming Laptop, Prebuilt
+	15 - Enthusiass Desktop
+	
+Change Cheat Engine to a System Setting with no downside
+	
+Take the time to draw 1-2 mods per level and fight each boss and enemy multiple times
+	See which are the hardest, which are impossible, and which are easy
+	Do this after the dice change
+	Write a fucking Python script
+	
+Any number that needs to be tracked needs to be on a board
+	Bandwidth
+	Resources
+	Health/Movement/Damage
+	
+Infinite Money
+	6 Resources
+	Can draw one Mod or System setting for free
+	Card is uninstalled after use
+	
+Consumable Items Overhaul
+	At any time, place an 'Active Effect' onto this card.  That effect does not go away until this mod is uninstalled.
+	
+Speedhack:
+	-5 To Damage on Bug Roll
+	
+Multiclass needs to be static
+	Multiple Multi Classes for each stat?
+	
+	
+Player stats need a buff
+	Make everything based off of d12
+	Including mod rolls, enemy health, etc
+	No mods installed L1 Boss: 60% winrate (swordsman base)
+	No mods installed L1 Normal Monsters: 80% winrate (swordsman base)
+	
+	Upon testing, 1 point of health is worth about 25% of 1 point of damage
