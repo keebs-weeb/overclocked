@@ -70,7 +70,7 @@
 #### Scamdeck
 ```
 System Resources: 10
-Bandwidth: 4
+Bandwidth: 5
 Trait: Can't install virus cards
 ```
 
@@ -83,7 +83,7 @@ Trait: At the start of your maintenance, you may flip a coin. If heads, go offli
 
 #### Ol' Reliable
 ```
-System Resources: 11
+System Resources: 10
 Bandwidth: 5
 Trait: On system crash, flip a coin. If heads, do not revert to the last checkpoint (Still take all other actions of a system crash)
 ```
