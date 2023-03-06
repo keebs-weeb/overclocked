@@ -36,7 +36,7 @@ Resources:
 	10 - Hand-Me-Down, Scamdeck
 	11 - Ol REliable, Crackbook
 	12 - Gaming Laptop, Prebuilt
-	15 - Enthusiass Desktop
+	18 - Enthusiass Desktop
 	
 Change Cheat Engine to a System Setting with no downside
 	
