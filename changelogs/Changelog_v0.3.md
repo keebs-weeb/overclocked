@@ -771,7 +771,7 @@ Email Blast
 ```
 Draw 2 System Settings Cards
 ```
-Forum Subscription
+Forum Notification
 ```
 Draw 1 Mod Card, and put it into your Mod Folder
 ```

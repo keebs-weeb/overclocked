@@ -67,19 +67,27 @@ On your next movement, +6 to Movement
 ---
 
 ## Misc
-Tabbed Out
-```
-Nothing Happens
-```
 Bedtime
 ```
 Skip your next turn
+```
+Email Blast
+```
+Draw 2 System Settings Cards
+```
+Forum Notification
+```
+Draw 1 Mod Card, and put it into your Mod Folder
+```
+Lost Password
+```
+During your next maintenance phase, you can't configure system settings
 ```
 Missing Files
 ```
 During your next maintenance phase, you can't install mods
 ```
-Lost Password
+Tabbed Out
 ```
-During your next maintenance phase, you can't configure system settings
+Nothing Happens
 ```
