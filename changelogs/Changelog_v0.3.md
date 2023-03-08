@@ -2,11 +2,17 @@
 
 - [Changelog v0.3](#changelog-v03)
   - [Gameplay Changes](#gameplay-changes)
+    - [Starting Gameplay](#starting-gameplay)
     - [The Game](#the-game)
     - [Mods](#mods)
     - [Computers](#computers)
     - [Event Deck](#event-deck)
   - [Cards](#cards)
+    - [Players](#players)
+      - [Swordsman](#swordsman)
+      - [Ranger](#ranger)
+      - [Barbarian](#barbarian)
+      - [Mage](#mage)
     - [Computers](#computers-1)
       - [Scamdeck](#scamdeck)
       - [Hand-Me-Down](#hand-me-down)
@@ -20,8 +26,15 @@
       - [Cheat](#cheat)
       - [Virus](#virus)
     - [System Settings](#system-settings)
+    - [Event Cards](#event-cards)
+    - [Monsters](#monsters)
+    - [Bosses](#bosses)
 
 ## Gameplay Changes
+### Starting Gameplay
+```
+- Players now draw 4 System Settings cards to begin with
+```
 ### The Game
 ```
 - 'The Game' board now features dedicated spaces in which players can choose to stop movement on to take actions 
@@ -65,6 +78,51 @@
 
 ----
 ## Cards
+### Players
+#### Swordsman
+```
+Base:
+	Health: 2
+	Movement: 1
+	Damage: 1
+Level Up:
+	Health: 1
+	Movement: 1
+	Damage: 1
+```
+#### Ranger
+```
+Base:
+	Health: 0
+	Movement: 2
+	Damage: 1
+Level Up:
+	Health: 2
+	Movement: 1
+	Damage: 1
+```
+#### Barbarian
+```
+Base:
+	Health: 2
+	Movement: 0
+	Damage: 1
+Level Up:
+	Health: 2
+	Movement: 0
+	Damage: 1
+```
+#### Mage
+```
+Base:
+	Health: 1
+	Movement: 0
+	Damage: 0
+Level Up:
+	Health: 1
+	Movement: 0
+	Damage: 3
+```
 
 ### Computers
 #### Scamdeck
@@ -111,7 +169,7 @@ Trait: Interacting with other players costs 1 additional bandwidth
 
 #### Enthusiass Desktop
 ```
-System Resources: 18
+System Resources: 16
 Bandwidth: 8
 Trait: Each turn, skip either your play phase OR your maintenance phase each turn
 ```
@@ -138,11 +196,11 @@ Installed Value: 3
 Clean Effect: 
     +2 Coins Collected from Enemies
     +2 To Movement
-    +1 Enemy Damage
+    -1 To Health
 Buggy Effect:
     +2 Coins Collected from Enemies
-    +1 Enemy Damage
-    -2 To Movement
+    -1 To Movement
+    -1 To Health
 ```
 Better UI
 ```
@@ -163,17 +221,18 @@ Clean Effect:
     -1 To Card Cost
 Buggy Effect:
     -2 To Card Cost
-    +2 To Installed Value
+    +3 To Installed Value
 ```
 Big Heads
 ```
 Type: Gameplay
 Installed Value: 2
 Clean Effect: 
-    +3 To Movement
-    +2 To Enemy Damage
+    +3 To Health
+    +2 To Enemy Health
 Buggy Effect:
-    +2 To Enemy Damage
+    +1 To Health
+    +2 To Enemy Health
 ```
 Bigger Weapons
 ```
@@ -181,10 +240,10 @@ Type: Gameplay
 Installed Value: 2
 Clean Effect: 
     +3 To Damage
-    -2 To Movement
+    -1 To Movement
 Buggy Effect:
     +2 To Damage
-    -3 To Movement
+    -2 To Movement
 ```
 Consumable Items Overhaul
 ```
@@ -200,8 +259,7 @@ Controller Remapping
 Type: Gameplay
 Installed Value: 2
 Clean Effect: 
-    +3 To Movement
-    -1 To Damage
+    +2 To Movement
 Buggy Effect:
     +1 To Movement
     -1 To Damage
@@ -222,24 +280,23 @@ Type: Gameplay
 Installed Value: 2
 Clean Effect:
     +2 Movement
-    +1 Enemy Damage
+    -1 To Health
 Buggy Effect:
     +1 Movement
-    +1 Enemy Damage
+    -1 To Health
 ```
 Date NPCs
 ```
 Type: Gameplay
 Installed Value: 4
 Clean Effect:
-    +1 To Health
-    +1 To Movement
-    +2 To Damage
-    +1 To Card Cost
-Buggy Effect:
-    +1 To Health
+    +4 To Health
     +1 To Movement
     +1 To Damage
+    +1 To Card Cost
+Buggy Effect:
+    +4 To Health
+    +1 To Movement
     +2 To Card Cost
 ```
 Difficulty Patch
@@ -250,11 +307,11 @@ Clean Effect:
     +3 To Movement
     +5 Coins Collected from Enemies
     +3 To Enemy Health
-    +1 To Enemy Damage
+    -1 To Health
 Buggy Effect:
     +2 To Movement
     +2 To Enemy Health
-    +2 To Enemy Damage
+    -2 To Health
 ```
 First Person Mode
 ```
@@ -271,13 +328,13 @@ Furry Mod
 Type: Gameplay
 Installed Value: 4
 Clean Effect:
-    +2 To Health
+    +3 To Health
     +4 To Movement
     +2 To Card Cost
 Buggy Effect:
     +2 To Health
     +2 To Card Cost
-    +1 To Enemy Damage
+    -1 To Health
 ```
 HD Music Pack
 ```
@@ -287,7 +344,7 @@ Clean Effect:
     -1 To Mod Cost
 Buggy Effect:
     -1 To Mod Cost
-    +1 To Installed Value
+    +2 To Installed Value
 ```
 HD Texture Pack
 ```
@@ -297,7 +354,7 @@ Clean Effect:
     -1 To Mod Cost
 Buggy Effect:
     -1 To Mod Cost
-    +1 To Installed Value
+    +2 To Installed Value
 ```
 Lore Update
 ```
@@ -315,7 +372,9 @@ Type: Gameplay
 Installed Value: 1
 Clean Effect: 
     +1 To Movement
+    +1 To Health
 Buggy Effect:
+    +1 To Movement
     +1 To Enemy Health
 ```
 Modern Weapons
@@ -324,7 +383,7 @@ Type: Gameplay
 Installed Value: 4
 Clean Effect: 
     +5 To Damage
-    -2 To Movement
+    -3 To Movement
 Buggy Effect:
     +2 To Damage
     -1 To Movement
@@ -346,17 +405,17 @@ Type: Gameplay
 Installed Value: 2
 Clean Effect: 
     +2 To Movement
-    -1 To Damage
+    +1 To Health
 Buggy Effect:
-    -1 To Damage
+    -1 To Movement
 ```
 No Weapons
 ```
 Type: Gameplay
 Installed Value: 1
 Clean Effect: 
-    +3 To Movement
-    -2 To Damage
+    +4 To Movement
+    -1 To Damage
 Buggy Effect:
     +1 To Movement
     -1 To Damage
@@ -368,17 +427,18 @@ Installed Value: 2
 Clean Effect: 
     +2 Coins Collected from Enemies
     +1 To Movement
-    +2 To Enemy Damage
+    -1 To Health
 Buggy Effect:
     +1 Coins Collected from Enemies
-    +2 To Enemy Damage
+    -1 To Health
 ```
 Player Skins
 ```
 Type: Gameplay
 Installed Value: 1
 Clean Effect: 
-    +2 To Damage
+    +1 To Damage
+    +2 To Health
     +1 To Card Cost
 Buggy Effect:
     +1 To Card Cost
@@ -399,9 +459,9 @@ Type: Gameplay
 Installed Value: 3
 Clean Effect: 
     When you would draw an Event card, draw an additional one
-    +2 To Movement
+    +2 To Health
 Buggy Effect:
-    +1 To Movement
+    +1 To Health
     +1 To Card Cost
 ```
 Third Person Mode
@@ -411,13 +471,26 @@ Installed Value: 1
 Clean Effect: 
     +1 To Movement
 Buggy Effect:
-    -1 To Movement
+    +1 To Health
 ```
 
 #### Cheat
 Cheat Engine (REMOVED)
 ```
 REMOVED
+```
+Difficulty Reduction (NEW)
+```
+Type: Cheat
+Installed Value: 5
+Clean Effect: 
+    +6 To Health
+    +6 To Movement
+Buggy Effect:
+    +3 To Health
+    +3 To Movement
+    +2 To Card Cost
+    -2 To Installed Value
 ```
 Infinite Money
 ```
@@ -428,6 +501,7 @@ Clean Effect:
 Buggy Effect:
     Can draw 1 Mod or System Setting card for free each turn
     Can't Install 'Firewall' System Settings
+    -2 To Installed Value
 ```
 Quicksaves
 ```
@@ -438,6 +512,7 @@ Mod Effect:
 Buggy Effect:
     Always checkpoint in front of bosses
     Upon player defeat, lose half your 'reliable' coins (Rounded Down)
+    -1 To Installed Value
 ```
 Speedhack
 ```
@@ -446,8 +521,9 @@ Installed Value: 6
 Mod Effect: 
     +10 To Movement
 Buggy Effect:
-    +5 To Movement
+    +4 To Movement
     -4 To Damage
+    -2 To Installed Value
 ```
 Extra Lives (NEW)
 ```
@@ -459,15 +535,16 @@ Buggy Effect:
     Once per fight, upon player death, ignore it and heal to full instead
     -4 To Health
     -2 To Movement
+    -2 To Installed Value
 ```
 God Mode (NEW)
 ```
 Type: Cheat
 Installed Value: 2
 Mod Effect: 
-    Ignore all reductions to your health
+    Ignore all Gameplay and Cheat mod reductions to your health
 Buggy Effect:
-    Ignore all reductions to your health
+    Ignore all Gameplay and Cheat mod reductions to your health
     +2 To Installed Value
 ```
 Debug Console (NEW)
@@ -475,32 +552,24 @@ Debug Console (NEW)
 Type: Cheat
 Installed Value: 2
 Mod Effect: 
-    Ignore all reductions to your damage
+    Ignore all Gameplay and Cheat mod reductions to your damage
 Buggy Effect:
-    Ignore all reductions to your damage
+    Ignore all Gameplay and Cheat mod reductions to your damage
     +2 To Installed Value
 ```
-Free Movement
+Noclip (NEW)
 ```
 Type: Cheat
 Installed Value: 2
 Mod Effect: 
-    Ignore all reductions to your movement
+    Ignore all Gameplay and Cheat mod reductions to your movement
 Buggy Effect:
-    Ignore all reductions to your movement
+    Ignore all Gameplay and Cheat mod reductions to your movement
     +2 To Installed Value
 ```
 
 #### Virus
-BonziBuddy
-```
-Type: Virus
-Installed Value: 1
-Mod Effect:
-    At the end of each turn, discard a System Setting card from your hand
-    Can only be uninstalled by 'Antivirus' System Setting
-```
-Ch3at3rsN3v3rW1n.exe
+Anti-Cheat Rootkit (RENAMED From: "Ch3at3rsN3v3rW1n.exe")
 ```
 Type: Virus
 Installed Value: 2
@@ -508,6 +577,14 @@ Mod Effect:
     -3 To Health per Cheat Installed
     -3 To Damage per Cheat Installed
     -3 To Movement per Cheat Installed
+    Can only be uninstalled by 'Antivirus' System Setting
+```
+BonziBuddy
+```
+Type: Virus
+Installed Value: 1
+Mod Effect:
+    At the end of each turn, discard a System Setting card from your hand
     Can only be uninstalled by 'Antivirus' System Setting
 ```
 CryptoLocker
@@ -523,7 +600,7 @@ Cryptominer
 Type: Virus
 Installed Value: 2
 Mod Effect:     
-    Gives the owner of this card +1 coin at the beginning of your maintenance phase
+    Gives the owner of this card +2 coin at the beginning of your maintenance phase
     Can only be uninstalled by 'Antivirus' System Setting
 ```
 DDoS
@@ -608,13 +685,31 @@ CC Cleaner
 ```
 Cost: 1 Bandwidth
 Use: Single Use
-Ability: Move all installed gameplay mods to your mods folder (From: "Move all uninstalled mods to your mods folder")
+Ability: Move all installed gameplay and cheat mods to your mods folder (From: "Move all uninstalled mods to your mods folder")
 ```
 Cheat Engine (NEW)
 ```
 Cost: 1 Bandwidth Per Turn
 Use: Permanent
 Ability: Can choose which mods to uninstall
+```
+Clean Configuration File (NEW)
+```
+Cost: 1 Bandwidth
+Use: Single Use
+Ability: Change a mod on a computer from 'Buggy' to 'Clean'
+```
+Dirty Configuration File (NEW)
+```
+Cost: 1 Bandwidth
+Use: Single Use
+Ability: Change a mod on a computer from 'Clean' to 'Buggy'
+```
+Mass Configuration Modifications (NEW)
+```
+Cost: 4 Bandwidth
+Use: Single Use
+Ability: Change all mods on a computer that are 'Clean' to 'Buggy' and all mods that are 'Buggy' to 'Clean'
 ```
 Metasploit (Renamed From: "Kali Linux VM")
 ```
@@ -642,7 +737,7 @@ Ability: Until your next turn you cannot: install mods or system settings on any
 ```
 Overclocking
 ```
-Cost: 2 Bandwidth
+Cost: 1 Bandwidth Per Turn (From: "2 Bandwidth")
 Use: Permanent (From Single Use)
 Ability: When a system crash would occur, instead discard this setting and prevent it until the end of your NEXT maintenance phase
 ```
@@ -663,4 +758,133 @@ Scriptkiddie
 Cost: 1 Bandwidth
 Use: Single Use
 Ability: Install or uninstall 1 mod or system setting from another player's computer, or negate 1 system setting from another player's computer until your next turn (From: "install or uninstall 1 mod, or negate 1 system setting from another computer")
+```
+YouTube Hacking Tutorial (NEW)
+```
+Cost: 1 Bandwidth
+Use: Single Use
+Ability: Install or uninstall 1 mod or system setting from another player's computer
+```
+
+### Event Cards
+Email Blast
+```
+Draw 2 System Settings Cards
+```
+Forum Subscription
+```
+Draw 1 Mod Card, and put it into your Mod Folder
+```
+
+### Monsters
+Bird Man
+```
+Base:
+	Health: 9
+	Damage: 5
+Level:
+	Health: +1
+	Damage: +1
+```
+Ghost
+```
+Base:
+	Health: 9
+	Damage: 5
+Level:
+	Health: +1
+	Damage: +0
+```
+Necromancer
+```
+Base:
+	Health: 7
+	Damage: 8
+Level:
+	Health: +2
+	Damage: +0
+```
+Royal Archer
+```
+Base:
+	Health: 10
+	Damage: 8
+Level:
+	Health: +1
+	Damage: +0
+```
+Royal Knight
+```
+Base:
+	Health: 11
+	Damage: 7
+Level:
+	Health: +0
+	Damage: +1
+```
+Ogre
+```
+Base:
+	Health: 15
+	Damage: 4
+Level:
+	Health: +0
+	Damage: +1
+```
+Scorpion
+```
+Base:
+	Health: 4
+	Damage: 15
+Level:
+	Health: +0
+	Damage: +3
+```
+Zombie
+```
+Base:
+	Health: 8
+	Damage: 3
+Level:
+	Health: +2
+	Damage: +1
+```
+
+
+### Bosses
+Dragon
+```
+Base:
+	Health: 13
+	Damage: 3
+Level:
+	Health: +2
+	Damage: +4
+```
+Rogue warrior
+```
+Base:
+	Health: 16
+	Damage: 6
+Level:
+	Health: +2
+	Damage: +1
+```
+Demon
+```
+Base:
+	Health: 18
+	Damage: 6
+Level:
+	Health: +3
+	Damage: +1
+```
+Very large fish
+```
+Base:
+	Health: 24
+	Damage: 5
+Level:
+	Health: +0
+	Damage: +1
 ```

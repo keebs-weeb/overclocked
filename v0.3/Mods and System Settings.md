@@ -1,27 +1,92 @@
 - [Breakdown - Mods](#breakdown---mods)
   - [Mod Types](#mod-types)
   - [Gameplay Mods](#gameplay-mods)
+    - [Armor Overhaul](#armor-overhaul)
+    - [Better AI](#better-ai)
+    - [Better UI](#better-ui)
+    - [Better Vendors](#better-vendors)
+    - [Big Heads](#big-heads)
+    - [Bigger Weapons](#bigger-weapons)
+    - [Consumable Items Overhaul](#consumable-items-overhaul)
+    - [Controller Remapping](#controller-remapping)
+    - [Corporate Branding](#corporate-branding)
+    - [Custom Terrain](#custom-terrain)
+    - [Date NPCs](#date-npcs)
+    - [Difficulty Patch](#difficulty-patch)
+    - [First Person Mode](#first-person-mode)
+    - [Furry Mod](#furry-mod)
+    - [Lore Update](#lore-update)
+    - [Lower Resolution Support](#lower-resolution-support)
+    - [Modern Weapons](#modern-weapons)
+    - [Multiclass](#multiclass)
+    - [Nude Mod](#nude-mod)
+    - [Player Skins](#player-skins)
+    - [Randomizer](#randomizer)
+    - [Revamped Sidequests](#revamped-sidequests)
+    - [Third Person Mode](#third-person-mode)
   - [Cheat Mods](#cheat-mods)
+    - [Difficulty Reduction](#difficulty-reduction)
+    - [Infinite Money](#infinite-money)
+    - [Quicksaves](#quicksaves)
+    - [Speedhack](#speedhack)
+    - [Extra Lives](#extra-lives)
+    - [God Mode](#god-mode)
+    - [Debug Console](#debug-console)
+    - [Noclip](#noclip)
   - [Virus Mods](#virus-mods)
+    - [Anti-Cheat Rootkit](#anti-cheat-rootkit)
+    - [BonziBuddy](#bonzibuddy)
+    - [CryptoLocker](#cryptolocker)
+    - [Cryptominer](#cryptominer)
+    - [DDoS](#ddos)
+    - [ILOVEYOU](#iloveyou)
+    - [Meltdown](#meltdown)
+    - [Memory Leak](#memory-leak)
+    - [Pirated Game](#pirated-game)
+    - [Spectre](#spectre)
+    - [Spyware](#spyware)
+    - [Stuxnet](#stuxnet)
 - [Breakdown - System Settings](#breakdown---system-settings)
+  - [Administrator Account](#administrator-account)
+  - [Antivirus](#antivirus)
+  - [BattleEye Anti-Cheat](#battleeye-anti-cheat)
+  - [Burstable Internet Uplink](#burstable-internet-uplink)
+  - [CC Cleaner](#cc-cleaner)
+  - [Cheat Engine](#cheat-engine)
+  - [Clean Configuration File](#clean-configuration-file)
+  - [Dirty Configuration File](#dirty-configuration-file)
+  - [Firewall](#firewall)
+  - [Forum Reputation](#forum-reputation)
+  - [Fresh Install](#fresh-install)
+  - [Honeypot](#honeypot)
+  - [Loud, Clicky, Scratchy Keyboard](#loud-clicky-scratchy-keyboard)
+  - [Mass Configuration Modifications](#mass-configuration-modifications)
+  - [Metasploit](#metasploit)
+  - [Messy Desk](#messy-desk)
+  - [Mod Loader](#mod-loader)
+  - [Mod Manager](#mod-manager)
+  - [Multi-Factor Authentication](#multi-factor-authentication)
+  - [Offline](#offline)
+  - [Overclocking](#overclocking)
+  - [Registry Editor](#registry-editor)
+  - [Remote Access Tool](#remote-access-tool)
+  - [Scriptkiddie](#scriptkiddie)
+  - [YouTube Hacking Tutorial](#youtube-hacking-tutorial)
 
 
 # Breakdown - Mods
 ## Mod Types
 ```
 Gameplay: Mods that affect the game in a way that is not strictly advantageous
-    Examples: //TODO
 
 Cheat: Mods that affect the game in a way that is strictly advantageous
-    Examples: //TODO
 
 Virus: Mods that affect the game in a way that is strictly negative
-    Examples: //TODO
 ```
 
 ---
 ## Gameplay Mods
-Armor Overhaul
+### Armor Overhaul
 ```
 Type: Gameplay
 Installed Value: 2
@@ -33,20 +98,20 @@ Buggy Effect:
     -1 To Movement
     -1 To Damage
 ```
-Better AI
+### Better AI
 ```
 Type: Gameplay
 Installed Value: 3
 Clean Effect: 
     +2 Coins Collected from Enemies
     +2 To Movement
-    +1 Enemy Damage
+    -1 To Health
 Buggy Effect:
     +2 Coins Collected from Enemies
-    +1 Enemy Damage
-    -2 To Movement
+    -1 To Movement
+    -1 To Health
 ```
-Better UI
+### Better UI
 ```
 Type: Gameplay
 Installed Value: 2
@@ -57,7 +122,7 @@ Buggy Effect:
     +1 To Movement
     -1 To Damage
 ```
-Better Vendors
+### Better Vendors
 ```
 Type: Gameplay
 Installed Value: 2
@@ -65,30 +130,31 @@ Clean Effect:
     -1 To Card Cost
 Buggy Effect:
     -2 To Card Cost
-    +2 To Installed Value
+    +3 To Installed Value
 ```
-Big Heads
+### Big Heads
 ```
 Type: Gameplay
 Installed Value: 2
 Clean Effect: 
-    +3 To Movement
-    +2 To Enemy Damage
+    +3 To Health
+    +2 To Enemy Health
 Buggy Effect:
-    +2 To Enemy Damage
+    +1 To Health
+    +2 To Enemy Health
 ```
-Bigger Weapons
+### Bigger Weapons
 ```
 Type: Gameplay
 Installed Value: 2
 Clean Effect: 
     +3 To Damage
-    -2 To Movement
+    -1 To Movement
 Buggy Effect:
     +2 To Damage
-    -3 To Movement
+    -2 To Movement
 ```
-Consumable Items Overhaul
+### Consumable Items Overhaul
 ```
 Type: Gameplay
 Installed Value: 3
@@ -97,18 +163,17 @@ Clean Effect:
 Buggy Effect:
     When a 'Nerf' Active Effect would come into effect, place it onto this card. That effect does not go away until this mod is uninstalled.
 ```
-Controller Remapping
+### Controller Remapping
 ```
 Type: Gameplay
 Installed Value: 2
 Clean Effect: 
-    +3 To Movement
-    -1 To Damage
+    +2 To Movement
 Buggy Effect:
     +1 To Movement
     -1 To Damage
 ```
-Corporate Branding
+### Corporate Branding
 ```
 Type: Gameplay
 Installed Value: 2
@@ -118,33 +183,32 @@ Buggy Effect:
     +2 Coins at the start of each maintenance phase
     +1 To Installed Value
 ```
-Custom Terrain
+### Custom Terrain
 ```
 Type: Gameplay
 Installed Value: 2
 Clean Effect:
     +2 Movement
-    +1 Enemy Damage
+    -1 To Health
 Buggy Effect:
     +1 Movement
-    +1 Enemy Damage
+    -1 To Health
 ```
-Date NPCs
+### Date NPCs
 ```
 Type: Gameplay
 Installed Value: 4
 Clean Effect:
-    +1 To Health
-    +1 To Movement
-    +2 To Damage
-    +1 To Card Cost
-Buggy Effect:
-    +1 To Health
+    +4 To Health
     +1 To Movement
     +1 To Damage
+    +1 To Card Cost
+Buggy Effect:
+    +4 To Health
+    +1 To Movement
     +2 To Card Cost
 ```
-Difficulty Patch
+### Difficulty Patch
 ```
 Type: Gameplay
 Installed Value: 2
@@ -152,13 +216,13 @@ Clean Effect:
     +3 To Movement
     +5 Coins Collected from Enemies
     +3 To Enemy Health
-    +1 To Enemy Damage
+    -1 To Health
 Buggy Effect:
     +2 To Movement
     +2 To Enemy Health
-    +2 To Enemy Damage
+    -2 To Health
 ```
-First Person Mode
+### First Person Mode
 ```
 Type: Gameplay
 Installed Value: 1
@@ -168,18 +232,18 @@ Buggy Effect:
     +1 To Damage
     +1 To Installed Value
 ```
-Furry Mod
+### Furry Mod
 ```
 Type: Gameplay
 Installed Value: 4
 Clean Effect:
-    +2 To Health
+    +3 To Health
     +4 To Movement
     +2 To Card Cost
 Buggy Effect:
     +2 To Health
     +2 To Card Cost
-    +1 To Enemy Damage
+    -1 To Health
 ```
 HD Music Pack
 ```
@@ -189,7 +253,7 @@ Clean Effect:
     -1 To Mod Cost
 Buggy Effect:
     -1 To Mod Cost
-    +1 To Installed Value
+    +2 To Installed Value
 ```
 HD Texture Pack
 ```
@@ -199,9 +263,9 @@ Clean Effect:
     -1 To Mod Cost
 Buggy Effect:
     -1 To Mod Cost
-    +1 To Installed Value
+    +2 To Installed Value
 ```
-Lore Update
+### Lore Update
 ```
 Type: Gameplay
 Installed Value: 2
@@ -211,27 +275,29 @@ Clean Effect:
 Buggy Effect:
     -1 To Movement
 ```
-Lower Resolution Support
+### Lower Resolution Support
 ```
 Type: Gameplay
 Installed Value: 1
 Clean Effect: 
     +1 To Movement
+    +1 To Health
 Buggy Effect:
+    +1 To Movement
     +1 To Enemy Health
 ```
-Modern Weapons
+### Modern Weapons
 ```
 Type: Gameplay
 Installed Value: 4
 Clean Effect: 
     +5 To Damage
-    -2 To Movement
+    -3 To Movement
 Buggy Effect:
     +2 To Damage
     -1 To Movement
 ```
-Multiclass
+### Multiclass
 ```
 Type: Gameplay
 Installed Value: 3
@@ -248,44 +314,45 @@ Type: Gameplay
 Installed Value: 2
 Clean Effect: 
     +2 To Movement
-    -1 To Damage
+    +1 To Health
 Buggy Effect:
-    -1 To Damage
+    -1 To Movement
 ```
 No Weapons
 ```
 Type: Gameplay
 Installed Value: 1
 Clean Effect: 
-    +3 To Movement
-    -2 To Damage
+    +4 To Movement
+    -1 To Damage
 Buggy Effect:
     +1 To Movement
     -1 To Damage
 ```
-Nude Mod
+### Nude Mod
 ```
 Type: Gameplay
 Installed Value: 2
 Clean Effect: 
     +2 Coins Collected from Enemies
     +1 To Movement
-    +2 To Enemy Damage
+    -1 To Health
 Buggy Effect:
     +1 Coins Collected from Enemies
-    +2 To Enemy Damage
+    -1 To Health
 ```
-Player Skins
+### Player Skins
 ```
 Type: Gameplay
 Installed Value: 1
 Clean Effect: 
-    +2 To Damage
+    +1 To Damage
+    +2 To Health
     +1 To Card Cost
 Buggy Effect:
     +1 To Card Cost
 ```
-Randomizer
+### Randomizer
 ```
 Type: Gameplay
 Installed Value: 0
@@ -295,318 +362,287 @@ Clean Effect:
 Buggy Effect:
     When rolling for anything besides damage and movement, roll twice and take the lower value
 ```
-Revamped Sidequests
+### Revamped Sidequests
 ```
 Type: Gameplay
 Installed Value: 3
 Clean Effect: 
     When you would draw an Event card, draw an additional one
-    +2 To Movement
+    +2 To Health
 Buggy Effect:
-    +1 To Movement
+    +1 To Health
     +1 To Card Cost
 ```
-Third Person Mode
+### Third Person Mode
 ```
 Type: Gameplay
 Installed Value: 1
 Clean Effect: 
     +1 To Movement
 Buggy Effect:
-    -1 To Movement
-```
-MOD NAME
-```
-Type: Gameplay
-Installed Value: 
-Uninstalled Value: 
-Mod Effect: 
-    Pros:
-    Cons:
-Bug Check:
-    Value:
-    Bug:
+    +1 To Health
 ```
 
 ---
 ## Cheat Mods
-Cheat Engine
-```
-Type: Cheat
-Installed Value: 2
-Uninstalled Value: 2
-Mod Effect: 
-    Pros:
-        Can select which mod to uninstall
-        Can uninstall mods directly to the Mods Folder
-Bug Check:
-    Value: 10
-    Bug: All Mods have +1 Installed AND Uninstalled Values
-```
-Infinite Money
+### Difficulty Reduction
 ```
 Type: Cheat
 Installed Value: 5
-Uninstalled Value: 2
-Mod Effect: 
-    Pros:
-        Can draw Mods and System Settings for free
-Bug Check:
-    Value: 10
-    Bug: Can't Install 'Firewall' System Settings
+Clean Effect: 
+    +6 To Health
+    +6 To Movement
+Buggy Effect:
+    +3 To Health
+    +3 To Movement
+    +2 To Card Cost
+    -2 To Installed Value
 ```
-Quicksaves
+### Infinite Money
+```
+Type: Cheat
+Installed Value: 6
+Clean Effect: 
+    Can draw 1 Mod or System Setting card for free each turn
+Buggy Effect:
+    Can draw 1 Mod or System Setting card for free each turn
+    Can't Install 'Firewall' System Settings
+    -2 To Installed Value
+```
+### Quicksaves
+```
+Type: Cheat
+Installed Value: 4
+Mod Effect: 
+    Always checkpoint in front of bosses
+Buggy Effect:
+    Always checkpoint in front of bosses
+    Upon player defeat, lose half your 'reliable' coins (Rounded Down)
+    -1 To Installed Value
+```
+### Speedhack
+```
+Type: Cheat
+Installed Value: 6
+Mod Effect: 
+    +10 To Movement
+Buggy Effect:
+    +4 To Movement
+    -4 To Damage
+    -2 To Installed Value
+```
+### Extra Lives
+```
+Type: Cheat
+Installed Value: 4
+Mod Effect: 
+    Once per fight, upon player death, ignore it and heal to full instead
+Buggy Effect:
+    Once per fight, upon player death, ignore it and heal to full instead
+    -4 To Health
+    -2 To Movement
+    -2 To Installed Value
+```
+### God Mode
 ```
 Type: Cheat
 Installed Value: 2
-Uninstalled Value: 2
 Mod Effect: 
-    Pros:
-        Always checkpoint in front of bosses
-Bug Check:
-    Value: 5
-    Bug: Upon player defeat, lose half your 'reliable' coins (Rounded Down)
+    Ignore all Gameplay and Cheat mod reductions to your health
+Buggy Effect:
+    Ignore all Gameplay and Cheat mod reductions to your health
+    +2 To Installed Value
 ```
-Speedhack
+### Debug Console
 ```
 Type: Cheat
-Installed Value: 5
-Uninstalled Value: 2
+Installed Value: 2
 Mod Effect: 
-    Pros:
-        +10 To Movement
-Bug Check:
-    Value: 15
-    Bug: -10 To Damage
+    Ignore all Gameplay and Cheat mod reductions to your damage
+Buggy Effect:
+    Ignore all Gameplay and Cheat mod reductions to your damage
+    +2 To Installed Value
 ```
-MOD NAME
+### Noclip
 ```
 Type: Cheat
-Installed Value: 
-Uninstalled Value: 
+Installed Value: 2
 Mod Effect: 
-    Pros:
-    Cons:
-Bug Check:
-    Value:
-    Bug:
+    Ignore all Gameplay and Cheat mod reductions to your movement
+Buggy Effect:
+    Ignore all Gameplay and Cheat mod reductions to your movement
+    +2 To Installed Value
 ```
-
 ---
 ## Virus Mods
-BonziBuddy
+### Anti-Cheat Rootkit
+```
+Type: Virus
+Installed Value: 2
+Mod Effect: 
+    -3 To Health per Cheat Installed
+    -3 To Damage per Cheat Installed
+    -3 To Movement per Cheat Installed
+    Can only be uninstalled by 'Antivirus' System Setting
+```
+### BonziBuddy
 ```
 Type: Virus
 Installed Value: 1
-Uninstalled Value: NONE
-Mod Effect: 
-    Cons:
-        At the end of each turn, discard a System Setting card from your hand
-Bug Check:
-    Value: 1
-    Bug: At the start of each turn, you must either sing, tell a joke, or shill a fake computer product to all other playes
+Mod Effect:
+    At the end of each turn, discard a System Setting card from your hand
+    Can only be uninstalled by 'Antivirus' System Setting
 ```
-Ch3at3rsN3v3rW1n.exe
+### CryptoLocker
 ```
 Type: Virus
 Installed Value: 2
-Uninstalled Value: NONE
 Mod Effect: 
-    Cons: 
-        -3 To Health per Cheat Installed
-        -3 To Damage per Cheat Installed
-        -3 To Movement per Cheat Installed
-Bug Check:
-    Value: 5
-    Bug: -2 To Health, Damage, and Movement per Cheat Installed
+    Cannot install or uninstall Mods unless a card effect makes you.
+    Can only be uninstalled by 'Antivirus' System Setting
 ```
-CryptoLocker
+### Cryptominer
 ```
 Type: Virus
 Installed Value: 2
-Uninstalled Value: NONE
-Mod Effect: 
-    Cons: 
-        Cannot install or uninstall Mods unless a card effect makes you.
-Bug Check:
-    Value: 5
-    Bug: +1 To Installed Value
-```
-Cryptominer
-```
-Type: Virus
-Installed Value: 4
-Uninstalled Value: NONE
 Mod Effect:     
-    Cons:
-        Gives the owner of this card +1 coin at the beginning of your maintenance phase
-        Can only be uninstalled by 'Antivirus' System Setting
-
-Bug Check:
-    Value: 10
-    Bug: +2 To Installed Value
+    Gives the owner of this card +2 coin at the beginning of your maintenance phase
+    Can only be uninstalled by 'Antivirus' System Setting
 ```
-DDoS
+### DDoS
 ```
 Type: Virus
 Installed Value: 0
-Uninstalled Value: NONE
 Mod Effect: 
-    Cons: 
-        On each of your turns, you have -1 to Bandwith.
-Bug Check:
-    Value: 10
-    Bug: This computer can have other 'DDoS' cards installed.
+    You can have more than one 'DDoS' card installed
+    On each of your turns, you have -1 to Bandwith
+    Can only be uninstalled by 'Antivirus' System Setting
 ```
-ILOVEYOU
+### ILOVEYOU
 ```
 Type: Virus
 Installed Value: 1
-Uninstalled Value: NONE
-Mod Effect: 
-    Cons: 
-        At the end of your maintenance phase, randomly uninstall one Mod.
-Bug Check:
-    Value: 5
-    Bug: +1 To Installed Value
+Mod Effect:
+    At the end of your maintenance phase, randomly uninstall one Mod
+    Can only be uninstalled by 'Antivirus' System Setting
 ```
-Meltdown
+### Meltdown
 ```
 Type: Virus
 Installed Value: 2
-Uninstalled Value: NONE
 Mod Effect: 
-    Cons: 
-        Can be installed on computers with 'Firewall' active
-Bug Check:
-    Value: 2
-    Bug: +2 To Installed Value
+    Can be installed on computers with 'Firewall' active
+    Can only be uninstalled by 'Antivirus' System Setting
 ```
-Memory Leak
+### Memory Leak
 ```
 Type: Virus
 Installed Value: 1
-Uninstalled Value: NONE
 Mod Effect: 
-    Cons:
-        Each turn, double this card's Installed Value cost
-        Can only be uninstalled by 'Antivirus' System Setting
-Bug Check:
-    Value: 5
-    Bug: +1 to Installed Value
+    Each turn, double this card's Installed Value cost
+    Can only be uninstalled by 'Antivirus' System Setting
 ```
-Pirated Game
+### Pirated Game
 ```
 Type: Virus
-Installed Value: 6
-Uninstalled Value: NONE
+Installed Value: 5
 Mod Effect: 
-    Cons:
-        Can only be uninstalled by 'Antivirus' System Setting
-Bug Check:
-    Value: 5
-    Bug: 'Firewall' System Setting has no effect
+    Can only be uninstalled by 'Antivirus' System Setting
 ```
-Spectre
+### Spectre
 ```
 Type: Virus
 Installed Value: 2
-Uninstalled Value: NONE
 Mod Effect: 
-    Cons: 
-        Can be installed on computers with 'Firewall' active
-Bug Check:
-    Value: 2
-    Bug: +2 To Installed Value
+    Can be installed on computers with 'Firewall' active
+    Can only be uninstalled by 'Antivirus' System Setting
 ```
-Spyware
+### Spyware
 ```
 Type: Virus
 Installed Value: 0
-Uninstalled Value: NONE
 Mod Effect: 
-    Cons:
-        The original owner of this can play 1 System Settings card from your hand during their turn
-        Can only be uninstalled by 'Antivirus' System Setting
-Bug Check:
-    Value: 5
-    Bug: The original owner of this card can install 1 mod from your mods folder during their turn
+    The original owner of this can play 1 System Settings card from your hand during their turn
+    Can only be uninstalled by 'Antivirus' System Setting
 ```
-Stuxnet
+### Stuxnet
 ```
 Type: Virus
-Installed Value: 3
-Uninstalled Value: NONE
+Installed Value: 2
 Mod Effect: 
-    Cons: 
-        At the end of your maintenance phase, flip a coin. On heads, install this Mod on the previous player's computer. This action happens without need for any other effects. This action cannot happen if the previous player is 'Offline' or has a 'Firewall' active.
-Bug Check:
-    Value: 5
-    Bug: Flip a coin twice instead of once. Both flips must land on heads for this Mod to move.
-```
-MOD NAME
-```
-Type: Virus
-Installed Value: 
-Uninstalled Value: NONE
-Mod Effect: 
-    Cons: 
-Bug Check:
-    Value: 
-    Bug: 
+    At the end of your maintenance phase, flip a coin. On heads, install this Mod on the previous player's computer. This action happens without need for any other effects. This action cannot happen if the previous player is 'Offline' or has a 'Firewall' active.
+    Can only be uninstalled by 'Antivirus' System Setting
 ```
 
 ---
 # Breakdown - System Settings
-Administrator Account
+## Administrator Account
 ```
 Cost: 5 Bandwidth
 Use: Permanent
-Ability: +5 to Computer's System Resources
+Ability: +3 to Computer's System Resources
 ```
-Antivirus
+## Antivirus
 ```
 Cost: 1 Bandwidth
 Use: Single Use
 Ability: Uninstall 1 'Virus' mod
 ```
-BattleEye Anti-Cheat
+## BattleEye Anti-Cheat
 ```
 Cost: 3 Bandwidth
 Use: Single Use
 Ability: Can play on another player's computer that has a 'Cheat' mod installed. Skip player's next turn.
 ```
-Burstable Internet Uplink
+## Burstable Internet Uplink
 ```
 Cost: 1 Bandwidth
 Use: Single Use
 Ability: +3 To Bandwidth this turn
 ```
-CC Cleaner
+## CC Cleaner
 ```
 Cost: 1 Bandwidth
 Use: Single Use
-Ability: Move all uninstalled mods to your mods folder
+Ability: Move all installed gameplay and cheat mods to your mods folder
 ```
-Firewall
+## Cheat Engine
+```
+Cost: 1 Bandwidth Per Turn
+Use: Permanent
+Ability: Can choose which mods to uninstall
+```
+## Clean Configuration File
 ```
 Cost: 1 Bandwidth
 Use: Single Use
-Ability: Prevents any mods from being installed on your computer until your next turn
+Ability: Change a mod on a computer from 'Buggy' to 'Clean'
 ```
-Forum Reputation
+## Dirty Configuration File
+```
+Cost: 1 Bandwidth
+Use: Single Use
+Ability: Change a mod on a computer from 'Clean' to 'Buggy'
+```
+## Firewall
+```
+Cost: 1 Bandwidth
+Use: Single Use
+Ability: Prevents any mods from being installed by other players on your computer until your next turn
+```
+## Forum Reputation
 ```
 Cost: 1 Bandwidth
 Use: Single Use
 Ability: +2 To Coins received when selling on 'The Forums' This Turn
 ```
-Fresh Install
+## Fresh Install
 ```
 Cost: 2 Bandwidth
 Use: Single Use
 Ability: Move all mods to your Mod Folder. Discard all 'Virus' Mods.
 ```
-Honeypot
+## Honeypot
 ```
 Cost: 3 Bandwidth
 Use: Permanent
@@ -614,63 +650,96 @@ Ability: May be played in response to a 'Virus' Mod being installed on your syst
 
 Additional Ruling: You cannot play this card if you will not have at least 3 Bandwidth during your next turn.  If your next maintenance phase would be skipped, this defecit will take effect during your next maintenance phase.
 ```
-Kali Linux VM
-```
-Cost: 1 Bandwidth Per Turn
-Use: Permanent
-Ability: Allows you to install mods on other player's computers
-```
-Loud, Clicky, Scratchy Keyboard
+## Loud, Clicky, Scratchy Keyboard
 ```
 Cost: 0 Bandwidth
 Use: Permanent
 Ability: Annoys your friends. Stop it. (Does Nothing)
 ```
-Messy Desk
+## Mass Configuration Modifications
+```
+Cost: 4 Bandwidth
+Use: Single Use
+Ability: Change all mods on a computer that are 'Clean' to 'Buggy' and all mods that are 'Buggy' to 'Clean'
+```
+## Metasploit
+```
+Cost: 2 Bandwidth Per Turn
+Use: Permanent
+Ability: Allows you to install mods and system settings on other player's computers
+```
+## Messy Desk
 ```
 Cost: 0 Bandwidth
 Use: Permanent
 Ability: How can you live like this? (Does Nothing)
 ```
-Mod Loader
+## Mod Loader
 ```
 Cost: 1 Bandwidth
 Use: Single Use
 Ability: Installing mods costs 1 less Bandwidth this turn (Minimum 0).
 ```
-Mod Manager
+## Mod Manager
 ```
-Cost: 4 Bandwidth
+Cost: 2 Bandwidth
 Use: Single Use
-Ability: Uninstall all installed mods. Install all previously uninstalled mods.
+Ability: Draw 4 mod cards. Pick one and either install or put it in your mods folder.  Shuffle the rest into the mods deck.
 ```
-Multi-Factor Authentication
+## Multi-Factor Authentication
 ```
 Cost: 5 Bandwidth
 Use: Permanent
 Ability: Immediately discard all 'Cheat' Mods installed. Cannot install 'Cheat' Mods. +2 To Bandwidth
 ```
-Offline
+## Offline
 ```
 Cost: 1 Bandwidth
 Use: Single Use
-Ability: Until your next turn you cannot: install mods on any other player's computers, have mods installed by other players, or draw system settings cards
+Ability: Until your next turn you cannot: install mods or system settings on any other player's computers, have mods installed or system settings by other players, or draw any cards
 ```
-Overclocking
+## Overclocking
 ```
-Cost: 2 Bandwidth
-Use: Single Use
+Cost: 1 Bandwidth Per Turn
+Use: Permanent 
 Ability: When a system crash would occur, instead discard this setting and prevent it until the end of your NEXT maintenance phase
 ```
-Registry Editor
+## Registry Editor
 ```
 Cost: 2 Bandwidth
-Use: Single Use
-Ability: The next card you draw is free (does not have to be on this turn)
+Use: Permanent
+Ability: The next card you draw is free (does not have to be on this turn), then this discard this card
 ```
-Scriptkiddie
+## Remote Access Tool
+```
+Cost: 1 Bandwidth Per Turn
+Use: Permanent
+Ability: Allows you to install system settings on other player's computers
+```
+## Scriptkiddie
 ```
 Cost: 1 Bandwidth
 Use: Single Use
-Ability: Install or uninstall 1 mod from another player's computer, or negate 1 system setting from another player's computer until your next turn
+Ability: Install or uninstall 1 mod or system setting from another player's computer, or negate 1 system setting from another player's computer until your next turn
 ```
+## YouTube Hacking Tutorial
+```
+Cost: 1 Bandwidth
+Use: Single Use
+Ability: Install or uninstall 1 mod or system setting from another player's computer
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

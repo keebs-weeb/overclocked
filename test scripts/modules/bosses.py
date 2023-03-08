@@ -1,49 +1,50 @@
 import random
 
 class bossClass:
-    bossNames = ["dragon", "rogue warrior", "demon", "very large fish"]
-    def __init__(self, bossName=random.choice(bossNames)):
-        self.name = bossName
-        self.baseHealth = self.bossStats(bossName)["base"]["health"]
-        self.baseDamage = self.bossStats(bossName)["base"]["damage"]
-        self.levelHealth = self.bossStats(bossName)["level"]["health"]
-        self.levelDamage = self.bossStats(bossName)["level"]["damage"]
+    def __init__(self, bossName=False):
+        bossNames = ["dragon", "rogue warrior", "demon", "very large fish"]
+
+        self.name = bossName if bossName else random.choice(bossNames)
+        self.baseHealth = self.bossStats(self.name)["base"]["health"]
+        self.baseDamage = self.bossStats(self.name)["base"]["damage"]
+        self.levelHealth = self.bossStats(self.name)["level"]["health"]
+        self.levelDamage = self.bossStats(self.name)["level"]["damage"]
 
     def bossStats(self, bossName):
         statsDict = {
             "dragon": {
                 "base": {
-                    "health": 16,
-                    "damage": 8,
+                    "health": 13,
+                    "damage": 3,
                 },
                 "level": {
-                    "health": 1,
-                    "damage": 2,
+                    "health": 2,
+                    "damage": 4,
                 }
             },
             "rogue warrior": {
                 "base": {
-                    "health": 14,
-                    "damage": 7,
+                    "health": 16,
+                    "damage": 6,
                 },
                 "level": {
-                    "health": 1,
-                    "damage": 2,
+                    "health": 2,
+                    "damage": 1,
                 }
             },
             "demon": {
                 "base": {
-                    "health": 15,
+                    "health": 18,
                     "damage": 6,
                 },
                 "level": {
-                    "health": 1,
+                    "health": 3,
                     "damage": 1,
                 }
             },
             "very large fish": {
                 "base": {
-                    "health": 18,
+                    "health": 24,
                     "damage": 5,
                 },
                 "level": {

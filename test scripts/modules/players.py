@@ -29,7 +29,7 @@ class playerClass:
         statsDict = {
             "swordsman": {
                 "base": {
-                    "health": 1,
+                    "health": 2,
                     "move": 1,
                     "damage": 1,
                 },
@@ -46,19 +46,19 @@ class playerClass:
                     "damage": 1,
                 },
                 "level": {
-                    "health": 1,
+                    "health": 2,
                     "move": 1,
                     "damage": 1,
                 }
             },
             "barbarian": {
                 "base": {
-                    "health": 3,
+                    "health": 2,
                     "move": 0,
                     "damage": 1,
                 },
                 "level": {
-                    "health": 3,
+                    "health": 2,
                     "move": 0,
                     "damage": 1,
                 }

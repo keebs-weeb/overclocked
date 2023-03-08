@@ -7,26 +7,16 @@ class monsterClass:
 
         self.name = monsterName if monsterName else random.choice(monsterNames)
         self.title = monsterTitle if monsterTitle else random.choice(monsterTitles)
-        self.baseHealth = self.monsterStats(monsterName)["base"]["health"]
-        self.baseDamage = self.monsterStats(monsterName)["base"]["damage"]
-        self.levelHealth = self.monsterStats(monsterName)["level"]["health"]
-        self.levelDamage = self.monsterStats(monsterName)["level"]["damage"]
+        self.baseHealth = self.monsterStats(self.name)["base"]["health"]
+        self.baseDamage = self.monsterStats(self.name)["base"]["damage"]
+        self.levelHealth = self.monsterStats(self.name)["level"]["health"]
+        self.levelDamage = self.monsterStats(self.name)["level"]["damage"]
 
     def monsterStats(self, monsterName):
         statsDict = {
             "bird man": {
                 "base": {
-                    "health": 12,
-                    "damage": 5,
-                },
-                "level": {
-                    "health": 1,
-                    "damage": 2,
-                }
-            },
-            "ghost": {
-                "base": {
-                    "health": 12,
+                    "health": 9,
                     "damage": 5,
                 },
                 "level": {
@@ -34,44 +24,54 @@ class monsterClass:
                     "damage": 1,
                 }
             },
-            "necromancer": {
+            "ghost": {
                 "base": {
-                    "health": 12,
+                    "health": 9,
                     "damage": 5,
                 },
                 "level": {
                     "health": 1,
-                    "damage": 2,
+                    "damage": 0,
+                }
+            },
+            "necromancer": {
+                "base": {
+                    "health": 7,
+                    "damage": 8,
+                },
+                "level": {
+                    "health": 2,
+                    "damage": 0,
                 }
             },
             "royal archer": {
                 "base": {
-                    "health": 12,
-                    "damage": 6,
+                    "health": 10,
+                    "damage": 8,
                 },
                 "level": {
-                    "health": 2,
-                    "damage": 2,
+                    "health": 1,
+                    "damage": 0,
                 }
             },
             "royal knight": {
                 "base": {
-                    "health": 12,
-                    "damage": 6,
+                    "health": 11,
+                    "damage": 7,
                 },
                 "level": {
-                    "health": 3,
-                    "damage": 2,
+                    "health": 0,
+                    "damage": 1,
                 }
             },
             "ogre": {
                 "base": {
-                    "health": 14,
-                    "damage": 5,
+                    "health": 15,
+                    "damage": 4,
                 },
                 "level": {
-                    "health": 1,
-                    "damage": 2,
+                    "health": 0,
+                    "damage": 1,
                 }
             },
             "scorpion": {
@@ -80,14 +80,14 @@ class monsterClass:
                     "damage": 15,
                 },
                 "level": {
-                    "health": 1,
+                    "health": 0,
                     "damage": 3,
                 }
             },
             "zombie": {
                 "base": {
-                    "health": 11,
-                    "damage": 4,
+                    "health": 8,
+                    "damage": 3,
                 },
                 "level": {
                     "health": 2,
