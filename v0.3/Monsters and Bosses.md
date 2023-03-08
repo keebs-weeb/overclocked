@@ -1,11 +1,4 @@
-// TODO
-
 - [Breakdown - Bosses](#breakdown---bosses)
-  - [Demon](#demon)
-  - [Dragon](#dragon)
-  - [Rogue Warrior](#rogue-warrior)
-  - [Very Large Fish](#very-large-fish)
-  - [Enemy Name](#enemy-name)
 - [Breakdown - Monsters](#breakdown---monsters)
   - [Monster Titles](#monster-titles)
     - [Lesser](#lesser)
@@ -19,75 +12,61 @@
   - [Ogre](#ogre)
   - [Scorpion](#scorpion)
   - [Zombie](#zombie)
-  - [MONSTER NAME](#monster-name)
 
 
 # Breakdown - Bosses
 Boss Max Level: 5
-## Demon
+Demon
 ```
 Level 1:
-    Health: 15
-    6 Damage
-    Rewards: 10 Coins
+	Health: 18
+	Damage: 6
+    Rewards: 14 Coins
     Defeat Penalty: Uninstall 1 'Gameplay' Mod
-Level Up:
-    +3 Health
-    +1 Damage
-    Rewards: +3 Coins Per Level
+Level:
+	Health: +3
+	Damage: +1
+    Rewards: +2 Coins Per Level
     Defeat Penalty: Uninstall .5 More 'Gameplay' Mods Per Level (Rounded Down)
 ```
-## Dragon
+Dragon
 ```
 Level 1:
-    Health: 20
-    10 Damage
-    Rewards: 20 Coins
+	Health: 13
+	Damage: 3
+    Rewards: 12 Coins
     Defeat Penalty: Takes Up 1 System Resources
-Level Up:
-    +3 Health
-    +2 Damage
-    Rewards: +5 Coins Per Level
-    Defeat Penalty: Takes Up .5 More System Resources Per Level (Rounded Down - i.e. Level 2 = 1, Level 3 = 2, Level 4 = 2, etc)
+Level:
+	Health: +2
+	Damage: +4
+    Rewards: +8 Coins Per Level
+    Defeat Penalty: Takes Up .5 More System Resources Per Level (Rounded Down)
 ```
-## Rogue Warrior
+Rogue warrior
 ```
 Level 1:
-    Health: 14
-    7 Damage
+	Health: 16
+	Damage: 6
     Rewards: 8 Coins
     Defeat Penalty: Takes Up 1 System Resources
-Level Up:
-    +1 Health
-    +2 Damage
+Level:
+	Health: +2
+	Damage: +1
     Rewards: +2 Coins Per Level
     Defeat Penalty: Takes Up .5 More System Resources Per Level (Rounded Down)
 ```
-## Very Large Fish
+Very Large Fish
 ```
 Level 1:
-    Health: 18
-    5 Damage
+	Health: 24
+	Damage: 5
     Rewards: Draw an Event Card, You may choose to activate it's effects or discard it
-    Defeat Penalty: Skip your next Maintenance phase
-Level Up:
-    +3 Health
-    +1 Damage
+    Defeat Penalty: You have -1 To Maxumum Bandwidth during your next maintenance phase
+Level:
+	Health: +0
+	Damage: +1
     Rewards: Draw another .5 Event Cards Per Level (Rounded Down), You may choose to activate it's effects or discard it
-    Defeat Penalty: No Additional Penalties
-```
-## Enemy Name
-```
-Level 1:
-    Health: 
-    Damage:
-    Rewards: 
-    Defeat Penalty: 
-Level Up:
-    Health: 
-     Damage
-    Rewards: 
-    Defeat Penalty: 
+    Defeat Penalty: You have an additional -.5 To Maxumum Bandwidth during your next maintenance phase (Per Level)
 ```
 
 ---
@@ -98,7 +77,8 @@ Level Up:
 Max Level: 3
 Baseline Stats -1
 Baseline Rewards -1
-Baseline Level Up Health, Damage, and Rewards / 2 (Rounded Up)
+Baseline Level Up Health, and Damage +0
+Baseline Level Up Rewards - 1
 Baseline Defeat Penalty
 ```
 ### Normal (Or Blank)
@@ -122,117 +102,104 @@ Baseline Defeat Penalty
 ## Bird Man
 ```
 Level 1:
-    10 Health
-    6 Damage
-    Rewards: +3 Coins
-    Defeat Penalty: Uninstall 1 'Gameplay' Mod
+	Health: 9
+	Damage: 5
+    Rewards: +4 Coins
+    Defeat Penalty: Place this card in your Active Effects zone.  You Have -1 To Health on your next turn.
 Level Up:
-    +2 Health
-    +2 Damage
+    +1 Health
+    +1 Damage
     Rewards: +1 Coins Per Level
-    Defeat Penalty: No Additional Penalties
+    Defeat Penalty: -.5 To Health Per Level (Rounded Down)
 ```
 ## Ghost
 ```
 Level 1:
-    8 Health
-    7 Damage
-    Rewards: +3 Coins
+	Health: 9
+	Damage: 5
+    Rewards: +4 Coins
     Defeat Penalty: Takes Up 1 System Resources
 Level Up:
-    +2 Health
-    +1 Damage
+    +1 Health
+    +0 Damage
     Rewards: +1 Coins Per Level
     Defeat Penalty: Takes Up .25 More System Resources Per Level (Rounded Down)
 ```
 ## Necromancer
 ```
 Level 1:
-    8 Health
-    5 Damage
+	Health: 7
+	Damage: 8
     Rewards: +2 Coins
-    Defeat Penalty: Cards Cost +1 More for the rest of the game
+    Defeat Penalty: Place this card in your Active Effects zone. Cards Cost +1 More for the rest of the game
 Level Up:
-    +0 Health
-    +2 Damage
+    +2 Health
+    +0 Damage
     Rewards: +1 Coins Per Level
-    Defeat Penalty: Cards Cost +.5 More (Rounded Down) for the rest of the game
+    Defeat Penalty: Cards Cost +.5 More Per Level (Rounded Down) for the rest of the game
 ```
 ## Royal Archer
 ```
 Level 1:
-    8 Health
-    7 Damage
+	Health: 10
+	Damage: 8
     Rewards: +5 Coins
-    Defeat Penalty: Cards Cost +1 More for the rest of the game
+    Defeat Penalty: Place this card in your Active Effects zone. Cards Cost +1 More for the rest of the game
 Level Up:
-    +2 Health
-    +2 Damage
+    +1 Health
+    +0 Damage
     Rewards: +2 Coins Per Level
-    Defeat Penalty: Cards Cost +1 More for the rest of the game
+    Defeat Penalty: Cards Cost +.5 More Per Level (Rounded Down)  for the rest of the game
 ```
 ## Royal Knight
 ```
 Level 1:
-    12 Health
-    7 Damage
+	Health: 11
+	Damage: 7
     Rewards: +5 Coins
-    Defeat Penalty: Cards Cost +1 More for the rest of the game
+    Defeat Penalty: Place this card in your Active Effects zone. Cards Cost +1 More for the rest of the game
 Level Up:
-    +3 Health
-    +2 Damage
+    +0 Health
+    +1 Damage
     Rewards: +2 Coins Per Level
-    Defeat Penalty: Cards Cost +1 More for the rest of the game
+    Defeat Penalty: Cards Cost +1 More Per Level (Rounded Down) for the rest of the game
 ```
 ## Ogre
 ```
 Level 1:
-    14 Health
-    6 Damage
-    Rewards: +2 Coins
-    Defeat Penalty: Takes Up 1 System Resources
+	Health: 15
+	Damage: 4
+    Rewards: +3 Coins
+    Defeat Penalty: Place this card in your Active Effects zone. Takes Up 1 System Resource.
 Level Up:
     +1 Health
     +1 Damage
-    Rewards: +1 Coins Per Level
+    Rewards: +3 Coins Per Level
     Defeat Penalty: Takes Up .25 More System Resources Per Level (Rounded Down)
 ```
 ## Scorpion
 ```
 Level 1:
-    2 Health
-    10 Damage
-    Rewards: +1 Coins
-    Defeat Penalty: Uninstall 1 'Gameplay' Mod
+	Health: 4
+	Damage: 15
+    Rewards: +3 Coins
+    Defeat Penalty: No Penalties
 Level Up:
-    +2 Health
-    +2 Damage
-    Rewards: +1 Coins Per Level
-    Defeat Penalty: No Additional Penalties
+    +0 Health
+    +3 Damage
+    Rewards: +4 Coins Per Level
+    Defeat Penalty: Uninstall .5 'Gameplay' Mods Per Level (Rounded Down)
 ```
 ## Zombie
 ```
 Level 1:
-    8 Health
-    4 Damage
+	Health: 8
+	Damage: 3
     Rewards: +2 Coins
     Defeat Penalty: Cards Cost +1 More for the rest of the game
 Level Up:
-    +1 Health
+    +2 Health
     +1 Damage
     Rewards: +1 Coins Per Level
     Defeat Penalty: Cards Cost +.5 More (Rounded Down) for the rest of the game
-```
-## MONSTER NAME
-```
-Level 1:
-    Health: 
-     Damage
-    Rewards: + Coins
-    Defeat Penalty: 
-Level Up:
-    Health: +
-    + Damage
-    Rewards: + Coins Per Level
-    Defeat Penalty: 
 ```
