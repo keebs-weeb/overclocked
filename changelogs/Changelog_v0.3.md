@@ -47,11 +47,15 @@
         - Before the final boss, these spaces occur once every 10 spaces (roughly)
     - Vendor Spaces
         - These spaces allow cards purchased during the following maintenance phase to have -1 to cost
-        - These spaces occur approximately every 20 spaces
+        - These spaces occur approximately every 40 spaces in front of bosses
     - Treasure Spaces
         - These spaces give the players a windfall of coins
-        - These spaces are very few and far between, only 2 on the game board
-        - When a player lands on it, a d12 is rolled and gold is given to the player equal to the roll plus the value listed on the board
+        - These spaces are few and far between, only 3 on the game board
+        - When a player lands on it, a d12 is rolled twice and gold is given to the player equal to the value of both rolls
+    - Cutscene Spaces
+        - These spaces allow the player to draw up to 3 event cards
+        - Spaces occur are every 20 spaces on checkpoints
+        - Players cannot choose to ignore the event card action, so if a card were to be drawn to end a turn, it happens IMMEDIATELY
 ```
 
 ### Mods
@@ -280,7 +284,6 @@ Type: Gameplay
 Installed Value: 2
 Clean Effect:
     +2 Movement
-    -1 To Health
 Buggy Effect:
     +1 Movement
     -1 To Health
@@ -382,7 +385,7 @@ Modern Weapons
 Type: Gameplay
 Installed Value: 4
 Clean Effect: 
-    +5 To Damage
+    +6 To Damage
     -3 To Movement
 Buggy Effect:
     +2 To Damage
@@ -418,7 +421,7 @@ Clean Effect:
     -1 To Damage
 Buggy Effect:
     +1 To Movement
-    -1 To Damage
+    -2 To Damage
 ```
 Nude Mod
 ```
@@ -426,7 +429,7 @@ Type: Gameplay
 Installed Value: 2
 Clean Effect: 
     +2 Coins Collected from Enemies
-    +1 To Movement
+    +2 To Movement
     -1 To Health
 Buggy Effect:
     +1 Coins Collected from Enemies
@@ -617,13 +620,13 @@ ILOVEYOU
 Type: Virus
 Installed Value: 1
 Mod Effect:
-    At the end of your maintenance phase, randomly uninstall one Mod
+    At the end of your maintenance phase, randomly uninstall one Mod. This effect can uninstall this mod
     Can only be uninstalled by 'Antivirus' System Setting
 ```
 Meltdown
 ```
 Type: Virus
-Installed Value: 2
+Installed Value: 3
 Mod Effect: 
     Can be installed on computers with 'Firewall' active
     Can only be uninstalled by 'Antivirus' System Setting
@@ -633,7 +636,7 @@ Memory Leak
 Type: Virus
 Installed Value: 1
 Mod Effect: 
-    Each turn, double this card's Installed Value cost
+    At the start of your maintenance phase, double this card's Installed Value cost
     Can only be uninstalled by 'Antivirus' System Setting
 ```
 Pirated Game
@@ -646,7 +649,7 @@ Mod Effect:
 Spectre
 ```
 Type: Virus
-Installed Value: 2
+Installed Value: 3
 Mod Effect: 
     Can be installed on computers with 'Firewall' active
     Can only be uninstalled by 'Antivirus' System Setting

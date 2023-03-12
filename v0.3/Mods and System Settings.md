@@ -15,10 +15,14 @@
     - [Difficulty Patch](#difficulty-patch)
     - [First Person Mode](#first-person-mode)
     - [Furry Mod](#furry-mod)
+    - [HD Music Pack](#hd-music-pack)
+    - [HD Texture Pack](#hd-texture-pack)
     - [Lore Update](#lore-update)
     - [Lower Resolution Support](#lower-resolution-support)
     - [Modern Weapons](#modern-weapons)
     - [Multiclass](#multiclass)
+    - [No UI](#no-ui)
+    - [No Weapons](#no-weapons)
     - [Nude Mod](#nude-mod)
     - [Player Skins](#player-skins)
     - [Randomizer](#randomizer)
@@ -189,7 +193,6 @@ Type: Gameplay
 Installed Value: 2
 Clean Effect:
     +2 Movement
-    -1 To Health
 Buggy Effect:
     +1 Movement
     -1 To Health
@@ -245,7 +248,7 @@ Buggy Effect:
     +2 To Card Cost
     -1 To Health
 ```
-HD Music Pack
+### HD Music Pack
 ```
 Type: Gameplay
 Installed Value: 2
@@ -255,7 +258,7 @@ Buggy Effect:
     -1 To Mod Cost
     +2 To Installed Value
 ```
-HD Texture Pack
+### HD Texture Pack
 ```
 Type: Gameplay
 Installed Value: 2
@@ -291,7 +294,7 @@ Buggy Effect:
 Type: Gameplay
 Installed Value: 4
 Clean Effect: 
-    +5 To Damage
+    +6 To Damage
     -3 To Movement
 Buggy Effect:
     +2 To Damage
@@ -308,7 +311,7 @@ Buggy Effect:
     Choose a stat: Increase that by +1 Per Level (Stats are Health, Movement, and Damage)
     All other stats are decreased by -3
 ```
-No UI
+### No UI
 ```
 Type: Gameplay
 Installed Value: 2
@@ -318,7 +321,7 @@ Clean Effect:
 Buggy Effect:
     -1 To Movement
 ```
-No Weapons
+### No Weapons
 ```
 Type: Gameplay
 Installed Value: 1
@@ -327,7 +330,7 @@ Clean Effect:
     -1 To Damage
 Buggy Effect:
     +1 To Movement
-    -1 To Damage
+    -2 To Damage
 ```
 ### Nude Mod
 ```
@@ -335,7 +338,7 @@ Type: Gameplay
 Installed Value: 2
 Clean Effect: 
     +2 Coins Collected from Enemies
-    +1 To Movement
+    +2 To Movement
     -1 To Health
 Buggy Effect:
     +1 Coins Collected from Enemies
@@ -403,9 +406,9 @@ Buggy Effect:
 Type: Cheat
 Installed Value: 6
 Clean Effect: 
-    Can draw 1 Mod or System Setting card for free each turn
+    Can draw 1 Mod and 1 System Setting card for free each turn
 Buggy Effect:
-    Can draw 1 Mod or System Setting card for free each turn
+    Can draw 1 Mod and 1 System Setting card for free each turn
     Can't Install 'Firewall' System Settings
     -2 To Installed Value
 ```
@@ -523,13 +526,13 @@ Mod Effect:
 Type: Virus
 Installed Value: 1
 Mod Effect:
-    At the end of your maintenance phase, randomly uninstall one Mod
+    At the end of your maintenance phase, randomly uninstall one Mod. This effect can uninstall this mod
     Can only be uninstalled by 'Antivirus' System Setting
 ```
 ### Meltdown
 ```
 Type: Virus
-Installed Value: 2
+Installed Value: 3
 Mod Effect: 
     Can be installed on computers with 'Firewall' active
     Can only be uninstalled by 'Antivirus' System Setting
@@ -539,7 +542,7 @@ Mod Effect:
 Type: Virus
 Installed Value: 1
 Mod Effect: 
-    Each turn, double this card's Installed Value cost
+    At the start of your maintenance phase, double this card's Installed Value cost
     Can only be uninstalled by 'Antivirus' System Setting
 ```
 ### Pirated Game
@@ -552,7 +555,7 @@ Mod Effect:
 ### Spectre
 ```
 Type: Virus
-Installed Value: 2
+Installed Value: 3
 Mod Effect: 
     Can be installed on computers with 'Firewall' active
     Can only be uninstalled by 'Antivirus' System Setting
@@ -658,7 +661,7 @@ Ability: Annoys your friends. Stop it. (Does Nothing)
 ```
 ## Mass Configuration Modifications
 ```
-Cost: 4 Bandwidth
+Cost: 3 Bandwidth
 Use: Single Use
 Ability: Change all mods on a computer that are 'Clean' to 'Buggy' and all mods that are 'Buggy' to 'Clean'
 ```

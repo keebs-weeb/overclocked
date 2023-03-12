@@ -31,6 +31,26 @@ Greater Potion of Weakness
 ```
 On your next encounter, -3 to Damage Rolls
 ```
+Lesser Potion Of Hurting
+```
+On your next encounter, -1 to Health
+```
+Potion Of Hurting
+```
+On your next encounter, -2 to Health
+```
+Greater Potion Of Hurting
+```
+On your next encounter, -3 to Health
+```
+Potion of Lead Feet
+```
+On your next movement, -2 to Movement
+```
+Greater Potion of Lead Feet
+```
+On your next movement, -4 to Movement
+```
 Lesser Potion Of Healing
 ```
 On your next encounter, +2 to Health
@@ -69,7 +89,7 @@ On your next movement, +6 to Movement
 ## Misc
 Bedtime
 ```
-Skip your next turn
+End your turn
 ```
 Email Blast
 ```
@@ -89,5 +109,5 @@ During your next maintenance phase, you can't install mods
 ```
 Tabbed Out
 ```
-Nothing Happens
+Something happened, but you weren't looking (Does Nothing)
 ```

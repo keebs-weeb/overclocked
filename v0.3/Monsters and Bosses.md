@@ -105,7 +105,7 @@ Level 1:
 	Health: 9
 	Damage: 5
     Rewards: +4 Coins
-    Defeat Penalty: Place this card in your Active Effects zone.  You Have -1 To Health on your next turn.
+    Defeat Penalty: You Have -1 To Health on your next turn
 Level Up:
     +1 Health
     +1 Damage
@@ -131,12 +131,12 @@ Level 1:
 	Health: 7
 	Damage: 8
     Rewards: +2 Coins
-    Defeat Penalty: Place this card in your Active Effects zone. Cards Cost +1 More for the rest of the game
+    Defeat Penalty: Place this card in your Active Effects zone. Cards Cost +1 More
 Level Up:
     +2 Health
     +0 Damage
     Rewards: +1 Coins Per Level
-    Defeat Penalty: Cards Cost +.5 More Per Level (Rounded Down) for the rest of the game
+    Defeat Penalty: Cards Cost +.5 More Per Level (Rounded Down) 
 ```
 ## Royal Archer
 ```
@@ -144,12 +144,12 @@ Level 1:
 	Health: 10
 	Damage: 8
     Rewards: +5 Coins
-    Defeat Penalty: Place this card in your Active Effects zone. Cards Cost +1 More for the rest of the game
+    Defeat Penalty: Place this card in your Active Effects zone. Cards Cost +1 More
 Level Up:
     +1 Health
     +0 Damage
     Rewards: +2 Coins Per Level
-    Defeat Penalty: Cards Cost +.5 More Per Level (Rounded Down)  for the rest of the game
+    Defeat Penalty: Cards Cost +.5 More Per Level (Rounded Down)
 ```
 ## Royal Knight
 ```
@@ -157,12 +157,12 @@ Level 1:
 	Health: 11
 	Damage: 7
     Rewards: +5 Coins
-    Defeat Penalty: Place this card in your Active Effects zone. Cards Cost +1 More for the rest of the game
+    Defeat Penalty: Place this card in your Active Effects zone. Cards Cost +1 More
 Level Up:
     +0 Health
     +1 Damage
     Rewards: +2 Coins Per Level
-    Defeat Penalty: Cards Cost +1 More Per Level (Rounded Down) for the rest of the game
+    Defeat Penalty: Cards Cost +1 More Per Level
 ```
 ## Ogre
 ```
@@ -187,7 +187,7 @@ Level 1:
 Level Up:
     +0 Health
     +3 Damage
-    Rewards: +4 Coins Per Level
+    Rewards: +2 Coins Per Level
     Defeat Penalty: Uninstall .5 'Gameplay' Mods Per Level (Rounded Down)
 ```
 ## Zombie

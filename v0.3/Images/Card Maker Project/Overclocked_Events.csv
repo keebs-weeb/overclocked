@@ -1,0 +1,25 @@
+name,image,effect
+Lesser Side Quest,Images\event\lesser_side_quest.png,Gain +3 Coins
+Side Quest,Images\event\side_quest.png,Gain +5 Coins
+Greater Side Quest,Images\event\greater_side_quest.png,Gain +8 Coins
+Lesser Potion of Weakness,Images\event\potion_of_weakness.png,"On your next encounter, -1 to Damage Rolls"
+Greater Potion of Weakness,Images\event\potion_of_weakness.png,"On your next encounter, -3 to Damage Rolls"
+Lesser Potion Of Hurting,Images\event\potion_of_hurting.png,"On your next encounter, -1 to Health"
+Potion Of Hurting,Images\event\potion_of_hurting.png,"On your next encounter, -2 to Health"
+Greater Potion Of Hurting,Images\event\potion_of_hurting.png,"On your next encounter, -3 to Health"
+Potion of Lead Feet,Images\event\potion_of_lead_feet.png,"On your next movement, -2 to Movement"
+Greater Potion of Lead Feet,Images\event\potion_of_lead_feet.png,"On your next movement, -4 to Movement"
+Lesser Potion Of Healing,Images\event\potion_of_healing.png,"On your next encounter, +2 to Health"
+Potion Of Healing,Images\event\potion_of_healing.png,"On your next encounter, +3 to Health"
+Greater Potion Of Healing,Images\event\potion_of_healing.png,"On your next encounter, +5 to Health"
+Lesser Potion Of Damage,Images\event\potion_of_damage.png,"On your next encounter, +1 to Damage"
+Potion Of Damage,Images\event\potion_of_damage.png,"On your next encounter, +3 to Damage"
+Greater Potion Of Damage,Images\event\potion_of_damage.png,"On your next encounter, +5 to Damage"
+Potion Of Emeralds,Images\event\potion_of_emeralds.png,"On your next movement, +3 to Movement"
+Greater Potion Of Emeralds,Images\event\potion_of_emeralds.png,"On your next movement, +6 to Movement"
+Bedtime,Images\event\bedtime.png,End your turn
+Email Blast,Images\event\email_blast.png,Draw 2 System Settings Cards
+Forum Notification,Images\event\forum_notification.png,"Draw 1 Mod Card, and put it into your Mod Folder"
+Lost Password,Images\event\lost_password.png,"During your next maintenance phase, you can't configure system settings"
+Missing Files,Images\event\missing_files.png,"During your next maintenance phase, you can't install mods"
+Tabbed Out,Images\event\tabbed_out.png,"Something happened, but you weren't looking\n(Does Nothing)"

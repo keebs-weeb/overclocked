@@ -1,0 +1,29 @@
+title,name,image,maxlevel,basehealth,basedamage,basereward,basedefeat,levelhealth,leveldamage,levelreward,leveldefeat
+Lesser,Bird Man,Images\enemies\bird_man.png,3,8,4,+4 Coins,You Have -1 To Health on your next turn,+0,+0,None,-.5 To Health Per Level (Rounded Down)
+,Bird Man,Images\enemies\bird_man.png,4,9,5,+5 Coins,You Have -1 To Health on your next turn,+1,+1,+1 Coins Per Level,-.5 To Health Per Level (Rounded Down)
+Greater,Bird Man,Images\enemies\bird_man.png,5,10,6,+6 Coins,You Have -1 To Health on your next turn,+3,+3,+3 Coins Per Level,-.5 To Health Per Level (Rounded Down)
+Lesser,Ghost,Images\enemies\ghost.png,3,8,4,+3 Coins,Takes Up 1 System Resources,+0,+0,None,Takes Up .25 More System Resources Per Level (Rounded Down)
+,Ghost,Images\enemies\ghost.png,4,9,5,+4 Coins,Takes Up 1 System Resources,+1,+0,+1 Coins Per Level,Takes Up .25 More System Resources Per Level (Rounded Down)
+Greater,Ghost,Images\enemies\ghost.png,5,10,6,+5 Coins,Takes Up 1 System Resources,+3,+2,+3 Coins Per Level,Takes Up .25 More System Resources Per Level (Rounded Down)
+Lesser,Necromancer,Images\enemies\necromancer.png,3,6,7,+1 Coins,Cards Cost +1 More,+1,+0,None,Cards Cost +.5 More Per Level (Rounded Down)
+,Necromancer,Images\enemies\necromancer.png,4,7,8,+2 Coins,Cards Cost +1 More,+2,+0,+1 Coins Per Level,Cards Cost +.5 More Per Level (Rounded Down)
+Greater,Necromancer,Images\enemies\necromancer.png,5,8,9,+3Coins,Cards Cost +1 More,+4,+2,+3 Coins Per Level,Cards Cost +.5 More Per Level (Rounded Down)
+Lesser,Royal Archer,Images\enemies\royal_archer.png,3,9,7,+4 Coins,Cards Cost +1 More,+0,+0,+1 Coins Per Level,Cards Cost +.5 More Per Level (Rounded Down)
+,Royal Archer,Images\enemies\royal_archer.png,4,10,8,+5 Coins,Cards Cost +1 More,+1,+0,+2 Coins Per Level,Cards Cost +.5 More Per Level (Rounded Down)
+Greater,Royal Archer,Images\enemies\royal_archer.png,5,11,9,+6 Coins,Cards Cost +1 More,+3,+2,+4 Coins Per Level,Cards Cost +.5 More Per Level (Rounded Down)
+Lesser,Royal Knight,Images\enemies\royal_knight.png,3,10,6,+4 Coins,Cards Cost +1 More,+0,+0,+1 Coins Per Level,Cards Cost +1 More Per Level
+,Royal Knight,Images\enemies\royal_knight.png,4,11,7,+5 Coins,Cards Cost +1 More,+0,+1,+2 Coins Per Level,Cards Cost +1 More Per Level
+Greater,Royal Knight,Images\enemies\royal_knight.png,5,12,8,+6 Coins,Cards Cost +1 More,+2,+3,+4 Coins Per Level,Cards Cost +1 More Per Level
+Lesser,Ogre,Images\enemies\ogre.png,3,14,3,+2 Coins,Takes Up 1 System Resource,+0,+0,+2 Coins Per Level,Takes Up .25 More System Resources Per Level (Rounded Down)
+,Ogre,Images\enemies\ogre.png,4,15,4,+3 Coins,Takes Up 1 System Resource,+1,+1,+3 Coins Per Level,Takes Up .25 More System Resources Per Level (Rounded Down)
+Greater,Ogre,Images\enemies\ogre.png,5,16,5,+4 Coins,Takes Up 1 System Resource,+3,+3,+5 Coins Per Level,Takes Up .25 More System Resources Per Level (Rounded Down)
+Lesser,Scorpion,Images\enemies\scorpion.png,3,3,14,+2 Coins,None,+0,+2,+1 Coins Per Level,Uninstall .5 'Gameplay' Mods Per Level (Rounded Down)
+,Scorpion,Images\enemies\scorpion.png,4,4,15,+3 Coins,None,+0,+3,+2 Coins Per Level,Uninstall .5 'Gameplay' Mods Per Level (Rounded Down)
+Greater,Scorpion,Images\enemies\scorpion.png,5,5,16,+4 Coins,None,+2,+5,+4 Coins Per Level,Uninstall .5 'Gameplay' Mods Per Level (Rounded Down)
+Lesser,Zombie,Images\enemies\zombie.png,3,7,2,+1 Coins,Cards Cost +1 More,+1,+0,None,Cards Cost +.5 More Per Level (Rounded Down)
+,Zombie,Images\enemies\zombie.png,4,8,3,+2 Coins,Cards Cost +1 More,+2,+1,+1 Coins Per Level,Cards Cost +.5 More Per Level (Rounded Down)
+Greater,Zombie,Images\enemies\zombie.png,5,9,4,+3 Coins,Cards Cost +1 More,+4,+3,+3 Coins Per Level,Cards Cost +.5 More Per Level (Rounded Down)
+,Demon,Images\enemies\demon.png,5,18,6,+14 Coins,Uninstall 1 'Gameplay' Mod,+3,+1,+2 Coins Per Level,Uninstall .5 'Gameplay' Mods Per Level (Rounded Down)
+,Dragon,Images\enemies\dragon.png,5,13,3,+12 Coins,Takes Up 1 System Resources,+2,+4,+8 Coins Per level,Takes Up .5 More System Resources Per Level (Rounded Down)
+,Rogue Warrior,Images\enemies\rogue_warrior.png,5,16,6,+8 Coins,Takes Up 1 System Resources,+2,+1,+2 Coins Per Level,Takes Up .5 More System Resources Per Level (Rounded Down)
+,Very Large Fish,Images\enemies\very_large_fish.png,5,24,5,"Draw an Event Card, You may choose to activate it's effects or discard it",You have -1 To Maxumum Bandwidth during your next maintenance phase,+0,+1,Draw another .5 Event Cards Per Level (Rounded Down),"You have an additional -.5 To Maxumum Bandwidth (Per Level, Rounded Down) during your next maintenance phase"
