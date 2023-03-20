@@ -60,7 +60,7 @@ Very Large Fish
 Level 1:
 	Health: 24
 	Damage: 5
-    Rewards: Draw an Event Card, You may choose to activate it's effects or discard it
+    Rewards: Draw 2 Event Cards, You may choose to activate their effects or discard it
     Defeat Penalty: You have -1 To Maxumum Bandwidth during your next maintenance phase
 Level:
 	Health: +0

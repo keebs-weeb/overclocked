@@ -43,6 +43,9 @@ The Game:
         - Treasure Spaces
             - These spaces give the players a windfall of coins and are very few and far between: only 2 on the game board
             - When a player lands on it, a d12 is rolled and gold is given to the player equal to the roll plus the value listed on the board
+        - Cutscene Spaces
+            - These spaces occur on checkpoint spaces without bosses
+            - When a player lands on it, they may draw up to 2 event cards and take the actions listed
 ```
 ### Winning
 ```

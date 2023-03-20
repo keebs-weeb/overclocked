@@ -4,6 +4,7 @@
   - [Gameplay Changes](#gameplay-changes)
     - [Starting Gameplay](#starting-gameplay)
     - [The Game](#the-game)
+    - [Battles](#battles)
     - [Mods](#mods)
     - [Computers](#computers)
     - [Event Deck](#event-deck)
@@ -53,9 +54,14 @@
         - These spaces are few and far between, only 3 on the game board
         - When a player lands on it, a d12 is rolled twice and gold is given to the player equal to the value of both rolls
     - Cutscene Spaces
-        - These spaces allow the player to draw up to 3 event cards
+        - These spaces allow the player to draw up to 2 event cards
         - Spaces occur are every 20 spaces on checkpoints
         - Players cannot choose to ignore the event card action, so if a card were to be drawn to end a turn, it happens IMMEDIATELY
+```
+
+### Battles
+```
+- Upon losing the fight, that player loses half of their 'unreliable' coins (Rounded Up) (Down From all their unreliable coins)
 ```
 
 ### Mods
@@ -102,7 +108,7 @@ Base:
 	Damage: 1
 Level Up:
 	Health: 2
-	Movement: 1
+	Movement: 2
 	Damage: 1
 ```
 #### Barbarian
@@ -233,10 +239,10 @@ Type: Gameplay
 Installed Value: 2
 Clean Effect: 
     +3 To Health
-    +2 To Enemy Health
+    +1 To Damage
 Buggy Effect:
-    +1 To Health
-    +2 To Enemy Health
+    +2 To Health
+    +1 To Enemy Health
 ```
 Bigger Weapons
 ```

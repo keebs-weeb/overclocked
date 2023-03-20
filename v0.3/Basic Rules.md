@@ -96,7 +96,7 @@ When a character is fighting in "The Game", the following actions occur:
     - That damage is done to the enemy, and if this kills the enemy the fight is over and the player character wins the fight.
     - The enemy then does damage equal to their value to the player character, and if this kills the character they lose the fight.
 
-Upon losing the fight, that player loses all of their 'unreliable' coins.  They then can choose any off the previously passed checkpoints to restore to, and on their next play phase they will move from there.  Bosses are NOT fought again if they have been defeated previously.
+Upon losing the fight, that player loses half of their 'unreliable' coins (Rounded Up).  They then can choose any off the previously passed checkpoints to restore to, and on their next play phase they will move from there.  Bosses are NOT fought again if they have been defeated previously.
 ```
 ### Computers
 ```

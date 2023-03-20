@@ -2,7 +2,7 @@ name,system resources,type,image,effect clean,effect buggy
 Armor Overhaul,2,Gameplay,Images\mod\gameplay\armor_overhaul.png,+3 To Health\n-1 To Movement,+1 To Health\n-1 To Movement\n-1 To Damage
 Better AI,3,Gameplay,Images\mod\gameplay\better_ai.png,+2 Coins Collected from Enemies\n+2 To Movement\n-1 To Health,+2 Coins Collected from Enemies\n-1 To Movement\n-1 To Health
 Better UI,2,Gameplay,Images\mod\gameplay\better_ui.png,-1 To Card Cost,-2 To Card Cost\n+3 To Installed Value
-Big Heads,2,Gameplay,Images\mod\gameplay\big_heads.png,+3 To Health\n+2 To Enemy Health,+1 To Health\n+2 To Enemy Health
+Big Heads,2,Gameplay,Images\mod\gameplay\big_heads.png,+3 To Health\n+1 To Damage,+2 To Health\n+2 To Enemy Health
 Bigger Weapons,2,Gameplay,Images\mod\gameplay\bigger_weapons.png,+3 To Damage\n-1 To Movement,+2 To Damage\n-2 To Movement
 Consumable Items Overhaul,3,Gameplay,Images\mod\gameplay\consumable_items_overhaul.png,"When a 'Buff' Active Effect would come into effect, you may place it onto this card. That effect does not go away until this mod is uninstalled.","When a 'Nerf' Active Effect would come into effect, place it onto this card. That effect does not go away until this mod is uninstalled."
 Controller Remapping,2,Gameplay,Images\mod\gameplay\controller_remapping.png,+2 To Movement,+1 To Movement\n-1 To Damage
