@@ -1,0 +1,37 @@
+v0.3 Playtest Notes
+
+Monster Fights Action Spaces should be as many in a row as you would like to draw, but you keep your health between each fight
+	Must declare how many to fight before the fight
+
+Changes To Card economy:
+	No System Settings Interactions, allow player interactions to happen without need of any other card
+		Scriptkiddie, Metasploit, Youtube Hacking Tutorial
+	Test Combining Mods and System Settings decks together?
+	Test drawing 1 system setting for free each turn?
+	Lower Card Cost to 4
+
+Shrink board to 50/40 spaces
+
+Try to change boss/monster stats
+	Change all damage and health to small numbers, ignoring the need to do any real math (ie max health = 4, boss does 2 damage)
+	This will need a complete health overhaul for mods too
+	
+New System Setting Card: (NOT NEEDED IF REMOVING ALL INTERACTIONS WITH SYSTEM SETTINGS)
+	Application Vulnerability
+		3 Bandwidth
+		Permanent
+		Can Be Played on anyone's computer without the need of any other effects
+		Any other player can install Mods and System Settings on this computer
+	Open Ports
+		2 Bandwidth
+		Permanent
+		Can Be Played on anyone's computer without the need of any other effects
+		Any other player can install System Settings on this computer
+	Accidentally Shared Folder
+		2 Bandwidth
+		Permanent
+		Can Be Played on anyone's computer without the need of any other effects
+		Any other player can install Mods on this computer
+
+Fix 'Card Cost' vs 'Mod Cost'
+	Make Everything 'Card Cost'

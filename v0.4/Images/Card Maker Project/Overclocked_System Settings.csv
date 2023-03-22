@@ -1,0 +1,22 @@
+name,cost,image,type,effect
+Administrator Account,5 Bandwidth,Images\systemsetting\administrator_account.png,Permanent,+3 to Computer's System Resources
+Antivirus,1 Bandwidth,Images\systemsetting\antivirus.png,Single Use,Uninstall 1 'Virus' mod
+BattleEye Anti-Cheat,3 Bandwidth,Images\systemsetting\battleeye_anti-cheat.png,Single Use,Can play on another player's computer that has a 'Cheat' mod installed. Skip player's next turn.
+Burstable Internet Uplink,1 Bandwidth,Images\systemsetting\burstable_internet_uplink.png,Single Use,+3 To Bandwidth this turn
+CC Cleaner,1 Bandwidth,Images\systemsetting\cc_cleaner.png,Single Use,Move all installed gameplay and cheat mods to your mods folder
+Cheat Engine,1 Bandwidth Per Turn,Images\systemsetting\cheat_engine.png,Permanent,Can choose which mods to uninstall
+Clean Configuration File,1 Bandwidth,Images\systemsetting\clean_configuration_file.png,Single Use,Change a mod on a computer from 'Buggy' to 'Clean'
+Dirty Configuration File,1 Bandwidth,Images\systemsetting\dirty_configuration_file.png,Single Use,Change a mod on a computer from 'Clean' to 'Buggy'
+Firewall,1 Bandwidth,Images\systemsetting\firewall.png,Single Use,Prevents any mods from being installed by other players on your computer until your next turn
+Forum Reputation,1 Bandwidth,Images\systemsetting\forum_reputation.png,Single Use,+2 To Coins received when selling on 'The Forums' This Turn
+Fresh Install,2 Bandwidth,Images\systemsetting\fresh_install.png,Single Use,Move all mods to your Mod Folder. Discard all 'Virus' Mods.
+Honeypot,3 Bandwidth,Images\systemsetting\honeypot.png,Permanent,"May be played in response to a 'Virus' Mod being installed on your system.\nImmediately discard the next Mod installed on your system, then discard this card.\n\nIf played out of turn, the cost is taken away from your Bandwidth at the start of the next maintenance phase."
+"Loud, Clicky, Scratchy Keyboard",0 Bandwidth,"Images\systemsetting\loud,_clicky,_scratchy_keyboard.png",Permanent,Annoys your friends. Stop it.\n(Does Nothing)
+Mass Configuration Modifications,3 Bandwidth,Images\systemsetting\mass_configuration_modifications.png,Single Use,Change all mods on a computer that are 'Clean' to 'Buggy' and all mods that are 'Buggy' to 'Clean'
+Messy Desk,0 Bandwidth,Images\systemsetting\messy_desk.png,Permanent,How can you live like this?\n(Does Nothing)
+Mod Loader,1 Bandwidth,Images\systemsetting\mod_loader.png,Single Use,Installing mods costs 1 less Bandwidth this turn (Minimum 0).
+Mod Manager,2 Bandwidth,Images\systemsetting\mod_manager.png,Single Use,Draw 4 mod cards. Pick one and either install or put it in your mods folder. Shuffle the rest into the mods deck.
+Multi-Factor Authentication,3 Bandwidth,Images\systemsetting\multi-factor_authentication.png,Permanent,Immediately discard all 'Cheat' Mods installed. Cannot install 'Cheat' Mods. +2 To Bandwidth
+Offline,1 Bandwidth,Images\systemsetting\offline.png,Single Use,Until your next turn you cannot:\n- Install mods or system settings on any other player's computers\n- Have mods installed or system settings by other players\n- Draw any cards
+Overclocking,1 Bandwidth Per Turn,Images\systemsetting\overclocking.png,Permanent,"When a system crash would occur, instead discard this setting and prevent it until the end of your NEXT maintenance phase"
+Registry Editor,2 Bandwidth,Images\systemsetting\registry_editor.png,Permanent,"The next card you draw is free (does not have to be on this turn), then this discard this card"

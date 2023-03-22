@@ -1,0 +1,15 @@
+name,image,health,damage,reward,defeat
+Bird Man,Images\enemies\bird_man.png,7,1,3 Coins,Place This Card In Your 'Active Effects'. It Does Not Go Away Next Turn.\nTakes Up 1 System Resources
+Scorpion,Images\enemies\scorpion.png,2,6,5 Coins,Place This Card In Your 'Active Effects'.\nYou Have -1 To Health On Your Next Turn
+Zombie,Images\enemies\zombie.png,4,1,2 Coins,Place This Card In Your 'Active Effects'.\nCards Cost +2 More On Your Next Turn
+Ghost,Images\enemies\ghost.png,9,1,5 Coins,Place This Card In Your 'Active Effects'. It Does Not Go Away Next Turn.\nTakes Up 1 System Resources
+Necromancer,Images\enemies\necromancer.png,6,2,5 Coins,Place This Card In Your 'Active Effects'.\nCards Cost +2 More On Your Next Turn
+Royal Archer,Images\enemies\royal_archer.png,14,2,7 Coins,Place This Card In Your 'Active Effects'.\nYou Have -2 To Movement On Your Next Turn
+Royal Knight,Images\enemies\royal_knight.png,12,2,8 Coins,Place This Card In Your 'Active Effects'.\nYou Have -2 To Damage On Your Next Turn
+Ogre,Images\enemies\ogre.png,12,3,7 Coins,Place This Card In Your 'Active Effects'. It Does Not Go Away Next Turn.\nTakes Up 1 System Resource
+Baby Drake,Images\enemies\baby_drake.png,18,3,10 Coins,Place This Card In Your 'Active Effects'. It Does Not Go Away Next Turn.\nYou have -1 To Maximum Bandwidth During Your Maintenance Phase
+Rogue Warrior,Images\enemies\rogue_warrior.png,13,1,10 Coins,Place This Card In Your 'Active Effects'. It Does Not Go Away Next Turn.\nTakes Up 2 System Resources
+Very Large Fish,Images\enemies\very_large_fish.png,23,1,"Draw 3 Event Cards. For each card, you may choose to active it's effects, or discard it.",You have -1 To Maximum Bandwidth During Your Next Maintenance Phase
+Demon,Images\enemies\demon.png,18,2,15 Coins,Uninstall 1 'Gameplay' Mod
+Maddened Mage,Images\enemies\maddened_mage.png,11,4,20 Coins,Draw Cards Until You Draw a Virus Mod. Install That Mod Immediately
+Dragon,Images\enemies\dragon.png,25,3,You Win The Game,Your System Crashes
