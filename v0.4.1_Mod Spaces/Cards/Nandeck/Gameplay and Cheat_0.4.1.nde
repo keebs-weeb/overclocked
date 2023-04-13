@@ -1,0 +1,44 @@
+LINKMULTI=Count
+LINK = "..\Card CSVs\Overclocked_Gameplay and Cheats_0.4.1.csv"
+
+; Settings
+UNIT = INCH
+PAGE = 8.5, 11, LANDSCAPE
+BORDER = ROUNDED, #000000, 0.02
+DPI=600
+CARDSIZE=2.5,3.5
+
+
+; Variables
+[IMG] = JOIN("../../Images/Card Images/mod/",[IMAGE])
+
+; Card Layout
+VISUAL=V, 10, 10
+<FRAME1>=0%,0%,100%,100%
+;NameFont
+FONT=Arial,16,BF,#000000
+;CardName
+TEXT="1-{(NAME)}",[NAME],5%,0%,90%,7.5%,CENTER,CENTER,0,100,,0,0,0,0
+;TypeFont
+FONT=Arial,8,F,#000000,#FFFFFF
+;Type
+TEXT="1-{(TYPE)}",[TYPE],0%,7.5%,100%,5%,CENTER,CENTER
+;CardImage
+IMAGE="1-{(IMG)}",[IMG],0%,32.5%,100%,35%
+;CleanEffectFont
+FONT=Arial,10,F,#000000,#B1EDBB
+;CleanEffect
+TEXT="1-{(EFFECT CLEAN)}",[EFFECT CLEAN],0%,12.5%,100%,20%,CENTER,CENTER
+;BuggyEffectFont
+FONT=Arial,10,F,#000000,#FFD6BA
+;BuggyEffect
+TEXT="1-{(EFFECT BUGGY)}",[EFFECT BUGGY],0%,67.5%,100%,20%,CENTER,CENTER,180
+;TypeFont
+FONT=Arial,8,F,#000000,#FFFFFF
+;Type
+TEXT="1-{(TYPE)}",[TYPE],0%,87.5%,100%,5%,CENTER,CENTER,180
+;NameFont
+FONT=Arial,16,BF,#000000,#FFFFFF
+;CardName
+TEXT="1-{(NAME)}",[NAME],5%,92.5%,90%,7.5%,CENTER,CENTER,180,100,,0,0,0,0
+ENDVISUAL

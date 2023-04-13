@@ -1,0 +1,24 @@
+LINK = "..\Card CSVs\Overclocked_Computers_0.4.1.csv"
+
+; Settings
+UNIT = INCH
+PAGE = 8.5, 11, LANDSCAPE
+BORDER = ROUNDED, #000000, 0.01
+DPI=600
+CARDSIZE=17.85,7
+
+
+; Variables
+
+; Card Layout
+VISUAL=, 10, 10
+<FRAME1>=0%,0%,100%,100%
+;NameFont
+FONT=Arial,16,B,#000000
+;CardName
+TEXT="1-{(NAME)}",[NAME],0%,0%,100%,12.5%,CENTER,CENTER,0,100,,0,0,0,0
+;[IMG]CardImage
+IMAGE=,"",0%,{738/59}%,100%,{4717/118}%
+;StatsFont
+FONT=Arial,10,BF,#000000
+ENDVISUAL

@@ -1,0 +1,7 @@
+Count,name,image,type,effect,duration
+2,Missing Requirement,missing_requirement.png,Lingering Effect,Takes Up 1 Mod Space,Lasts Indefinitely
+11,Temporary Server Error,temporary_server_error.png,Lingering Effect,Takes Up 1 Mod Space,Lasts Until The End Of Your Next Maintenance Phase
+1,Uncompressed Files,uncompressed_files.png,Lingering Effect,Takes Up 2 Mod Spaces,Lasts Indefinitely
+1,Unstable Version,unstable_version.png,Lingering Effect,Takes Up 2 Mod Spaces,Lasts Until The End Of Your Next Maintenance Phase
+3,Begging Developer,begging_developer.png,Lingering Effect,Takes Up 1 Mod Space\13\Can Spend 5 Coins To Discard,Lasts Indefinitely
+2,Shareware,shareware.png,Lingering Effect,Takes Up 1 Mod Space\13\Can Spend 5 Coins To Move To Another Computer,Lasts Indefinitely

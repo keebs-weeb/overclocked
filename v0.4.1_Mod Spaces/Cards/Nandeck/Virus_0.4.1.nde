@@ -1,0 +1,36 @@
+LINKMULTI=Count
+LINK = "..\Card CSVs\Overclocked_Virus_0.4.1.csv"
+
+; Settings
+UNIT = INCH
+PAGE = 8.5, 11, LANDSCAPE
+BORDER = ROUNDED, #000000, 0.02
+DPI=600
+CARDSIZE=2.5,3.5
+
+
+; Variables
+[IMG] = JOIN("../../Images/Card Images/mod/",[IMAGE])
+
+; Card Layout
+VISUAL=, 10, 10
+<FRAME1>=0%,0%,100%,100%
+;NameFont
+FONT=Arial,16,BF,#000000
+;CardName
+TEXT="1-{(NAME)}",[NAME],{5/1}%,0%,{38609/429}%,{2257/300}%,CENTER,CENTER,0,100,,0,0,0,0
+;TypeFont
+FONT=Arial,8,F,#000000,#FFFFFF
+;Type
+TEXT=,"Virus",0%,7.5%,100%,5%,CENTER,CENTER
+;CardImage
+IMAGE="1-{(IMG)}",[IMG],0%,12.5%,100%,35%
+;EffectFont
+FONT=Arial,10,F,#000000,#FFD6BA
+;Effect
+TEXT="1-{(EFFECT)}",[EFFECT],0%,47.5%,100%,43.5%
+;VirusReminderFont
+FONT=Arial,10,IF,#000000,#FFD6BA
+;VirusReminderText
+TEXT=,"This mod can only be uninstalled by the 'Antivirus' System Setting",0%,90%,100%,10%,CENTER,CENTER
+ENDVISUAL

@@ -1,0 +1,28 @@
+LINKMULTI=Count
+LINK = "..\Card CSVs\Overclocked_Events_0.4.1.csv"
+
+; Settings
+UNIT = INCH
+PAGE = 8.5, 11, LANDSCAPE
+BORDER = ROUNDED, #000000, 0.02
+DPI=600
+CARDSIZE=2.5,3.5
+
+
+; Variables
+[IMG] = JOIN("../../Images/Card Images/event/",[IMAGE])
+
+; Card Layout
+VISUAL=, 10, 10
+<FRAME1>=0%,0%,100%,100%
+;NameFont
+FONT=Arial,16,BF,#000000
+;CardName
+TEXT="1-{(NAME)}",[NAME],{2117/429}%,0%,{38603/429}%,{7507/600}%,CENTER,CENTER,0,100,,0,0,0,0
+;CardImage
+IMAGE="1-{(IMG)}",[IMG],0%,12.5%,100%,40%
+;EffectFont
+FONT=Arial,10,F,#000000
+;EffectText
+TEXT="1-{(EFFECT)}","[EFFECT]\13\",{2117/429}%,{6299/120}%,{38603/429}%,{8711/200}%
+ENDVISUAL

@@ -1,0 +1,28 @@
+LINKMULTI=Count
+LINK = "..\Card CSVs\Overclocked_System Settings_0.4.1.csv"
+
+; Settings
+UNIT = INCH
+PAGE = 8.5, 11, LANDSCAPE
+BORDER = ROUNDED, #000000, 0.02
+DPI=600
+CARDSIZE=2.5,3.5
+
+
+; Variables
+[IMG] = JOIN("../../Images/Card Images/systemsetting/",[IMAGE])
+
+; Card Layout
+VISUAL=, 10, 10
+<FRAME1>=0%,0%,100%,100%
+;NameFont
+FONT=Arial,16,BF,#000000
+;CardName
+TEXT="1-{(NAME)}",[NAME],{2116/429}%,0%,{90/1}%,{3757/300}%,CENTER,CENTER,0,100,,0,0,0,0
+;CardImage
+IMAGE="1-{(IMG)}",[IMG],0%,12.5%,100%,40%
+;EffectFont
+FONT=Arial,10,F,#000000
+;EffectText
+TEXT=,"[EFFECT]\13\",{2116/429}%,{2099/40}%,{90/1}%,{4357/100}%,CENTER,CENTER
+ENDVISUAL

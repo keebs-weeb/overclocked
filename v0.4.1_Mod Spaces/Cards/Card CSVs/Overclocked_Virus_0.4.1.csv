@@ -1,0 +1,13 @@
+Count,name,image,effect
+2,Anti-Cheat Rootkit,virus\anti-cheat_rootkit.png,-3 To Health per Cheat Installed\13\-3 To Damage per Cheat Installed\13\-3 To Movement per Cheat Installed
+2,BonziBuddy,virus\bonzibuddy.png,"At the end of each turn, discard a System Setting card from your hand\13\"
+2,CryptoLocker,virus\cryptolocker.png,Cannot install or uninstall Mods unless a card effect makes you\13\
+4,Cryptominer,virus\cryptominer.png,Gives the owner of this card +2 coin at the beginning of your maintenance phase\13\
+4,DDoS,virus\ddos.png,"You can have more than one 'DDoS' card installed\13\On each of your turns, you have -1 to Bandwith"
+2,ILOVEYOU,virus\iloveyou.png,"At the end of your maintenance phase, randomly uninstall one Mod. This effect can uninstall this mod\13\"
+3,Meltdown,virus\meltdown.png,Can be installed on computers with 'Firewall' active\13\
+2,Memory Leak,virus\memory_leak.png,"At the start of your maintenance phase, double this card's Installed Value cost\13\"
+2,Pirated Game,virus\pirated_game.png,Takes Up 1 Additional Mod Space
+3,Spectre,virus\spectre.png,Can be installed on computers with 'Firewall' active\13\
+2,Spyware,virus\spyware.png,The original owner of this can play 1 System Settings card from your hand during their turn\13\
+2,Stuxnet Worm,virus\stuxnet_worm.png,"At the end of your maintenance phase, flip a coin. On heads, install this Mod on the previous player's computer\13\This action cannot happen if the previous player is 'Offline' or has a 'Firewall' active."

@@ -1,0 +1,22 @@
+Count,name,image,effect
+5,Lesser Side Quest,lesser_side_quest.png,Gain +5 Coins
+4,Side Quest,side_quest.png,Gain +8 Coins
+2,Greater Side Quest,greater_side_quest.png,Gain +10 Coins
+2,Potion of Weakness,potion_of_weakness.png,"On your next encounter, -1 to Damage Rolls"
+2,Greater Potion of Weakness,potion_of_weakness.png,"On your next encounter, -2 to Damage Rolls"
+2,Potion Of Hurting,potion_of_hurting.png,"On your next encounter, -1 to Health"
+2,Greater Potion Of Hurting,potion_of_hurting.png,"On your next encounter, -2 to Health"
+2,Potion of Lead Feet,potion_of_lead_feet.png,"On your next movement, -2 to Movement"
+2,Greater Potion of Lead Feet,potion_of_lead_feet.png,"On your next movement, -4 to Movement"
+5,Potion Of Healing,potion_of_healing.png,"On your next encounter, +1 to Health"
+2,Greater Potion Of Healing,potion_of_healing.png,"On your next encounter, +2 to Health"
+5,Potion Of Damage,potion_of_damage.png,"On your next encounter, +1 to Damage"
+2,Greater Potion Of Damage,potion_of_damage.png,"On your next encounter, +2 to Damage"
+5,Potion Of Emeralds,potion_of_emeralds.png,"On your next movement, +1 to Movement"
+2,Greater Potion Of Emeralds,potion_of_emeralds.png,"On your next movement, +2 to Movement"
+2,Bedtime,bedtime.png,End your turn
+4,Email Blast,email_blast.png,Draw 2 System Settings Cards
+4,Forum Notification,forum_notification.png,"Draw 1 Mod Card, and put it into your Mod Folder"
+2,Lost Password,lost_password.png,"During your next maintenance phase, you can't configure system settings"
+2,Missing Files,missing_files.png,"During your next maintenance phase, you can't install mods"
+2,Tabbed Out,tabbed_out.png,"Something happened, but you weren't looking\13\(Does Nothing)"

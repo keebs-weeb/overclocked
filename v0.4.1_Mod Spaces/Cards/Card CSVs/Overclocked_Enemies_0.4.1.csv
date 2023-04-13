@@ -1,0 +1,15 @@
+Count,name,image,health,damage,reward,defeat
+5,Bird Man,bird_man.png,7,1,5 Coins,Lose 3 Coins
+5,Scorpion,scorpion.png,2,6,5 Coins,Add a 'Lingering Effect' Card To Your Computer.
+5,Zombie,zombie.png,4,1,5 Coins,Lose 3 Coins
+5,Ghost,ghost.png,9,1,10 Coins,Lose 6 Coins
+5,Necromancer,necromancer.png,6,2,10 Coins,Lose 6 Coins
+5,Royal Archer,royal_archer.png,14,2,10 Coins,Lose 6 Coins
+5,Royal Knight,royal_knight.png,12,2,15 Coins,Lose 9 Coins.\13\Add a 'Lingering Effect' Card To Your Computer.
+5,Ogre,ogre.png,12,3,15 Coins,Lose 9 Coins.\13\Add a 'Lingering Effect' Card To Your Computer.
+5,Baby Drake,baby_drake.png,18,3,15 Coins,Lose 9 Coins.\13\Add a 'Lingering Effect' Card To Your Computer.
+1,Rogue Warrior,rogue_warrior.png,13,1,10 Coins,Add a 'Lingering Effect' Card To Your Computer.
+1,Very Large Fish,very_large_fish.png,23,1,"Draw 3 Event Cards. For each card, you may choose to active it's effects, or discard it.",You have -1 To Maximum Bandwidth During Your Next Maintenance Phase
+1,Demon,demon.png,18,2,15 Coins,Uninstall 1 'Gameplay' Mod
+1,Maddened Mage,maddened_mage.png,11,4,20 Coins,"Draw Mod Cards Until You Draw a Virus Mod. Install That Mod Immediately, Then Shuffle All Other Mods Back Into The Deck."
+1,Dragon,dragon.png,25,3,You Win The Game,Your System Crashes

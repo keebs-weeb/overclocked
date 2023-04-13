@@ -1,0 +1,8 @@
+name,resources,bandwidth,trait
+Scamdeck,4,4,Can't install virus cards
+Hand-Me-Down,4,4,"At the start of your maintenance, you may flip a coin. If heads, go offline until your next turn"
+Ol' Reliable,4,4,"On system crash, flip a coin. If heads, do not revert to the last checkpoint (Still take all other actions of a system crash)"
+Crackbook,5,5,All System Settings cost 1 coin to play on this computer
+Gaming Laptop,5,5,Can only install 1 system setting at a time
+Pre-Built,5,5,Interacting with other players costs 1 additional bandwidth
+Enthusiass Desktop,6,8,"Each turn, skip either your play phase OR your maintenance phase each turn"

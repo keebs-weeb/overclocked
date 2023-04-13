@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Layout combineReferences="false" width="250" height="350" buffer="20" Name="Gameplay and Cheat" defaultCount="43" dpi="300" drawBorder="true">
+    <Element variable="@[name]" type="Text" x="9" y="9" width="198" height="20" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Name Clean" font="Arial Black;9;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[type]" type="Text" x="9" y="30" width="198" height="10" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Type Clean" font="Arial Black;6;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[effect clean]" type="FormattedText" x="9" y="41" width="232" height="70" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="16" wordspace="0" justifiedtext="false" name="Effects Clean" font="Arial Black;8;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0xC0FFADFF" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[image]" type="Graphic" x="9" y="112" width="232" height="121" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Image" font="Arial;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[effect buggy]" type="FormattedText" x="9" y="234" width="232" height="70" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="180" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Effects Buggy" font="Arial Black;8;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0xFFACACFF" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[type]" type="Text" x="43" y="306" width="198" height="10" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="180" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Type Buggy" font="Arial Black;6;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[name]" type="Text" x="43" y="317" width="198" height="20" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="180" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Name Buggy" font="Arial Black;9;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="" type="Text" x="0" y="0" width="250" height="350" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="0" verticalalign="0" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Border" font="Arial;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Reference RelativePath="Overclocked_Gameplay and Cheats.csv" Default="true" />
+    <exportRotation>0</exportRotation>
+    <exportTransparentBackground>false</exportTransparentBackground>
+    <exportPDFAsPageBack>false</exportPDFAsPageBack>
+    <exportWidth>0</exportWidth>
+    <exportHeight>0</exportHeight>
+    <zoom>2.48</zoom>
+    <exportLayoutBorder>false</exportLayoutBorder>
+    <exportLayoutBorderCrossSize>0</exportLayoutBorderCrossSize>
+  </Layout>
+  <Layout combineReferences="false" width="250" height="350" buffer="20" Name="Virus" defaultCount="43" dpi="300" drawBorder="true">
+    <Element variable="@[name]" type="Text" x="9" y="9" width="198" height="20" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Name" font="Arial Black;9;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="Virus" type="Text" x="9" y="30" width="198" height="20" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Type" font="Arial Black;8;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[image]" type="Graphic" x="9" y="51" width="232" height="121" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Image" font="Arial;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[effect]\n\n&lt;i&gt;This mod can only be uninstalled by the 'Antivirus' System Setting&lt;/i&gt;" type="FormattedText" x="9" y="173" width="232" height="167" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Effects" font="Arial Black;8;1;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0xFFACACFF" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="" type="Text" x="0" y="0" width="250" height="350" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="0" verticalalign="0" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Border" font="Arial;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Reference RelativePath="Overclocked_Virus.csv" Default="true" />
+    <exportRotation>0</exportRotation>
+    <exportTransparentBackground>false</exportTransparentBackground>
+    <exportPDFAsPageBack>false</exportPDFAsPageBack>
+    <exportWidth>0</exportWidth>
+    <exportHeight>0</exportHeight>
+    <zoom>2.48</zoom>
+    <exportLayoutBorder>false</exportLayoutBorder>
+    <exportLayoutBorderCrossSize>0</exportLayoutBorderCrossSize>
+  </Layout>
+  <Layout combineReferences="false" width="250" height="350" buffer="20" Name="System Settings" defaultCount="43" dpi="300" drawBorder="true">
+    <Element variable="@[name]" type="Text" x="9" y="9" width="232" height="20" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Name" font="Arial Black;9;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[cost]" type="Text" x="9" y="30" width="232" height="20" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Cost" font="Arial Black;8;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[image]" type="Graphic" x="9" y="51" width="232" height="121" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Image" font="Arial;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[type]" type="Text" x="9" y="173" width="232" height="20" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Type" font="Arial Black;6;0;0;1;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[effect]" type="FormattedText" x="9" y="194" width="232" height="146" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Effect" font="Arial Black;8;1;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0xABF0FFFF" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="" type="Text" x="0" y="0" width="250" height="350" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="0" verticalalign="0" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Border" font="Arial;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Reference RelativePath="Overclocked_System Settings.csv" Default="true" />
+    <exportRotation>0</exportRotation>
+    <exportTransparentBackground>false</exportTransparentBackground>
+    <exportPDFAsPageBack>false</exportPDFAsPageBack>
+    <exportWidth>0</exportWidth>
+    <exportHeight>0</exportHeight>
+    <zoom>2.48</zoom>
+    <exportLayoutBorder>false</exportLayoutBorder>
+    <exportLayoutBorderCrossSize>0</exportLayoutBorderCrossSize>
+  </Layout>
+  <Layout combineReferences="false" width="250" height="350" buffer="20" Name="Event Cards" defaultCount="43" dpi="300" drawBorder="true">
+    <Element variable="@[name]" type="Text" x="9" y="9" width="232" height="20" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Name" font="Arial Black;9;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[image]" type="Graphic" x="9" y="30" width="232" height="142" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Image" font="Arial;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[effect]" type="FormattedText" x="9" y="173" width="232" height="167" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Effect" font="Arial Black;10;1;0;1;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0xFFD31AFF" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="" type="Text" x="0" y="0" width="250" height="350" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="0" verticalalign="0" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Border" font="Arial;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Reference RelativePath="Overclocked_Events.csv" Default="true" />
+    <exportRotation>0</exportRotation>
+    <exportTransparentBackground>false</exportTransparentBackground>
+    <exportPDFAsPageBack>false</exportPDFAsPageBack>
+    <exportWidth>0</exportWidth>
+    <exportHeight>0</exportHeight>
+    <zoom>2.48</zoom>
+    <exportLayoutBorder>false</exportLayoutBorder>
+    <exportLayoutBorderCrossSize>0</exportLayoutBorderCrossSize>
+  </Layout>
+  <Layout combineReferences="false" width="250" height="350" buffer="13" Name="Enemies" defaultCount="43" dpi="300" drawBorder="true">
+    <Element variable="@[name]" type="Text" x="9" y="9" width="232" height="20" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Name" font="Arial Black;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[image]" type="Graphic" x="9" y="30" width="232" height="132" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Image" font="Arial;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="Health: @[health]\nDamage: @[damage]\nRewards: @[reward]\nDefeat Penalty: @[defeat]" type="FormattedText" x="9" y="163" width="232" height="120" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="0" verticalalign="0" opacity="255" tilesize="" lineheight="15" wordspace="0" justifiedtext="false" name="Stats" font="Arial Black;8;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="" type="Text" x="0" y="0" width="250" height="350" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="0" verticalalign="0" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Border" font="Arial;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Reference RelativePath="Overclocked_Enemies.csv" Default="true" />
+    <exportRotation>0</exportRotation>
+    <exportTransparentBackground>false</exportTransparentBackground>
+    <exportPDFAsPageBack>false</exportPDFAsPageBack>
+    <exportWidth>0</exportWidth>
+    <exportHeight>0</exportHeight>
+    <zoom>2.48</zoom>
+    <exportLayoutBorder>false</exportLayoutBorder>
+    <exportLayoutBorderCrossSize>0</exportLayoutBorderCrossSize>
+  </Layout>
+  <Layout combineReferences="false" width="250" height="350" buffer="20" Name="Character" defaultCount="4" dpi="300" drawBorder="false">
+    <Element variable="@[name]" type="Text" x="9" y="9" width="232" height="20" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Name" font="Arial Black;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[image]" type="Graphic" x="9" y="30" width="232" height="142" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Image" font="Arial;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="Level 1:\n\n&lt;fs=8&gt;Health: @[basehealth]\nDamage: @[basedamage]\nMovement: @[basemovement]&lt;/fs&gt;" type="FormattedText" x="9" y="173" width="232" height="83" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="0" verticalalign="0" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Base Stats" font="Arial Black;10;1;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="Level Up:\n\n&lt;fs=8&gt;Health: @[levelhealth]\nDamage: @[leveldamage]\nMovement: @[levelmovement]&lt;/fs&gt;" type="FormattedText" x="9" y="257" width="232" height="83" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="0" verticalalign="0" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Level Stats" font="Arial Black;10;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="" type="Text" x="0" y="0" width="249" height="350" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="0" verticalalign="0" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Border" font="Arial;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Reference RelativePath="Overclocked_Characters.csv" Default="true" />
+    <exportRotation>0</exportRotation>
+    <exportTransparentBackground>false</exportTransparentBackground>
+    <exportPDFAsPageBack>false</exportPDFAsPageBack>
+    <exportWidth>0</exportWidth>
+    <exportHeight>0</exportHeight>
+    <zoom>2.48</zoom>
+    <exportLayoutBorder>false</exportLayoutBorder>
+    <exportLayoutBorderCrossSize>0</exportLayoutBorderCrossSize>
+  </Layout>
+  <Layout combineReferences="false" width="500" height="350" buffer="0" Name="Computer" defaultCount="9" dpi="100" drawBorder="true">
+    <Element variable="@[name]" type="Text" x="8" y="8" width="481" height="40" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Name" font="Arial Black;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[image]" type="Graphic" x="8" y="50" width="195" height="200" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Image" font="Arial;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="System Resources: @[resources]" type="Text" x="205" y="50" width="284" height="20" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="System Resources Text" font="Arial Black;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[resources_icon]" type="Graphic" x="205" y="71" width="284" height="77" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="System Resources Icon" font="Arial;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[bandwidth_icon]" type="Graphic" x="205" y="152" width="284" height="77" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Bandwidth Icon" font="Arial;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="Bandwidth: @[bandwidth]" type="Text" x="205" y="230" width="284" height="20" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Bandwidth Text" font="Arial Black;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[trait]" type="Text" x="8" y="252" width="481" height="88" borderthickness="1" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Trait" font="Arial Black;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Reference RelativePath="Overclocked_Computers.csv" Default="true" />
+    <exportRotation>0</exportRotation>
+    <exportTransparentBackground>false</exportTransparentBackground>
+    <exportPDFAsPageBack>false</exportPDFAsPageBack>
+    <exportWidth>0</exportWidth>
+    <exportHeight>0</exportHeight>
+    <zoom>1.644</zoom>
+    <exportLayoutBorder>false</exportLayoutBorder>
+    <exportLayoutBorderCrossSize>0</exportLayoutBorderCrossSize>
+  </Layout>
+  <translatorName>Incept</translatorName>
+  <lastExportPath>D:\Documents\Board Games\Overclocked\v0.4\Images\Card Maker Project\Images\Output</lastExportPath>
+  <jsEscapeSingleQuotes>false</jsEscapeSingleQuotes>
+  <jsTildeMeansCode>true</jsTildeMeansCode>
+  <jsKeepFunctions>true</jsKeepFunctions>
+</Project>

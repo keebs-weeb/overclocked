@@ -1,0 +1,36 @@
+Count,name,type,image,effect clean,effect buggy
+2,Armor Overhaul,Gameplay,gameplay\armor_overhaul.png,+1 To Health,+1 To Health\13\-1 To Movement
+2,Better AI,Gameplay,gameplay\better_ai.png,+2 Coins Collected from Enemies\13\+1 To Movement,+2 Coins Collected from Enemies\13\-1 To Health
+2,Better UI,Gameplay,gameplay\better_ui.png,+1 To Movement\13\+1 To Damage,+1 To Movement\13\-1 To Damage
+2,Better Vendors,Gameplay,gameplay\better_vendors.png,-1 To Card Cost,-2 To Card Cost\13\Takes up 1 additional Mod Space
+2,Big Heads,Gameplay,gameplay\big_heads.png,+1 To Health\13\+1 To Damage,+1 To Health\13\-1 To Damage
+2,Bigger Weapons,Gameplay,gameplay\bigger_weapons.png,+2 To Damage\13\-1 To Movement,+2 To Damage\13\-2 To Movement
+2,Consumable Items Overhaul,Gameplay,gameplay\consumable_items_overhaul.png,"When an Active Effect would come into effect, you may place it onto this card.\13\That effect does not go away until this mod is uninstalled.","When an Active Effect would come into effect, you may place it onto this card. That effect does not go away until this mod is uninstalled.\13\Takes up 1 additional Mod Space"
+2,Controller Remapping,Gameplay,gameplay\controller_remapping.png,+2 To Movement\13\+1 To Damage,+1 To Movement
+2,Corporate Branding,Gameplay,gameplay\corporate_branding.png,+3 Coins at the start of each maintenance phase,+1 Coins at the start of each maintenance phase
+2,Custom Terrain,Gameplay,gameplay\custom_terrain.png,+2 Movement,+1 Movement
+2,Date NPCs,Gameplay,gameplay\date_npcs.png,+1 To Health\13\+1 To Movement\13\+1 To Damage\13\+1 To Card Cost,+1 To Health\13\+1 To Movement\13\+2 To Card Cost
+2,Difficulty Patch,Gameplay,gameplay\difficulty_patch.png,+3 To Movement\13\+5 Coins Collected from Enemies\13\-2 To Health,+3 To Movement\13\-2 To Damage
+2,First Person Mode,Gameplay,gameplay\first_person_mode.png,+1 To Damage,+1 To Movement
+2,Furry Mod,Gameplay,gameplay\furry_mod.png,+1 To Health\13\+2 To Movement\13\+1 To Card Cost,+1 To Health\13\+1 To Movement\13\+2 To Card Cost
+2,HD Music Pack,Gameplay,gameplay\hd_music_pack.png,-1 To Mod Cost,+1 To Mod Cost
+2,HD Texture Pack,Gameplay,gameplay\hd_texture_pack.png,-1 To Mod Cost,+1 To Mod Cost
+2,Lore Update,Gameplay,gameplay\lore_update.png,+1 To Damage\13\+1 To Movement,+1 To Movement
+2,Lower Resolution Support,Gameplay,gameplay\lower_resolution_support.png,+1 To Movement,+1 To Movement\13\-1 To Damage
+2,Modern Weapons,Gameplay,gameplay\modern_weapons.png,+5 To Damage\13\-3 To Movement,+1 To Damage\13\-2 To Movement
+2,Multiclass,Gameplay,gameplay\multiclass.png,"Choose a stat: Increase that by +1 Per Level\13\All other stats are decreased by -1\13\(Stats are Health, Movement, and Damage)","Choose a stat: Increase that by +1 Per Level\13\All other stats are decreased by -2\13\(Stats are Health, Movement, and Damage)"
+2,No UI,Gameplay,gameplay\no_ui.png,+2 To Movement\13\+1 To Health,+1 To Movement
+2,No Weapons,Gameplay,gameplay\no_weapons.png,+4 To Movement\13\-1 To Damage,+2 To Movement\13\-1 To Damage
+2,Nude Mod,Gameplay,gameplay\nude_mod.png,+2 To Movement\13\+1 To Damage,+2 To Movement\13\-1 To Damage
+2,Player Skins,Gameplay,gameplay\player_skins.png,+1 To Damage\13\+1 To Health\13\+1 To Card Cost,+1 To Card Cost
+2,Randomizer,Gameplay,gameplay\randomizer.png,"When rolling for damage or movement, roll twice and take the higher value\13\When rolling for anything else, roll twice and take the lower value","When rolling for damage or movement,\13\roll twice and take the lower value"
+2,Revamped Sidequests,Gameplay,gameplay\revamped_sidequests.png,"When you would draw an Event card, draw an additional one\13\+1 To Health",+1 To Health\13\+1 To Card Cost
+2,Third Person Mode,Gameplay,gameplay\third_person_mode.png,+1 To Movement,+1 To Health
+2,Difficulty Reduction,Cheat,cheat\difficulty_reduction.png,+4 To Health\13\+5 To Movement,+1 To Health\13\+1 To Movement\13\+2 To Card Cost
+2,Infinite Money,Cheat,cheat\infinite_money.png,Can draw 1 Mod and 1 System Setting card for free each turn,Can draw 1 Mod and 1 System Setting card for free each turn\13\Can't Install 'Firewall' System Settings
+2,Quicksaves,Cheat,cheat\quicksaves.png,Always checkpoint in front of bosses,Always checkpoint in front of bosses\13\Takes up 1 additional Mod Space
+2,Speedhack,Cheat,cheat\speedhack.png,+10 To Movement,+5 To Movement\13\-3 To Damage
+2,Extra Lives,Cheat,cheat\extra_lives.png,"Once per fight, upon player death, ignore it and heal to full instead\13\","Once per fight, upon player death, ignore it and heal to full instead\13\-2 To Health"
+2,God Mode,Cheat,cheat\god_mode.png,Ignore all Gameplay and Cheat mod reductions to your health,Ignore all Gameplay and Cheat mod reductions to your health\13\Takes up 1 additional Mod Space
+2,Debug Console,Cheat,cheat\debug_console.png,Ignore all Gameplay and Cheat mod reductions to your damage,Ignore all Gameplay and Cheat mod reductions to your damage\13\Takes up 1 additional Mod Space
+2,Noclip,Cheat,cheat\noclip.png,Ignore all Gameplay and Cheat mod reductions to your movement,Ignore all Gameplay and Cheat mod reductions to your movement\13\Takes up 1 additional Mod Space

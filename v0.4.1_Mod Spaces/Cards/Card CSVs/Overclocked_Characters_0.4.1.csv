@@ -1,0 +1,5 @@
+name,image,basehealth,basemovement,basedamage,levelhealth,levelmovement,leveldamage,count
+Swordsman,swordsman.png,4,1d6 + 1,1d6 + 0,+1,+2,+1,1
+Ranger,ranger.png,3,1d6 + 2,1d6 + 0,+1,+3,+1,1
+Barbarian,barbarian.png,5,1d6 + 0,1d6 + 0,+2,+1,+0,1
+Mage,mage.png,3,1d6 + 1,1d6 + 0,+0,+1,+3,1

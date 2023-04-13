@@ -1,0 +1,27 @@
+LINKMULTI=Count
+LINK = "..\Card CSVs\Overclocked_Enemies_0.4.1.csv"
+
+; Settings
+UNIT = INCH
+PAGE = 8.5, 11, LANDSCAPE
+BORDER = ROUNDED, #000000, 0.02
+DPI=600
+CARDSIZE=2.5,3.5
+
+
+; Variables
+[IMG] = JOIN("../../Images/Card Images/enemies/",[IMAGE])
+
+; Card Layout
+VISUAL=, 10, 10
+<FRAME1>=0%,0%,100%,100%
+;NameFont
+FONT=Arial,16,B,#000000
+;CardName
+TEXT="1-{(NAME)}",[NAME],0%,0%,100%,12.5%,CENTER,CENTER,0,100,,0,0,0,0
+;CardImage
+IMAGE="1-{(IMG)}",[IMG],0%,12.5%,100%,40%
+;StatsFont
+FONT=Arial,10,BF,#000000
+TEXT=,"Health: [HEALTH]\13\Damage: [DAMAGE]\13\Rewards: [REWARD]\13\Penalty: [DEFEAT]",{1643/333}%,{13123/250}%,{29965/333}%,{21777/500}%
+ENDVISUAL

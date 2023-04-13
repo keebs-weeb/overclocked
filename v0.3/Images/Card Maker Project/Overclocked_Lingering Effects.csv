@@ -1,0 +1,7 @@
+Count,name,type,effect,duration
+4,Missing Requirement,Lingering Effect,Takes Up 1 System Resource,Lasts Indefinitely
+20,Temporary Server Error,Lingering Effect,Takes Up 2 System Resources,Lasts Until The End Of Your Next Maintenance Phase
+4,Uncompressed Files,Lingering Effect,Takes Up 2 System Resources,Lasts Indefinitely
+2,Unstable Version,Lingering Effect,Takes Up 3 System Resources,Lasts Until The End Of Your Next Maintenance Phase
+5,Begging Developer,Lingering Effect,Takes Up 1 System Resource\nCan Spend 5 Coins To Discard,Lasts Indefinitely
+5,Shareware,Lingering Effect,Takes Up 1 System Resource\nCan Spend 5 Coins To Move To Another Computer,Lasts Indefinitely

@@ -1,0 +1,30 @@
+LINKMULTI=count
+LINK = "..\Card CSVs\Overclocked_Characters_0.4.1.csv"
+
+; Settings
+UNIT = INCH
+PAGE = 8.5, 11, PORTRAIT
+BORDER = ROUNDED, #000000, 0.02
+DPI=600
+CARDSIZE=2.5,3.5
+
+
+; Variables
+[IMG] = JOIN("../../Images/Card Images/characters/",[IMAGE])
+
+; Card Layout
+VISUAL=, 10, 10
+<FRAME1>=0%,0%,100%,100%
+;NameFont
+FONT=Arial,16,B,#000000
+;CardName
+TEXT="1-{(NAME)}",[NAME],0%,0%,100%,12.5%,CENTER,CENTER,0,100,,0,0,0,0
+;CardImage
+IMAGE="1-{(IMG)}",[IMG],0%,12.5%,100%,40%
+;StatsFont
+FONT=Arial,12,B,#000000
+;BaseStats
+TEXT=,"Health: [BASEHEALTH]\13\Damage: [BASEDAMAGE]\13\Movement: [BASEMOVEMENT]",0%,{2099/40}%,100%,{3557/150}%,CENTER,CENTER,0,100,,0,0,0,0
+;LevelStats
+TEXT=,"Health: [LEVELHEALTH]\13\Damage: [LEVELDAMAGE]\13\Movement: [LEVELMOVEMENT]",0%,76.25%,100%,23.75%,CENTER,TOP,0,100,,0,0,0,0
+ENDVISUAL
