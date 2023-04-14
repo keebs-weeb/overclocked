@@ -1,14 +1,14 @@
 # Save File
 cardsx=10
 cardsy=2
-card-width=249
-card-height=350
-zoom=0.45
+card-width=1500
+card-height=2100
+zoom=0.1
 background-color=-16777216
-0_0=D\:\\Documents\\Board Games\\Overclocked\\v0.4\\Images\\Card Maker Project\\Images\\Output\\Character_1.png
-1_0=D\:\\Documents\\Board Games\\Overclocked\\v0.4\\Images\\Card Maker Project\\Images\\Output\\Character_2.png
-2_0=D\:\\Documents\\Board Games\\Overclocked\\v0.4\\Images\\Card Maker Project\\Images\\Output\\Character_3.png
-3_0=D\:\\Documents\\Board Games\\Overclocked\\v0.4\\Images\\Card Maker Project\\Images\\Output\\Character_4.png
+0_0=D\:\\Documents\\Board Games\\Overclocked\\v0.4.1_Mod Spaces\\Images\\nanDECK Cards\\Characters\\Characters_0.4.1_1.png
+1_0=D\:\\Documents\\Board Games\\Overclocked\\v0.4.1_Mod Spaces\\Images\\nanDECK Cards\\Characters\\Characters_0.4.1_2.png
+2_0=D\:\\Documents\\Board Games\\Overclocked\\v0.4.1_Mod Spaces\\Images\\nanDECK Cards\\Characters\\Characters_0.4.1_3.png
+3_0=D\:\\Documents\\Board Games\\Overclocked\\v0.4.1_Mod Spaces\\Images\\nanDECK Cards\\Characters\\Characters_0.4.1_4.png
 4_0=null
 5_0=null
 6_0=null
