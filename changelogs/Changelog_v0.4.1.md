@@ -3,6 +3,7 @@
 - [Changelog v0.4](#changelog-v04)
 	- [Gameplay Changes](#gameplay-changes)
 		- [Mods](#mods)
+		- [The Forums](#the-forums)
 	- [Cards](#cards)
 		- [Computers](#computers)
 			- [Scamdeck](#scamdeck)
@@ -76,6 +77,10 @@
 ```
 - Changed 'System Resources' To 'Mod Spaces'
 - Each mod now takes up only 1 'Mod Spaces' unless otherwise noted
+```
+### The Forums
+```
+- Card sell cost increased to 3 coins
 ```
 
 ----

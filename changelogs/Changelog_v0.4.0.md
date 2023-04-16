@@ -3,6 +3,7 @@
 - [Changelog v0.4](#changelog-v04)
   - [Gameplay Changes](#gameplay-changes)
     - [Starting Gameplay](#starting-gameplay)
+    - [Coins](#coins)
     - [Maintenance Phase](#maintenance-phase)
     - [The Game](#the-game)
     - [Player Interaction](#player-interaction)
@@ -58,6 +59,10 @@
 ```
 - Players now draw 5 System Settings cards to begin with
 - Players now draw 3 Gameplay mod cards to begin with (Redraw a new card if you draw a Virus or Cheat mod)
+```
+### Coins
+```
+- Players no longer have 'reliable' or 'unrelilable' coins.  All coins are together.
 ```
 ### Maintenance Phase
 ```

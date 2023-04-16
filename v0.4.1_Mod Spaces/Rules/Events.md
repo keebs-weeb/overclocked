@@ -1,113 +1,123 @@
 - [Breakdown - Event Cards](#breakdown---event-cards)
   - [Quests](#quests)
+    - [Lesser Side Quest](#lesser-side-quest)
+    - [Side Quest](#side-quest)
+    - [Greater Side Quest](#greater-side-quest)
   - [Potions](#potions)
+    - [Potion of Weakness](#potion-of-weakness)
+    - [Greater Potion of Weakness](#greater-potion-of-weakness)
+    - [Potion Of Hurting](#potion-of-hurting)
+    - [Greater Potion Of Hurting](#greater-potion-of-hurting)
+    - [Potion of Lead Feet](#potion-of-lead-feet)
+    - [Greater Potion of Lead Feet](#greater-potion-of-lead-feet)
+    - [Potion Of Healing](#potion-of-healing)
+    - [Greater Potion Of Healing](#greater-potion-of-healing)
+    - [Potion Of Damage](#potion-of-damage)
+    - [Greater Potion Of Damage](#greater-potion-of-damage)
+    - [Potion Of Emeralds](#potion-of-emeralds)
+    - [Greater Potion Of Emeralds](#greater-potion-of-emeralds)
   - [Misc](#misc)
-
+    - [Bedtime](#bedtime)
+    - [Email Blast](#email-blast)
+    - [Forum Notification](#forum-notification)
+    - [Lost Password](#lost-password)
+    - [Missing Files](#missing-files)
+    - [Tabbed Out](#tabbed-out)
 
 # Breakdown - Event Cards
-
 ## Quests
-Lesser Side Quest
-```
-Gain +3 Coins
-```
-Side Quest
+### Lesser Side Quest
 ```
 Gain +5 Coins
 ```
-Greater Side Quest
+### Side Quest
 ```
 Gain +8 Coins
 ```
+### Greater Side Quest
+```
+Gain +10 Coins
+```
 
----
+----
 
 ## Potions
-Lesser Potion of Weakness
+### Potion of Weakness
 ```
 On your next encounter, -1 to Damage Rolls
 ```
-Greater Potion of Weakness
+### Greater Potion of Weakness
 ```
-On your next encounter, -3 to Damage Rolls
+On your next encounter, -2 to Damage Rolls
 ```
-Lesser Potion Of Hurting
+### Potion Of Hurting
 ```
 On your next encounter, -1 to Health
 ```
-Potion Of Hurting
+### Greater Potion Of Hurting
 ```
 On your next encounter, -2 to Health
 ```
-Greater Potion Of Hurting
-```
-On your next encounter, -3 to Health
-```
-Potion of Lead Feet
+### Potion of Lead Feet
 ```
 On your next movement, -2 to Movement
 ```
-Greater Potion of Lead Feet
+### Greater Potion of Lead Feet
 ```
 On your next movement, -4 to Movement
 ```
-Lesser Potion Of Healing
+### Potion Of Healing
+```
+On your next encounter, +1 to Health
+```
+### Greater Potion Of Healing
 ```
 On your next encounter, +2 to Health
 ```
-Potion Of Healing
-```
-On your next encounter, +3 to Health
-```
-Greater Potion Of Healing
-```
-On your next encounter, +5 to Health
-```
-Lesser Potion Of Damage
+### Potion Of Damage
 ```
 On your next encounter, +1 to Damage
 ```
-Potion Of Damage
+### Greater Potion Of Damage
 ```
-On your next encounter, +3 to Damage
+On your next encounter, +2 to Damage
 ```
-Greater Potion Of Damage
+### Potion Of Emeralds
 ```
-On your next encounter, +5 to Damage
+On your next movement, +1 to Movement
 ```
-Potion Of Emeralds
+### Greater Potion Of Emeralds
 ```
-On your next movement, +3 to Movement
-```
-Greater Potion Of Emeralds
-```
-On your next movement, +6 to Movement
+On your next movement, +2 to Movement
 ```
 
----
+----
 
 ## Misc
-Bedtime
+
+### Bedtime
 ```
 End your turn
 ```
-Email Blast
+### Email Blast
 ```
 Draw 2 System Settings Cards
 ```
-Forum Notification
+### Forum Notification
 ```
 Draw 1 Mod Card, and put it into your Mod Folder
 ```
-Lost Password
+### Lost Password
 ```
 During your next maintenance phase, you can't configure system settings
 ```
-Missing Files
+### Missing Files
 ```
 During your next maintenance phase, you can't install mods
 ```
-Tabbed Out
+### Tabbed Out
 ```
 Something happened, but you weren't looking (Does Nothing)
 ```
+
+----

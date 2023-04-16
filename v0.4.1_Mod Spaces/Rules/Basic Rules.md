@@ -19,7 +19,7 @@ Grab your favorite computer and play "The Game" with your friends!  First one to
 
 ---
 ## Game Objectives
-Your goal is to beat "The Game" before anyone else in your LAN party does.  In order to do so, you must have a careful balance of installing Mods (that can make the game easier but less rewarding, or harder and more rewarding) and moving spaces.
+Your goal is to beat "The Game" before anyone else in your LAN party does.  In order to do so, you must have a careful balance of installing Mods (that can make the game easier but less rewarding, or harder and more rewarding) and keeping tabs on your friends.
 
 In "The Game", enemies and bosses appear that you must defeat to progress and will give you coins.  
 > See Section '[Coins](#coins)' for more information
@@ -33,17 +33,17 @@ If your computer has too many Mods installed on it, it can crash, reverting your
 ---
 ## Starting Gameplay
 1. In order of how expensive a player's real life computer costs, each player picks a computer to use for the game
-2. Each player draws 3 Mods from the deck, can install one for free (or keep it in their 'Mods Folder'), and then the rest are shuffled back into the deck. 
+2. Beginning with the last player who picked a computer, each player selects a Character to play "The Game" with
+3. Each player draws from the Mods deck until they have 3 'Gameplay' Mods. Ignore any 'Cheat' or 'Virus' mods drawn. Each player can either install one for free, or keep one in their 'Mods Folder', and then the rest are shuffled back into the deck. 
     > See Section '[Mods Folder](#mods-folder)' for more information
-3. Each player draws 4 System Settings cards rom the deck into their hand.
-4. Each player gets 5 coins and puts them in their 'Reliable' coins space
-5. One (1) Boss monster is drawn and placed face down on the boss monster spaces on the player's board
+4. Each player draws 5 System Settings cards rom the deck into their hand.
+5. Each player gets 5 coins and puts them in their coins space
 
 ---
 ## Gameplay Loop
 **Starting Phase:**
 
-Starting with the player with the worst computer, that player chooses to either enter the play phase, or skip it and go to the maintenance phase.
+Starting with the player who picked their computer last, that player chooses to either enter the play phase, or skip it and go to the maintenance phase.
 
 **Play Phase:**
 
@@ -61,7 +61,7 @@ The event phase does not activate if the character does not move, stops on an Ac
 
 **Maintenance Phase:**
 
-After performing space actions, the player is then able to purchase Mods, install or uninstall Mods, activate cards, configure system settings, and end their turn (per computer specs).
+After performing space actions the player draws 1 System Setting card, and is then able to purchase Mods, install or uninstall Mods, activate cards, play system settings, and end their turn (per computer specs).
 > See Section '[Maintenance](#maintenance)' for more information
 
 **End Turn Phase:**
@@ -71,7 +71,7 @@ Temporary effects are removed from the player's board, and discarded.  The turn 
 ## Basic Rules
 ### "The Game"
 ```
-"The Game" is represented with the 100 space board, and is where players move their characters, fight enemeies, and collect coins.  In order to beat "The Game", a player's character must defeat the final boss on space 100.  After this happens, the game is over and that player wins the game.
+"The Game" is represented with the 50 space board, and is where players move their characters, fight enemeies, and collect coins.  In order to beat "The Game", a player's character must defeat the final boss on space 50.  After this happens, the game is over and that player wins the game.
 
 During "The Game", a player will often times fight enemies such as monsters and bosses.  If a player wins the fight, then they are often awarded coins.  If a player loses the fight, then they will be sent back to the last 'Checkpoint' square that they passed.
 
@@ -81,7 +81,7 @@ There are many spaces on "The Game" board that players can pass over or stop on,
 ```
 At the start of play, each player chooses a character to play with out of the 4 base options.  These characters have different stats to promote a different playstyle.
 
-Characters level up each time they defeat a boss and cannot ever lose levels.  When a character levels up, their stats are increased by whatever their "Level Up" values show.  A basic calcuation of a character's current stats is: BaseStat + (LevelUpValue * CurrentLevel).
+Characters level up each time they defeat a boss and cannot ever lose levels.  When a character levels up, their stats are increased by whatever their "Level Up" values show.  A basic calcuation of a character's current stats is: BaseStat + (LevelUpValue * CurrentLevel).  Character stats can be tracked on the player's Character Board.
 
 Player characters fight enemies, which is described in the section "Battles" further down this document.
 ```
@@ -92,19 +92,19 @@ A player's hand is a private area that is where System Settings cards are held. 
 ### Battles
 ```
 When a character is fighting in "The Game", the following actions occur:
-    - The player rolls a D12, and adds in their Damage modifications from their character's base stats, level up stats, and installed mods.
+    - The player rolls a 6 Sided Die, and adds in their Damage modifications from their character's base stats, level up stats, and installed mods.
     - That damage is done to the enemy, and if this kills the enemy the fight is over and the player character wins the fight.
     - The enemy then does damage equal to their value to the player character, and if this kills the character they lose the fight.
 
-Upon losing the fight, that player loses half of their 'unreliable' coins (Rounded Up).  They then can choose any off the previously passed checkpoints to restore to, and on their next play phase they will move from there.  Bosses are NOT fought again if they have been defeated previously.
+Upon losing the fight, that player can choose any off the previously passed checkpoints to restore to, and on their next play phase they will move from there.  Bosses are NOT fought again if they have been defeated previously.
 ```
 ### Computers
 ```
 Computers are the main tools that players work on, as they run "The Game".  These are chosen at the beginning of gameplay and cannot be changed during game. Each computer has a set amount of "Bandwidth" that determines how many actions can be taken during the Maintenance phase.
 
-Each computer has a limited number of system resources that are used to install mods with. There are no max limits of how many mods can be installed, but all installed mods must have unique names, no duplicates are allowed.
+Each computer has a limited number of Mod Spaces that are used to install mods with. All installed mods must have unique names, and no duplicates are allowed.
 
-Each computer can have 2 System Settings cards installed at any given time.  These also must be unique in names, and to install a third System Setting a currently installed one must be removed and discarded.
+In general, each computer can have 2 "Permanent" type System Settings cards installed at any given time.  These also must be unique in names, and to install a third System Setting a currently installed one must be removed and discarded.
 ```
 ### Mods, System Settings, and Event Cards
 ```
@@ -112,17 +112,21 @@ These cards are located in their respective decks, and are drawn at certain time
 
 Mods:
     - Purchased during a player's Maintenance phase
-    - Can be installed to your computer, or to other's computers if you control a relavant System Setting card.
-    - The amount of System Resources each mod takes up on a computer is shown in the top right of that card
+    - Can be installed to your computer, or to other's computers by spending 1 Bandwidth on your turn during your Maintenance Phase.
+    - Each card takes up by default 1 Mod Space on a player's computer, unless otherwise noted on the card.
+    - 'Cheat' and 'Gameplay' mods have a "Clean" and "Buggy" side to them, and when installed they may be installed on either side the installing player wishes.
 
 System Settings:
-    - Purchased during a player's Maintenance phase
-    - Can be installed to your computer, or to other's computers if you control a relavant System Setting card.
-    - Come in two flavors, "Single Use" or "Permanent".  Single Use cards are played, their abilities are used, and then they are discarded.  Permanent cards are played onto a computer, and remain there until discarded due to player choice or an activated ability
+    - Drawn for free once per turn, and can be purchased during a player's Maintenance phase
+    - Can be installed to your computer, or to other's computers by by spending 1 Bandwidth on your turn during your Maintenance Phase.
+    - Come in two flavors, "Single Use" or "Permanent".  
+        Single Use cards are played, their abilities are used, and then they are discarded.  
+        Permanent cards are played onto a computer, and remain there until discarded due to player choice or an activated ability.
     - A maximum of 2 Permanents can be installed on each computer, and cannot be duplicates
 
 Event Cards:
-    - Drawn when a player lands on a blank space in "The Game" or an ability is triggered
-    - Contains events such as temporary buffs, free coins, or additional card draw
-    - When drawn, their effects activate immediately and are then discarded unless otherwise instructed
+    - Drawn when a player lands on a blank space in "The Game" or an ability is triggered.
+    - Contains events such as temporary buffs, temporary nerfs, free coins, or additional card draw.
+    - When drawn, their effects activate immediately and are then discarded unless otherwise instructed.
+    - If an Event Card lasts until a certain point in time, place that card in your character board in the 'Active Effects' space.
 ```

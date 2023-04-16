@@ -1,205 +1,147 @@
-- [Breakdown - Bosses](#breakdown---bosses)
-- [Breakdown - Monsters](#breakdown---monsters)
-  - [Monster Titles](#monster-titles)
-    - [Lesser](#lesser)
-    - [Normal (Or Blank)](#normal-or-blank)
-    - [Greater](#greater)
-  - [Bird Man](#bird-man)
-  - [Ghost](#ghost)
-  - [Necromancer](#necromancer)
-  - [Royal Archer](#royal-archer)
-  - [Royal Knight](#royal-knight)
-  - [Ogre](#ogre)
-  - [Scorpion](#scorpion)
-  - [Zombie](#zombie)
+- [Breakdown - Monsters and Bosses](#breakdown---monsters-and-bosses)
+  - [Rulings](#rulings)
+  - [Monsters](#monsters)
+    - [Zone 1](#zone-1)
+      - [Bird Man](#bird-man)
+      - [Scorpion](#scorpion)
+      - [Zombie](#zombie)
+    - [Zone 2](#zone-2)
+      - [Ghost](#ghost)
+      - [Necromancer](#necromancer)
+      - [Royal Archer](#royal-archer)
+    - [Zone 3](#zone-3)
+      - [Royal Knight](#royal-knight)
+      - [Ogre](#ogre)
+      - [Baby Drake](#baby-drake)
+  - [Bosses](#bosses)
+    - [Rogue Warrior](#rogue-warrior)
+    - [Very Large Fish](#very-large-fish)
+    - [Demon](#demon)
+    - [Maddened Mage](#maddened-mage)
+    - [Dragon](#dragon)
 
-
-# Breakdown - Bosses
-Boss Max Level: 5
-Demon
+# Breakdown - Monsters and Bosses
+## Rulings
+- Monsters and Bosses are each located in different 'zones' of the board
+  - Zone 1 is the first 20 spaces of the board
+  - Zone 2 is from space 21 to 40 of the board
+  - Zone 3 is the last 10 spaces of the board
+- Bosses are statically assigned to spaces on the board, and are fought in order 
+## Monsters
+### Zone 1
+#### Bird Man
 ```
-Level 1:
-	Health: 18
-	Damage: 6
-    Rewards: 14 Coins
-    Defeat Penalty: Uninstall 1 'Gameplay' Mod
-Level:
-	Health: +3
-	Damage: +1
-    Rewards: +2 Coins Per Level
-    Defeat Penalty: Uninstall .5 More 'Gameplay' Mods Per Level (Rounded Down)
-```
-Dragon
-```
-Level 1:
-	Health: 13
-	Damage: 3
-    Rewards: 12 Coins
-    Defeat Penalty: Takes Up 1 System Resources
-Level:
-	Health: +2
-	Damage: +4
-    Rewards: +8 Coins Per Level
-    Defeat Penalty: Takes Up .5 More System Resources Per Level (Rounded Down)
-```
-Rogue warrior
-```
-Level 1:
-	Health: 16
-	Damage: 6
-    Rewards: 8 Coins
-    Defeat Penalty: Takes Up 1 System Resources
-Level:
-	Health: +2
-	Damage: +1
-    Rewards: +2 Coins Per Level
-    Defeat Penalty: Takes Up .5 More System Resources Per Level (Rounded Down)
-```
-Very Large Fish
-```
-Level 1:
-	Health: 24
-	Damage: 5
-    Rewards: Draw 2 Event Cards, You may choose to activate their effects or discard it
-    Defeat Penalty: You have -1 To Maxumum Bandwidth during your next maintenance phase
-Level:
-	Health: +0
-	Damage: +1
-    Rewards: Draw another .5 Event Cards Per Level (Rounded Down), You may choose to activate it's effects or discard it
-    Defeat Penalty: You have an additional -.5 To Maxumum Bandwidth during your next maintenance phase (Per Level)
-```
-
----
-# Breakdown - Monsters
-## Monster Titles
-### Lesser
-```
-Max Level: 3
-Baseline Stats -1
-Baseline Rewards -1
-Baseline Level Up Health, and Damage +0
-Baseline Level Up Rewards - 1
-Baseline Defeat Penalty
-```
-### Normal (Or Blank)
-```
-Max Level: 4
-Baseline Stats
-Baseline Rewards
-Baseline Level Up Health, Damage, and Rewards
-Baseline Defeat Penalty
-```
-### Greater
-```
-Max Level: 5
-Baseline Stats +1
-Baseline Rewards +1
-Baseline Level Up Health, Damage, and Rewards +2
-Baseline Defeat Penalty
-```
-
----
-## Bird Man
-```
-Level 1:
-	Health: 9
-	Damage: 5
-    Rewards: +4 Coins
-    Defeat Penalty: You Have -1 To Health on your next turn
-Level Up:
-    +1 Health
-    +1 Damage
-    Rewards: +1 Coins Per Level
-    Defeat Penalty: -.5 To Health Per Level (Rounded Down)
-```
-## Ghost
-```
-Level 1:
-	Health: 9
-	Damage: 5
-    Rewards: +4 Coins
-    Defeat Penalty: Takes Up 1 System Resources
-Level Up:
-    +1 Health
-    +0 Damage
-    Rewards: +1 Coins Per Level
-    Defeat Penalty: Takes Up .25 More System Resources Per Level (Rounded Down)
-```
-## Necromancer
-```
-Level 1:
 	Health: 7
-	Damage: 8
-    Rewards: +2 Coins
-    Defeat Penalty: Place this card in your Active Effects zone. Cards Cost +1 More
-Level Up:
-    +2 Health
-    +0 Damage
-    Rewards: +1 Coins Per Level
-    Defeat Penalty: Cards Cost +.5 More Per Level (Rounded Down) 
+	Damage: 1
+    Zone: 1
+	Rewards: 5 Coins
+    Defeat: Lose 3 Coins
 ```
-## Royal Archer
+#### Scorpion
 ```
-Level 1:
-	Health: 10
-	Damage: 8
-    Rewards: +5 Coins
-    Defeat Penalty: Place this card in your Active Effects zone. Cards Cost +1 More
-Level Up:
-    +1 Health
-    +0 Damage
-    Rewards: +2 Coins Per Level
-    Defeat Penalty: Cards Cost +.5 More Per Level (Rounded Down)
+	Health: 2
+	Damage: 6
+    Zone: 1
+	Rewards: 5 Coins
+    Defeat: Add a 'Lingering Effect' Card To Your Computer.
 ```
-## Royal Knight
+#### Zombie
 ```
-Level 1:
-	Health: 11
-	Damage: 7
-    Rewards: +5 Coins
-    Defeat Penalty: Place this card in your Active Effects zone. Cards Cost +1 More
-Level Up:
-    +0 Health
-    +1 Damage
-    Rewards: +2 Coins Per Level
-    Defeat Penalty: Cards Cost +1 More Per Level
-```
-## Ogre
-```
-Level 1:
-	Health: 15
-	Damage: 4
-    Rewards: +3 Coins
-    Defeat Penalty: Place this card in your Active Effects zone. Takes Up 1 System Resource.
-Level Up:
-    +1 Health
-    +1 Damage
-    Rewards: +3 Coins Per Level
-    Defeat Penalty: Takes Up .25 More System Resources Per Level (Rounded Down)
-```
-## Scorpion
-```
-Level 1:
 	Health: 4
-	Damage: 15
-    Rewards: +3 Coins
-    Defeat Penalty: No Penalties
-Level Up:
-    +0 Health
-    +3 Damage
-    Rewards: +2 Coins Per Level
-    Defeat Penalty: Uninstall .5 'Gameplay' Mods Per Level (Rounded Down)
+	Damage: 1
+    Zone: 1
+	Rewards: 5 Coins
+    Defeat: Lose 3 Coins
 ```
-## Zombie
+### Zone 2
+#### Ghost
 ```
-Level 1:
-	Health: 8
+	Health: 9
+	Damage: 1
+    Zone: 2
+	Rewards: 10 Coins
+    Defeat: Lose 6 Coins
+```
+#### Necromancer
+```
+	Health: 6
+	Damage: 2
+    Zone: 2
+	Rewards: 10 Coins
+    Defeat: Lose 6 Coins
+```
+#### Royal Archer
+```
+	Health: 14
+	Damage: 2
+    Zone: 2
+	Rewards: 10 Coins
+    Defeat: Lose 6 Coins
+```
+### Zone 3
+#### Royal Knight
+```
+	Health: 12
+	Damage: 2
+    Zone: 3
+	Rewards: 15 Coins
+    Defeat: Lose 9 Coins.  Add a 'Lingering Effect' Card To Your Computer.
+```
+#### Ogre
+```
+	Health: 12
 	Damage: 3
-    Rewards: +2 Coins
-    Defeat Penalty: Cards Cost +1 More for the rest of the game
-Level Up:
-    +2 Health
-    +1 Damage
-    Rewards: +1 Coins Per Level
-    Defeat Penalty: Cards Cost +.5 More (Rounded Down) for the rest of the game
+    Zone: 3
+	Rewards: 15 Coins
+    Defeat: Lose 9 Coins.  Add a 'Lingering Effect' Card To Your Computer.
+```
+#### Baby Drake
+```
+	Health: 18
+	Damage: 3
+    Zone: 3
+	Rewards: 15 Coins
+    Defeat:Lose 9 Coins.  Add a 'Lingering Effect' Card To Your Computer.
+```
+
+## Bosses
+### Rogue Warrior
+```
+Level 1 Boss
+Health: 13
+Damage: 1
+Rewards: 10 Coins
+Defeat: Add a 'Lingering Effect' Card To Your Computer.
+```
+### Very Large Fish
+```
+Level 2 Boss
+Health: 23
+Damage: 1
+Rewards: Draw 3 Event Cards. For each card, you may choose to active it's effects, or discard it.
+Defeat: Add a 'Lingering Effect' Card To Your Computer.
+```
+### Demon
+```
+Level 3 Boss
+Health: 18
+Damage: 2
+Rewards: 15 Coins
+Defeat: Uninstall 1 'Gameplay' Mod
+```
+### Maddened Mage
+```
+Level 4 Boss
+Health: 11
+Damage: 4
+Rewards: 20 Coins
+Defeat: Draw Mod Cards Until You Draw a Virus Mod. Install That Mod Immediately, Then Shuffle All Other Mods Back Into The Deck.
+```
+### Dragon
+```
+Level 5 Boss
+Health: 25
+Damage: 3
+Rewards: Win The Game
+Defeat: Your System Crashes
 ```
